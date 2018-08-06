@@ -11,7 +11,7 @@ proj <- function(time, place, assumption = 'constant') {
                    data = un_dat[Age >= 10 & Location == place])
   
   # Build Facebook model
-  fb_mod <- gam(Users ~ s(Age), data = fb[Country == place])
+  fb_mod <- gam(Users ~ s(Age), data = fb_dat[Country == place])
   
   # Make predictions, trim distributions
   df <- data.table(
