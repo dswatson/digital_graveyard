@@ -104,6 +104,6 @@ fb_dat <- fb_dat[Country %in% overlap]
 
 # Export
 saveRDS(un_dat, 'un_dat.rds')
-saveRDS(fb, 'fb_dat.rds')
+saveRDS(fb_dat, 'fb_dat.rds')
 
 
