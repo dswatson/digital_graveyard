@@ -50,29 +50,60 @@ un_dat <- merge(mort, pop[, .(Idx, Population)], by = 'Idx'
   ][Mortality_Rate >= 0.99, Mortality_Rate := 0.99
 # Logit transform for easier modelling
   ][, logit_mr := qlogis(Mortality_Rate + 1e-6)
-# Fix a few country names 
-  ][Location == 'Viet Nam', Location := 'Vietnam'
-  ][Location == 'United States of America', Location := 'United States']
-
-# Export
-saveRDS(un_dat, 'un_dat.rds')
+# Fix country names 
+  ][Location == 'Antigua and Barbuda', Location := 'Antigua'
+  ][Location == 'Bolivia (Plurinational State of)', Location := 'Bolivia'
+  ][Location == 'Brunei Darussalam', Location := 'Brunei'
+  ][Location == 'Cabo Verde', Location := 'Cape Verde'
+  ][Location == 'China, Hong Kong SAR', Location := 'Hong Kong'
+  ][Location == 'China, Macao SAR', Location := 'Macau'
+  ][Location == 'China, Taiwan Province of China', Location := 'Taiwan'
+  ][Location == 'Congo', Location := 'Republic of the Congo'
+  ][Location == "Lao People's Democratic Republic", Location := 'Laos'
+  ][Location == 'Micronesia (Fed. States of)', Location := 'Federated States of Micronesia'
+  ][Location == 'Republic of Korea', Location := 'South Korea'
+  ][Location == 'Republic of Moldova', Location := 'Moldova'
+  ][Location == 'Russian Federation', Location := 'Russia'
+  ][Location == 'Saint Lucia', Location := 'St. Lucia'
+  ][Location == 'TFYR Macedonia', Location := 'Macedonia'
+  ][Location == 'United Republic of Tanzania', Location := 'Tanzania'
+  ][Location == 'United States of America', Location := 'United States'
+  ][Location == 'United States Virgin Islands', Location := 'US Virgin Islands'
+  ][Location == 'Venezuela (Bolivarian Republic of)', Location := 'Venezuela'
+  ][Location == 'Viet Nam', Location := 'Vietnam']
 
 ### Facebook Data ###
 
 # Import Facebook data
-fb <- read_csv('fb_dat.csv') %>%
+fb_dat <- read_csv('fb_dat.csv') %>%
 # Remove the 65+ bucket
   filter(Age != 65) %>%
   as.data.table(.)
+# Remove countries with 0 users
+zeros <- fb_dat %>%
+  group_by(Country) %>%
+  summarise(Total = sum(Users)) %>%
+  filter(Total == 0)
+fb_dat <- fb_dat[!Country %in% zeros$Country]
 # Anchor Facebook numbers with a guaranteed 0 users at age 100
 anchor <- data.table(
-  Country = fb[, unique(Country)],
+  Country = fb_dat[, unique(Country)],
       Age = 100,
     Users = 0
 )
-fb <- rbind(fb, anchor)
+fb_dat <- rbind(fb_dat, anchor)
+# Fix country names
+fb_dat[Country == 'The Gambia', Country := 'Gambia'
+  ][Country == 'Czech Republic', Country := 'Czechia'
+  ][Country == 'The Bahamas', Country := 'Bahamas']
+
+# Harmonize countries
+overlap <- intersect(un_dat$Location, fb_dat$Country)
+un_dat <- un_dat[Location %in% overlap]
+fb_dat <- fb_dat[Country %in% overlap]
 
 # Export
+saveRDS(un_dat, 'un_dat.rds')
 saveRDS(fb, 'fb_dat.rds')
 
 
