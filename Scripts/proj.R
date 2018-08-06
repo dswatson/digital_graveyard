@@ -1,62 +1,84 @@
-# Set working directory
-setwd('./Documents/DPhil/Death_on_FB')
-
-# Load libraries
-library(data.table)
-library(tidyverse)
-library(mgcv)
-
-### Death Data ###
-d <- fread('num_deaths.csv') %>% as.data.frame(.)
-
-# For columns 3-23, delete the space and class as numeric
-for (j in 3:23) {
-  d[, j] <- gsub(' ', '', d[, j]) %>% as.numeric(.)
-}
-
-# Reclass time as numeric
-d <- d %>% 
-  mutate(Year = gsub(' .*', '', Time) %>% as.numeric(.)) 
-
-# Remove unnecessary columns and tidy that data
-d <- d %>%
-  select(-Total, -Time) %>%
-  gather(Age, Deaths, -Year, -Location)
-
-# Reclass age as numeric
-d <- d %>% 
-  mutate(Age = gsub('Age_', '', Age) %>% as.numeric(.)) 
-
-### Facebook Penetration Data ###
-p <- fread('UK_FB.csv') %>%
-  mutate(FB_Penetration = FB_Penetration / 100)
-
 # Projection function
-proj <- function(time, place) {  
+proj <- function(time, place, assumption = 'constant') {
   
-  # Fudge the years
-  if (time == 2014) {
-    d_time <- 2010
-  } else if (time > 2014) {
-    d_time <- 2015
+  # Libraries
+  require(mgcv)
+  require(data.table)
+  require(tidyverse) 
+  
+  # Build death model
+  death_mod <- gam(logit_mr ~ s(Age, by = Time), 
+                   data = un_dat[Age >= 10 & Location == place])
+  
+  # Build Facebook model
+  fb_mod <- gam(Users ~ s(Age), data = fb[Country == place])
+  
+  # Make predictions, trim distributions
+  df <- data.table(
+    Time = 2018, 
+     Age = 13:100
+  )
+  df[, mr_hat := predict(death_mod, df) %>% plogis(.)
+    ][, fb_hat := predict(fb_mod, df)
+    ][mr_hat > 1, mr_hat := 1
+    ][mr_hat < 0, mr_hat := 0
+    ][fb_hat < 0, fb_hat := 0]
+  
+  # Calculate dead profiles under various assumptions
+  if (time > 2018) {
+    if (assumption == 'shrinking') {
+      # Calculate attrition for next year
+      for (year in 2019:time) {
+        last_df <- df[Time == year - 1]
+        new_df <- data.table(
+          Time = year,
+           Age = 13:100
+        )
+        new_df[, mr_hat := predict(death_mod, new_df) %>% plogis(.)
+          ][mr_hat > 1, mr_hat := 1
+          ][mr_hat < 0, mr_hat := 0
+          ][, fb_hat := last_df[, fb_hat * (1 - mr_hat)]]
+        df <- rbind(df, new_df)
+      } 
+    } else if (assumption == 'constant') {
+      # Make predictions, trim distributions
+      new_df <- data.table(
+        Time = rep(2019:time, each = 88), 
+         Age = rep(13:100, times = (time - 2019 + 1))
+      )
+      new_df[, mr_hat := predict(death_mod, new_df) %>% plogis(.)
+        ][, fb_hat := predict(fb_mod, new_df)
+        ][mr_hat > 1, mr_hat := 1
+        ][mr_hat < 0, mr_hat := 0
+        ][fb_hat < 0, fb_hat := 0]
+      df <- rbind(df, new_df)
+    } else if (assumption == 'growing') {
+      # Compound growth
+      for (year in 2019:time) {
+        y_diff <- year - 2018
+        new_df <- data.table(
+          Time = year,
+           Age = 13:100
+        )
+        new_df[, mr_hat := predict(death_mod, new_df) %>% plogis(.)
+          ][, fb_hat := predict(fb_mod, new_df)
+          ][mr_hat > 1, mr_hat := 1
+          ][mr_hat < 0, mr_hat := 0
+          ][fb_hat < 0, fb_hat := 0
+          ][, fb_hat := fb_hat * 1.13^y_diff]
+        df <- rbind(df, new_df)
+      }
+      # Now cap user totals at 90% of population
+      pop_mod <- gam(Population ~ s(Age, by = Time), 
+                     data = un_dat[Age >= 10 & Location == place])
+      df[, pop_hat := predict(pop_mod, df) / 1000
+        ][pop_hat < 0, pop_hat := 0
+        ][fb_hat > 0.9 * pop_hat, fb_hat := 0.9 * pop_hat]
+    }
   }
   
-  # Death model
-  death_mod <- gam(Deaths ~ s(Age, k = -1), 
-                   data = d %>% filter(Year == d_time, 
-                                   Location == place))
-  
-  # Penetration model
-  fb_mod <- gam(FB_Penetration ~ s(Age, k = 6), 
-                data = p %>% filter(Year == time))
-  
-  # Deaths on FB model
-  df <- data.frame(Age = seq_len(100))
-  df$Dead_Profiles <- predict(death_mod, df) * predict(fb_mod, df)
-  return(sum(df$Dead_Profiles))
+  # Integrate the curve, export results
+  out <- df[, sum(mr_hat * fb_hat)]
+  return(out)
   
 }
-
-proj(2015, 'United Kingdom')
-
-
