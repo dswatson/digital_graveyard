@@ -103,9 +103,6 @@ p <- ggplot(df[Time == 2030], aes(Age, Dead_Profiles)) +
 
 ##### PART II: RIBBON PLOTS #####
 
-# D3 color palette
-cols <- pal_d3()(10) %>% rev(.)
-
 # Top countries by users
 totals <- fb_dat %>%
   group_by(Country) %>%
@@ -214,10 +211,10 @@ for (country in tops) {
 }
 df <- na.omit(df) 
 
-# We want biggest countries last
+# We want biggest countries first
 most_dead <- df %>%
   filter(Time == 2095) %>%
-  arrange(CumSum)
+  arrange(desc(CumSum))
 df[, Country := factor(Country, levels = most_dead$Country)]
 
 # Build plot
@@ -228,8 +225,7 @@ p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) +
            y = 'Dead Profiles (Millions)') +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) + 
-  scale_fill_manual(values = cols) + 
-  guides(fill = guide_legend(reverse = TRUE))
+  scale_fill_d3() 
 
 
 ### Figure 5 ###
@@ -248,7 +244,7 @@ df <- na.omit(df)
 # We want biggest countries last
 most_dead <- df %>%
   filter(Time == 2095) %>%
-  arrange(CumSum)
+  arrange(desc(CumSum))
 df[, Country := factor(Country, levels = most_dead$Country)]
 
 # Build plot
@@ -259,8 +255,7 @@ p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) +
            y = 'Dead Profiles (Millions)') +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) + 
-  scale_fill_manual(values = cols) + 
-  guides(fill = guide_legend(reverse = TRUE))
+  scale_fill_d3() 
 
 ### Figure 6 ###
 
@@ -278,7 +273,7 @@ df <- na.omit(df)
 # We want biggest countries last
 most_dead <- df %>%
   filter(Time == 2095) %>%
-  arrange(CumSum)
+  arrange(desc(CumSum))
 df[, Country := factor(Country, levels = most_dead$Country)]
 
 # Build plot
@@ -289,8 +284,7 @@ p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) +
        y = 'Dead Profiles (Millions)') +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) + 
-  scale_fill_manual(values = cols) + 
-  guides(fill = guide_legend(reverse = TRUE))
+  scale_fill_d3() 
 
 
 
