@@ -1,0 +1,10033 @@
+Country,Age,Users
+India,18,20
+India,19,15
+India,20,15
+India,21,15
+India,22,15
+India,23,15
+India,24,15
+India,25,20
+India,26,10
+India,27,10
+India,28,10
+India,29,8
+India,30,8
+India,31,15
+India,32,7
+India,33,6
+India,34,5
+India,35,4.5
+India,36,4
+India,37,4
+India,38,4
+India,39,3
+India,40,3
+India,41,2.5
+India,42,2.5
+India,43,2.5
+India,44,2
+India,45,2
+India,46,2
+India,47,1.5
+India,48,0.45
+India,49,0.4
+India,50,0.35
+India,51,0.3
+India,52,1
+India,53,1
+India,54,0.8
+India,55,0.8
+India,56,0.7
+India,57,0.7
+India,58,0.7
+India,59,0.5
+India,60,0.45
+India,61,0.45
+India,62,0.4
+India,63,0.35
+India,64,0.3
+India,65,3
+United States,18,3.5
+United States,19,4
+United States,20,5
+United States,21,6
+United States,22,6
+United States,23,6
+United States,24,6
+United States,25,7
+United States,26,6
+United States,27,6
+United States,28,7
+United States,29,6
+United States,30,6
+United States,31,5
+United States,32,5
+United States,33,5
+United States,34,4.5
+United States,35,4.5
+United States,36,4.5
+United States,37,5
+United States,38,5
+United States,39,4
+United States,40,4
+United States,41,4
+United States,42,4
+United States,43,3.5
+United States,44,3.5
+United States,45,3.5
+United States,46,3.5
+United States,47,4
+United States,48,4
+United States,49,3.5
+United States,50,3.5
+United States,51,3
+United States,52,3.5
+United States,53,3.5
+United States,54,3.5
+United States,55,3.5
+United States,56,3
+United States,57,3.5
+United States,58,3
+United States,59,3
+United States,60,3
+United States,61,3
+United States,62,2.5
+United States,63,2.5
+United States,64,2.5
+United States,65,25
+Brazil,18,4.5
+Brazil,19,5
+Brazil,20,4.5
+Brazil,21,4.5
+Brazil,22,4.5
+Brazil,23,4.5
+Brazil,24,4.5
+Brazil,25,6
+Brazil,26,4
+Brazil,27,4
+Brazil,28,4
+Brazil,29,3.5
+Brazil,30,3.5
+Brazil,31,4
+Brazil,32,3.5
+Brazil,33,3
+Brazil,34,3
+Brazil,35,3
+Brazil,36,3
+Brazil,37,3
+Brazil,38,3
+Brazil,39,2.5
+Brazil,40,2.5
+Brazil,41,2.5
+Brazil,42,2.5
+Brazil,43,2
+Brazil,44,2
+Brazil,45,2
+Brazil,46,2
+Brazil,47,2
+Brazil,48,2
+Brazil,49,1.5
+Brazil,50,1.5
+Brazil,51,1.5
+Brazil,52,1.5
+Brazil,53,1.5
+Brazil,54,1.5
+Brazil,55,1.5
+Brazil,56,1
+Brazil,57,1
+Brazil,58,1
+Brazil,59,0.9
+Brazil,60,0.8
+Brazil,61,0.7
+Brazil,62,0.7
+Brazil,63,0.6
+Brazil,64,0.6
+Brazil,65,4
+Indonesia,18,8
+Indonesia,19,7
+Indonesia,20,6
+Indonesia,21,6
+Indonesia,22,6
+Indonesia,23,6
+Indonesia,24,5
+Indonesia,25,7
+Indonesia,26,4
+Indonesia,27,4.5
+Indonesia,28,4.5
+Indonesia,29,3.5
+Indonesia,30,3.5
+Indonesia,31,9
+Indonesia,32,3
+Indonesia,33,2.5
+Indonesia,34,2.5
+Indonesia,35,2
+Indonesia,36,2
+Indonesia,37,2
+Indonesia,38,2
+Indonesia,39,1.5
+Indonesia,40,1.5
+Indonesia,41,1.5
+Indonesia,42,1.5
+Indonesia,43,1
+Indonesia,44,0.9
+Indonesia,45,0.9
+Indonesia,46,0.7
+Indonesia,47,0.8
+Indonesia,48,0.09
+Indonesia,49,0.08
+Indonesia,50,0.08
+Indonesia,51,0.06
+Indonesia,52,0.4
+Indonesia,53,0.35
+Indonesia,54,0.3
+Indonesia,55,0.25
+Indonesia,56,0.25
+Indonesia,57,0.2
+Indonesia,58,0.2
+Indonesia,59,0.15
+Indonesia,60,0.15
+Indonesia,61,0.09
+Indonesia,62,0.09
+Indonesia,63,0.08
+Indonesia,64,0.06
+Indonesia,65,2.5
+Mexico,18,4
+Mexico,19,4
+Mexico,20,3.5
+Mexico,21,3.5
+Mexico,22,3.5
+Mexico,23,3.5
+Mexico,24,3.5
+Mexico,25,4
+Mexico,26,3
+Mexico,27,3
+Mexico,28,3
+Mexico,29,2.5
+Mexico,30,2.5
+Mexico,31,3
+Mexico,32,2.5
+Mexico,33,2
+Mexico,34,2
+Mexico,35,2
+Mexico,36,2
+Mexico,37,2
+Mexico,38,2
+Mexico,39,1.5
+Mexico,40,1.5
+Mexico,41,1.5
+Mexico,42,1.5
+Mexico,43,1.5
+Mexico,44,1.5
+Mexico,45,1.5
+Mexico,46,1
+Mexico,47,1
+Mexico,48,1
+Mexico,49,0.8
+Mexico,50,0.8
+Mexico,51,0.7
+Mexico,52,0.7
+Mexico,53,0.6
+Mexico,54,0.6
+Mexico,55,0.5
+Mexico,56,0.5
+Mexico,57,0.45
+Mexico,58,0.45
+Mexico,59,0.4
+Mexico,60,0.35
+Mexico,61,0.3
+Mexico,62,0.3
+Mexico,63,0.25
+Mexico,64,0.2
+Mexico,65,2
+Philippines,18,5
+Philippines,19,4
+Philippines,20,3.5
+Philippines,21,3
+Philippines,22,3
+Philippines,23,3
+Philippines,24,3
+Philippines,25,3.5
+Philippines,26,2.5
+Philippines,27,2.5
+Philippines,28,2.5
+Philippines,29,2
+Philippines,30,2
+Philippines,31,2.5
+Philippines,32,1.5
+Philippines,33,1.5
+Philippines,34,1.5
+Philippines,35,1.5
+Philippines,36,1.5
+Philippines,37,1.5
+Philippines,38,1.5
+Philippines,39,0.9
+Philippines,40,0.9
+Philippines,41,0.8
+Philippines,42,0.8
+Philippines,43,0.7
+Philippines,44,0.6
+Philippines,45,0.6
+Philippines,46,0.6
+Philippines,47,0.6
+Philippines,48,0.6
+Philippines,49,0.5
+Philippines,50,0.45
+Philippines,51,0.4
+Philippines,52,0.4
+Philippines,53,0.4
+Philippines,54,0.35
+Philippines,55,0.3
+Philippines,56,0.3
+Philippines,57,0.3
+Philippines,58,0.3
+Philippines,59,0.25
+Philippines,60,0.2
+Philippines,61,0.2
+Philippines,62,0.2
+Philippines,63,0.2
+Philippines,64,0.15
+Philippines,65,1.5
+Vietnam,18,3.5
+Vietnam,19,3
+Vietnam,20,2.5
+Vietnam,21,2.5
+Vietnam,22,2.5
+Vietnam,23,2.5
+Vietnam,24,2.5
+Vietnam,25,3.5
+Vietnam,26,2.5
+Vietnam,27,2.5
+Vietnam,28,2.5
+Vietnam,29,2
+Vietnam,30,2
+Vietnam,31,2.5
+Vietnam,32,1.5
+Vietnam,33,1.5
+Vietnam,34,1.5
+Vietnam,35,1.5
+Vietnam,36,1.5
+Vietnam,37,1.5
+Vietnam,38,1.5
+Vietnam,39,0.9
+Vietnam,40,0.7
+Vietnam,41,0.8
+Vietnam,42,0.7
+Vietnam,43,0.6
+Vietnam,44,0.6
+Vietnam,45,0.6
+Vietnam,46,0.5
+Vietnam,47,0.45
+Vietnam,48,0.45
+Vietnam,49,0.4
+Vietnam,50,0.35
+Vietnam,51,0.3
+Vietnam,52,0.3
+Vietnam,53,0.3
+Vietnam,54,0.3
+Vietnam,55,0.25
+Vietnam,56,0.25
+Vietnam,57,0.25
+Vietnam,58,0.25
+Vietnam,59,0.2
+Vietnam,60,0.2
+Vietnam,61,0.15
+Vietnam,62,0.15
+Vietnam,63,0.15
+Vietnam,64,0.09
+Vietnam,65,0.7
+Thailand,18,2.5
+Thailand,19,2.5
+Thailand,20,2.5
+Thailand,21,2.5
+Thailand,22,2
+Thailand,23,2
+Thailand,24,2
+Thailand,25,3.5
+Thailand,26,2
+Thailand,27,2
+Thailand,28,2
+Thailand,29,1.5
+Thailand,30,1.5
+Thailand,31,2
+Thailand,32,1.5
+Thailand,33,1.5
+Thailand,34,1
+Thailand,35,1.5
+Thailand,36,1.5
+Thailand,37,1
+Thailand,38,1
+Thailand,39,0.8
+Thailand,40,0.8
+Thailand,41,0.8
+Thailand,42,0.7
+Thailand,43,0.7
+Thailand,44,0.6
+Thailand,45,0.6
+Thailand,46,0.6
+Thailand,47,0.6
+Thailand,48,0.6
+Thailand,49,0.5
+Thailand,50,0.45
+Thailand,51,0.4
+Thailand,52,0.4
+Thailand,53,0.4
+Thailand,54,0.35
+Thailand,55,0.3
+Thailand,56,0.3
+Thailand,57,0.3
+Thailand,58,0.3
+Thailand,59,0.25
+Thailand,60,0.2
+Thailand,61,0.2
+Thailand,62,0.2
+Thailand,63,0.15
+Thailand,64,0.15
+Thailand,65,1.5
+Turkey,18,1.5
+Turkey,19,1.5
+Turkey,20,1.5
+Turkey,21,1.5
+Turkey,22,1.5
+Turkey,23,2
+Turkey,24,1.5
+Turkey,25,2.5
+Turkey,26,1.5
+Turkey,27,1.5
+Turkey,28,1.5
+Turkey,29,1.5
+Turkey,30,1.5
+Turkey,31,1.5
+Turkey,32,1.5
+Turkey,33,1.5
+Turkey,34,1.5
+Turkey,35,1.5
+Turkey,36,1.5
+Turkey,37,1.5
+Turkey,38,1.5
+Turkey,39,1
+Turkey,40,0.9
+Turkey,41,0.9
+Turkey,42,0.8
+Turkey,43,0.8
+Turkey,44,0.8
+Turkey,45,0.7
+Turkey,46,0.7
+Turkey,47,0.7
+Turkey,48,0.7
+Turkey,49,0.5
+Turkey,50,0.5
+Turkey,51,0.4
+Turkey,52,0.5
+Turkey,53,0.5
+Turkey,54,0.4
+Turkey,55,0.4
+Turkey,56,0.35
+Turkey,57,0.35
+Turkey,58,0.35
+Turkey,59,0.25
+Turkey,60,0.25
+Turkey,61,0.2
+Turkey,62,0.25
+Turkey,63,0.2
+Turkey,64,0.15
+Turkey,65,1.5
+United Kingdom,18,0.8
+United Kingdom,19,0.9
+United Kingdom,20,1
+United Kingdom,21,1
+United Kingdom,22,1.5
+United Kingdom,23,1.5
+United Kingdom,24,1.5
+United Kingdom,25,1.5
+United Kingdom,26,1.5
+United Kingdom,27,1.5
+United Kingdom,28,1.5
+United Kingdom,29,1.5
+United Kingdom,30,1.5
+United Kingdom,31,1
+United Kingdom,32,1
+United Kingdom,33,1
+United Kingdom,34,0.9
+United Kingdom,35,0.9
+United Kingdom,36,0.9
+United Kingdom,37,0.9
+United Kingdom,38,1
+United Kingdom,39,0.8
+United Kingdom,40,0.7
+United Kingdom,41,0.7
+United Kingdom,42,0.8
+United Kingdom,43,0.8
+United Kingdom,44,0.7
+United Kingdom,45,0.7
+United Kingdom,46,0.7
+United Kingdom,47,0.8
+United Kingdom,48,0.8
+United Kingdom,49,0.7
+United Kingdom,50,0.7
+United Kingdom,51,0.7
+United Kingdom,52,0.7
+United Kingdom,53,0.7
+United Kingdom,54,0.6
+United Kingdom,55,0.6
+United Kingdom,56,0.6
+United Kingdom,57,0.6
+United Kingdom,58,0.5
+United Kingdom,59,0.5
+United Kingdom,60,0.45
+United Kingdom,61,0.4
+United Kingdom,62,0.4
+United Kingdom,63,0.35
+United Kingdom,64,0.35
+United Kingdom,65,4
+Egypt,18,2.5
+Egypt,19,2.5
+Egypt,20,2
+Egypt,21,2
+Egypt,22,2
+Egypt,23,1.5
+Egypt,24,1.5
+Egypt,25,2.5
+Egypt,26,1.5
+Egypt,27,1.5
+Egypt,28,1.5
+Egypt,29,1.5
+Egypt,30,1.5
+Egypt,31,1.5
+Egypt,32,1
+Egypt,33,1
+Egypt,34,0.8
+Egypt,35,0.8
+Egypt,36,0.7
+Egypt,37,0.8
+Egypt,38,0.8
+Egypt,39,0.6
+Egypt,40,0.5
+Egypt,41,0.45
+Egypt,42,0.45
+Egypt,43,0.4
+Egypt,44,0.35
+Egypt,45,0.35
+Egypt,46,0.3
+Egypt,47,0.3
+Egypt,48,0.3
+Egypt,49,0.25
+Egypt,50,0.25
+Egypt,51,0.2
+Egypt,52,0.2
+Egypt,53,0.2
+Egypt,54,0.2
+Egypt,55,0.2
+Egypt,56,0.15
+Egypt,57,0.15
+Egypt,58,0.15
+Egypt,59,0.15
+Egypt,60,0.15
+Egypt,61,0.1
+Egypt,62,0.1
+Egypt,63,0.09
+Egypt,64,0.07
+Egypt,65,0.6
+Pakistan,18,3
+Pakistan,19,2.5
+Pakistan,20,2.5
+Pakistan,21,2
+Pakistan,22,2
+Pakistan,23,2
+Pakistan,24,1.5
+Pakistan,25,3
+Pakistan,26,1.5
+Pakistan,27,1.5
+Pakistan,28,2
+Pakistan,29,1
+Pakistan,30,1
+Pakistan,31,1.5
+Pakistan,32,0.8
+Pakistan,33,0.8
+Pakistan,34,0.6
+Pakistan,35,0.5
+Pakistan,36,0.5
+Pakistan,37,0.45
+Pakistan,38,0.6
+Pakistan,39,0.3
+Pakistan,40,0.3
+Pakistan,41,0.25
+Pakistan,42,0.25
+Pakistan,43,0.25
+Pakistan,44,0.2
+Pakistan,45,0.2
+Pakistan,46,0.2
+Pakistan,47,0.2
+Pakistan,48,0.2
+Pakistan,49,0.15
+Pakistan,50,0.15
+Pakistan,51,0.09
+Pakistan,52,0.15
+Pakistan,53,0.15
+Pakistan,54,0.07
+Pakistan,55,0.07
+Pakistan,56,0.06
+Pakistan,57,0.06
+Pakistan,58,0.07
+Pakistan,59,0.045
+Pakistan,60,0.04
+Pakistan,61,0.035
+Pakistan,62,0.04
+Pakistan,63,0.035
+Pakistan,64,0.03
+Pakistan,65,0.35
+Argentina,18,1
+Argentina,19,1
+Argentina,20,1.5
+Argentina,21,1.5
+Argentina,22,1.5
+Argentina,23,1.5
+Argentina,24,1.5
+Argentina,25,1.5
+Argentina,26,1
+Argentina,27,1.5
+Argentina,28,1
+Argentina,29,0.9
+Argentina,30,0.9
+Argentina,31,1.5
+Argentina,32,0.8
+Argentina,33,0.7
+Argentina,34,0.7
+Argentina,35,0.7
+Argentina,36,0.7
+Argentina,37,0.8
+Argentina,38,0.8
+Argentina,39,0.7
+Argentina,40,0.6
+Argentina,41,0.6
+Argentina,42,0.6
+Argentina,43,0.6
+Argentina,44,0.5
+Argentina,45,0.45
+Argentina,46,0.45
+Argentina,47,0.45
+Argentina,48,0.45
+Argentina,49,0.4
+Argentina,50,0.35
+Argentina,51,0.35
+Argentina,52,0.35
+Argentina,53,0.35
+Argentina,54,0.3
+Argentina,55,0.3
+Argentina,56,0.3
+Argentina,57,0.3
+Argentina,58,0.3
+Argentina,59,0.25
+Argentina,60,0.25
+Argentina,61,0.25
+Argentina,62,0.2
+Argentina,63,0.2
+Argentina,64,0.2
+Argentina,65,2
+France,18,0.9
+France,19,0.9
+France,20,1
+France,21,1
+France,22,1
+France,23,1
+France,24,0.9
+France,25,1.5
+France,26,0.9
+France,27,1
+France,28,1
+France,29,0.9
+France,30,0.9
+France,31,0.9
+France,32,0.9
+France,33,0.9
+France,34,0.8
+France,35,0.8
+France,36,0.8
+France,37,0.8
+France,38,0.8
+France,39,0.7
+France,40,0.7
+France,41,0.6
+France,42,0.6
+France,43,0.7
+France,44,0.6
+France,45,0.6
+France,46,0.6
+France,47,0.6
+France,48,0.6
+France,49,0.6
+France,50,0.5
+France,51,0.5
+France,52,0.5
+France,53,0.45
+France,54,0.45
+France,55,0.4
+France,56,0.4
+France,57,0.4
+France,58,0.4
+France,59,0.35
+France,60,0.35
+France,61,0.3
+France,62,0.3
+France,63,0.3
+France,64,0.25
+France,65,2.5
+Germany,18,0.7
+Germany,19,0.8
+Germany,20,0.9
+Germany,21,1
+Germany,22,1
+Germany,23,1
+Germany,24,1
+Germany,25,1.5
+Germany,26,1
+Germany,27,1.5
+Germany,28,1.5
+Germany,29,1
+Germany,30,1
+Germany,31,1
+Germany,32,0.9
+Germany,33,0.9
+Germany,34,0.8
+Germany,35,0.8
+Germany,36,0.8
+Germany,37,0.8
+Germany,38,0.8
+Germany,39,0.7
+Germany,40,0.6
+Germany,41,0.6
+Germany,42,0.6
+Germany,43,0.6
+Germany,44,0.5
+Germany,45,0.5
+Germany,46,0.6
+Germany,47,0.6
+Germany,48,0.25
+Germany,49,0.2
+Germany,50,0.2
+Germany,51,0.2
+Germany,52,0.5
+Germany,53,0.5
+Germany,54,0.45
+Germany,55,0.4
+Germany,56,0.4
+Germany,57,0.35
+Germany,58,0.35
+Germany,59,0.3
+Germany,60,0.25
+Germany,61,0.25
+Germany,62,0.25
+Germany,63,0.2
+Germany,64,0.2
+Germany,65,1.5
+Colombia,18,1.5
+Colombia,19,1.5
+Colombia,20,1.5
+Colombia,21,1.5
+Colombia,22,1.5
+Colombia,23,1.5
+Colombia,24,1.5
+Colombia,25,1.5
+Colombia,26,1
+Colombia,27,1.5
+Colombia,28,1.5
+Colombia,29,0.9
+Colombia,30,0.9
+Colombia,31,1.5
+Colombia,32,0.8
+Colombia,33,0.8
+Colombia,34,0.7
+Colombia,35,0.7
+Colombia,36,0.6
+Colombia,37,0.7
+Colombia,38,0.7
+Colombia,39,0.6
+Colombia,40,0.5
+Colombia,41,0.45
+Colombia,42,0.45
+Colombia,43,0.4
+Colombia,44,0.4
+Colombia,45,0.35
+Colombia,46,0.35
+Colombia,47,0.35
+Colombia,48,0.35
+Colombia,49,0.3
+Colombia,50,0.3
+Colombia,51,0.3
+Colombia,52,0.3
+Colombia,53,0.25
+Colombia,54,0.25
+Colombia,55,0.25
+Colombia,56,0.2
+Colombia,57,0.2
+Colombia,58,0.2
+Colombia,59,0.15
+Colombia,60,0.15
+Colombia,61,0.15
+Colombia,62,0.15
+Colombia,63,0.15
+Colombia,64,0.1
+Colombia,65,0.8
+Italy,18,0.6
+Italy,19,0.7
+Italy,20,0.7
+Italy,21,0.8
+Italy,22,0.8
+Italy,23,0.8
+Italy,24,0.8
+Italy,25,0.9
+Italy,26,0.7
+Italy,27,0.8
+Italy,28,0.8
+Italy,29,0.7
+Italy,30,0.7
+Italy,31,0.7
+Italy,32,0.7
+Italy,33,0.7
+Italy,34,0.7
+Italy,35,0.7
+Italy,36,0.7
+Italy,37,0.7
+Italy,38,0.7
+Italy,39,0.7
+Italy,40,0.7
+Italy,41,0.7
+Italy,42,0.7
+Italy,43,0.8
+Italy,44,0.7
+Italy,45,0.7
+Italy,46,0.7
+Italy,47,0.7
+Italy,48,0.35
+Italy,49,0.35
+Italy,50,0.3
+Italy,51,0.3
+Italy,52,0.6
+Italy,53,0.6
+Italy,54,0.6
+Italy,55,0.5
+Italy,56,0.45
+Italy,57,0.45
+Italy,58,0.45
+Italy,59,0.4
+Italy,60,0.4
+Italy,61,0.35
+Italy,62,0.35
+Italy,63,0.3
+Italy,64,0.3
+Italy,65,2.5
+Bangladesh,18,3
+Bangladesh,19,3
+Bangladesh,20,2.5
+Bangladesh,21,2
+Bangladesh,22,2
+Bangladesh,23,2
+Bangladesh,24,1.5
+Bangladesh,25,2
+Bangladesh,26,1
+Bangladesh,27,0.9
+Bangladesh,28,1.5
+Bangladesh,29,0.8
+Bangladesh,30,0.9
+Bangladesh,31,2
+Bangladesh,32,0.6
+Bangladesh,33,0.6
+Bangladesh,34,0.4
+Bangladesh,35,0.35
+Bangladesh,36,0.35
+Bangladesh,37,0.35
+Bangladesh,38,0.4
+Bangladesh,39,0.25
+Bangladesh,40,0.2
+Bangladesh,41,0.2
+Bangladesh,42,0.15
+Bangladesh,43,0.15
+Bangladesh,44,0.1
+Bangladesh,45,0.1
+Bangladesh,46,0.15
+Bangladesh,47,0.15
+Bangladesh,48,0.1
+Bangladesh,49,0.08
+Bangladesh,50,0.07
+Bangladesh,51,0.06
+Bangladesh,52,0.06
+Bangladesh,53,0.06
+Bangladesh,54,0.035
+Bangladesh,55,0.035
+Bangladesh,56,0.03
+Bangladesh,57,0.03
+Bangladesh,58,0.03
+Bangladesh,59,0.02
+Bangladesh,60,0.02
+Bangladesh,61,0.02
+Bangladesh,62,0.02
+Bangladesh,63,0.015
+Bangladesh,64,0.015
+Bangladesh,65,0.3
+Spain,18,0.3
+Spain,19,0.35
+Spain,20,0.45
+Spain,21,0.5
+Spain,22,0.6
+Spain,23,0.6
+Spain,24,0.6
+Spain,25,0.7
+Spain,26,0.6
+Spain,27,0.6
+Spain,28,0.6
+Spain,29,0.6
+Spain,30,0.6
+Spain,31,0.6
+Spain,32,0.6
+Spain,33,0.6
+Spain,34,0.6
+Spain,35,0.6
+Spain,36,0.6
+Spain,37,0.7
+Spain,38,0.7
+Spain,39,0.7
+Spain,40,0.7
+Spain,41,0.7
+Spain,42,0.7
+Spain,43,0.6
+Spain,44,0.6
+Spain,45,0.6
+Spain,46,0.6
+Spain,47,0.5
+Spain,48,0.6
+Spain,49,0.5
+Spain,50,0.45
+Spain,51,0.45
+Spain,52,0.45
+Spain,53,0.4
+Spain,54,0.4
+Spain,55,0.35
+Spain,56,0.35
+Spain,57,0.35
+Spain,58,0.35
+Spain,59,0.3
+Spain,60,0.3
+Spain,61,0.25
+Spain,62,0.25
+Spain,63,0.2
+Spain,64,0.2
+Spain,65,1.5
+Japan,18,0.25
+Japan,19,0.3
+Japan,20,0.35
+Japan,21,0.45
+Japan,22,0.6
+Japan,23,0.7
+Japan,24,0.7
+Japan,25,0.9
+Japan,26,0.8
+Japan,27,0.8
+Japan,28,0.9
+Japan,29,0.8
+Japan,30,0.8
+Japan,31,0.8
+Japan,32,0.8
+Japan,33,0.8
+Japan,34,0.7
+Japan,35,0.7
+Japan,36,0.7
+Japan,37,0.7
+Japan,38,0.7
+Japan,39,0.7
+Japan,40,0.7
+Japan,41,0.7
+Japan,42,0.7
+Japan,43,0.7
+Japan,44,0.7
+Japan,45,0.6
+Japan,46,0.6
+Japan,47,0.6
+Japan,48,0.2
+Japan,49,0.2
+Japan,50,0.15
+Japan,51,0.15
+Japan,52,0.35
+Japan,53,0.4
+Japan,54,0.35
+Japan,55,0.35
+Japan,56,0.3
+Japan,57,0.3
+Japan,58,0.25
+Japan,59,0.25
+Japan,60,0.2
+Japan,61,0.2
+Japan,62,0.2
+Japan,63,0.15
+Japan,64,0.15
+Japan,65,0.9
+Canada,18,0.35
+Canada,19,0.4
+Canada,20,0.5
+Canada,21,0.6
+Canada,22,0.7
+Canada,23,0.7
+Canada,24,0.6
+Canada,25,0.7
+Canada,26,0.6
+Canada,27,0.7
+Canada,28,0.7
+Canada,29,0.6
+Canada,30,0.6
+Canada,31,0.6
+Canada,32,0.6
+Canada,33,0.6
+Canada,34,0.5
+Canada,35,0.5
+Canada,36,0.5
+Canada,37,0.6
+Canada,38,0.6
+Canada,39,0.45
+Canada,40,0.45
+Canada,41,0.45
+Canada,42,0.45
+Canada,43,0.45
+Canada,44,0.4
+Canada,45,0.4
+Canada,46,0.4
+Canada,47,0.4
+Canada,48,0.45
+Canada,49,0.35
+Canada,50,0.35
+Canada,51,0.35
+Canada,52,0.35
+Canada,53,0.4
+Canada,54,0.35
+Canada,55,0.35
+Canada,56,0.35
+Canada,57,0.35
+Canada,58,0.35
+Canada,59,0.3
+Canada,60,0.3
+Canada,61,0.3
+Canada,62,0.3
+Canada,63,0.3
+Canada,64,0.25
+Canada,65,2.5
+Malaysia,18,0.8
+Malaysia,19,0.8
+Malaysia,20,0.9
+Malaysia,21,0.9
+Malaysia,22,0.9
+Malaysia,23,0.9
+Malaysia,24,0.9
+Malaysia,25,1.5
+Malaysia,26,0.8
+Malaysia,27,0.9
+Malaysia,28,0.9
+Malaysia,29,0.8
+Malaysia,30,0.8
+Malaysia,31,0.9
+Malaysia,32,0.7
+Malaysia,33,0.7
+Malaysia,34,0.6
+Malaysia,35,0.6
+Malaysia,36,0.5
+Malaysia,37,0.6
+Malaysia,38,0.6
+Malaysia,39,0.4
+Malaysia,40,0.4
+Malaysia,41,0.4
+Malaysia,42,0.35
+Malaysia,43,0.35
+Malaysia,44,0.3
+Malaysia,45,0.3
+Malaysia,46,0.3
+Malaysia,47,0.3
+Malaysia,48,0.25
+Malaysia,49,0.25
+Malaysia,50,0.25
+Malaysia,51,0.2
+Malaysia,52,0.2
+Malaysia,53,0.2
+Malaysia,54,0.2
+Malaysia,55,0.2
+Malaysia,56,0.15
+Malaysia,57,0.15
+Malaysia,58,0.15
+Malaysia,59,0.15
+Malaysia,60,0.15
+Malaysia,61,0.1
+Malaysia,62,0.09
+Malaysia,63,0.08
+Malaysia,64,0.07
+Malaysia,65,0.5
+Peru,18,1.5
+Peru,19,1.5
+Peru,20,1.5
+Peru,21,1
+Peru,22,1
+Peru,23,1
+Peru,24,0.9
+Peru,25,1
+Peru,26,0.7
+Peru,27,0.8
+Peru,28,0.8
+Peru,29,0.7
+Peru,30,0.7
+Peru,31,0.8
+Peru,32,0.6
+Peru,33,0.6
+Peru,34,0.45
+Peru,35,0.45
+Peru,36,0.45
+Peru,37,0.45
+Peru,38,0.45
+Peru,39,0.35
+Peru,40,0.35
+Peru,41,0.35
+Peru,42,0.35
+Peru,43,0.3
+Peru,44,0.3
+Peru,45,0.25
+Peru,46,0.25
+Peru,47,0.25
+Peru,48,0.25
+Peru,49,0.2
+Peru,50,0.2
+Peru,51,0.2
+Peru,52,0.2
+Peru,53,0.2
+Peru,54,0.15
+Peru,55,0.15
+Peru,56,0.15
+Peru,57,0.15
+Peru,58,0.15
+Peru,59,0.1
+Peru,60,0.09
+Peru,61,0.08
+Peru,62,0.08
+Peru,63,0.07
+Peru,64,0.06
+Peru,65,0.6
+Nigeria,18,1.5
+Nigeria,19,1.5
+Nigeria,20,1
+Nigeria,21,0.9
+Nigeria,22,1
+Nigeria,23,0.9
+Nigeria,24,0.9
+Nigeria,25,1.5
+Nigeria,26,0.8
+Nigeria,27,0.8
+Nigeria,28,0.9
+Nigeria,29,0.6
+Nigeria,30,0.7
+Nigeria,31,1.5
+Nigeria,32,0.6
+Nigeria,33,0.5
+Nigeria,34,0.4
+Nigeria,35,0.4
+Nigeria,36,0.35
+Nigeria,37,0.35
+Nigeria,38,0.4
+Nigeria,39,0.25
+Nigeria,40,0.25
+Nigeria,41,0.2
+Nigeria,42,0.25
+Nigeria,43,0.2
+Nigeria,44,0.15
+Nigeria,45,0.15
+Nigeria,46,0.15
+Nigeria,47,0.15
+Nigeria,48,0.2
+Nigeria,49,0.15
+Nigeria,50,0.15
+Nigeria,51,0.09
+Nigeria,52,0.1
+Nigeria,53,0.1
+Nigeria,54,0.08
+Nigeria,55,0.08
+Nigeria,56,0.06
+Nigeria,57,0.15
+Nigeria,58,0.2
+Nigeria,59,0.05
+Nigeria,60,0.045
+Nigeria,61,0.035
+Nigeria,62,0.035
+Nigeria,63,0.03
+Nigeria,64,0.025
+Nigeria,65,1.5
+Algeria,18,1.5
+Algeria,19,1.5
+Algeria,20,1.5
+Algeria,21,1
+Algeria,22,1
+Algeria,23,1
+Algeria,24,1
+Algeria,25,1.5
+Algeria,26,0.8
+Algeria,27,0.9
+Algeria,28,1
+Algeria,29,0.7
+Algeria,30,0.7
+Algeria,31,1.5
+Algeria,32,0.5
+Algeria,33,0.5
+Algeria,34,0.45
+Algeria,35,0.4
+Algeria,36,0.35
+Algeria,37,0.4
+Algeria,38,0.4
+Algeria,39,0.25
+Algeria,40,0.25
+Algeria,41,0.25
+Algeria,42,0.2
+Algeria,43,0.2
+Algeria,44,0.2
+Algeria,45,0.15
+Algeria,46,0.15
+Algeria,47,0.15
+Algeria,48,0.15
+Algeria,49,0.1
+Algeria,50,0.09
+Algeria,51,0.08
+Algeria,52,0.08
+Algeria,53,0.07
+Algeria,54,0.07
+Algeria,55,0.06
+Algeria,56,0.06
+Algeria,57,0.045
+Algeria,58,0.045
+Algeria,59,0.035
+Algeria,60,0.03
+Algeria,61,0.025
+Algeria,62,0.025
+Algeria,63,0.035
+Algeria,64,0.025
+Algeria,65,0.35
+Taiwan,18,0.5
+Taiwan,19,0.5
+Taiwan,20,0.5
+Taiwan,21,0.6
+Taiwan,22,0.6
+Taiwan,23,0.6
+Taiwan,24,0.5
+Taiwan,25,0.6
+Taiwan,26,0.5
+Taiwan,27,0.6
+Taiwan,28,0.6
+Taiwan,29,0.6
+Taiwan,30,0.5
+Taiwan,31,0.5
+Taiwan,32,0.45
+Taiwan,33,0.5
+Taiwan,34,0.5
+Taiwan,35,0.5
+Taiwan,36,0.5
+Taiwan,37,0.6
+Taiwan,38,0.6
+Taiwan,39,0.5
+Taiwan,40,0.45
+Taiwan,41,0.45
+Taiwan,42,0.4
+Taiwan,43,0.35
+Taiwan,44,0.35
+Taiwan,45,0.35
+Taiwan,46,0.35
+Taiwan,47,0.35
+Taiwan,48,0.35
+Taiwan,49,0.3
+Taiwan,50,0.3
+Taiwan,51,0.3
+Taiwan,52,0.3
+Taiwan,53,0.25
+Taiwan,54,0.25
+Taiwan,55,0.25
+Taiwan,56,0.25
+Taiwan,57,0.25
+Taiwan,58,0.2
+Taiwan,59,0.2
+Taiwan,60,0.2
+Taiwan,61,0.15
+Taiwan,62,0.15
+Taiwan,63,0.15
+Taiwan,64,0.15
+Taiwan,65,0.8
+Iraq,18,1.5
+Iraq,19,1.5
+Iraq,20,0.9
+Iraq,21,0.8
+Iraq,22,0.8
+Iraq,23,0.8
+Iraq,24,0.7
+Iraq,25,1.5
+Iraq,26,0.6
+Iraq,27,0.7
+Iraq,28,0.8
+Iraq,29,0.6
+Iraq,30,0.5
+Iraq,31,0.6
+Iraq,32,0.4
+Iraq,33,0.4
+Iraq,34,0.3
+Iraq,35,0.3
+Iraq,36,0.3
+Iraq,37,0.3
+Iraq,38,0.35
+Iraq,39,0.25
+Iraq,40,0.2
+Iraq,41,0.2
+Iraq,42,0.2
+Iraq,43,0.2
+Iraq,44,0.15
+Iraq,45,0.15
+Iraq,46,0.15
+Iraq,47,0.15
+Iraq,48,0.2
+Iraq,49,0.15
+Iraq,50,0.1
+Iraq,51,0.08
+Iraq,52,0.09
+Iraq,53,0.08
+Iraq,54,0.07
+Iraq,55,0.06
+Iraq,56,0.06
+Iraq,57,0.05
+Iraq,58,0.06
+Iraq,59,0.035
+Iraq,60,0.035
+Iraq,61,0.035
+Iraq,62,0.035
+Iraq,63,0.03
+Iraq,64,0.025
+Iraq,65,0.2
+South Africa,18,0.8
+South Africa,19,0.7
+South Africa,20,0.7
+South Africa,21,0.7
+South Africa,22,0.7
+South Africa,23,0.7
+South Africa,24,0.7
+South Africa,25,0.9
+South Africa,26,0.6
+South Africa,27,0.6
+South Africa,28,0.6
+South Africa,29,0.5
+South Africa,30,0.6
+South Africa,31,1.5
+South Africa,32,0.45
+South Africa,33,0.45
+South Africa,34,0.4
+South Africa,35,0.35
+South Africa,36,0.35
+South Africa,37,0.35
+South Africa,38,0.35
+South Africa,39,0.25
+South Africa,40,0.25
+South Africa,41,0.25
+South Africa,42,0.2
+South Africa,43,0.2
+South Africa,44,0.2
+South Africa,45,0.2
+South Africa,46,0.15
+South Africa,47,0.15
+South Africa,48,0.15
+South Africa,49,0.15
+South Africa,50,0.15
+South Africa,51,0.1
+South Africa,52,0.1
+South Africa,53,0.09
+South Africa,54,0.09
+South Africa,55,0.09
+South Africa,56,0.08
+South Africa,57,0.09
+South Africa,58,0.09
+South Africa,59,0.07
+South Africa,60,0.06
+South Africa,61,0.06
+South Africa,62,0.05
+South Africa,63,0.05
+South Africa,64,0.045
+South Africa,65,1
+Morocco,18,1.5
+Morocco,19,1.5
+Morocco,20,0.9
+Morocco,21,0.8
+Morocco,22,0.8
+Morocco,23,0.7
+Morocco,24,0.7
+Morocco,25,1.5
+Morocco,26,0.6
+Morocco,27,0.6
+Morocco,28,0.6
+Morocco,29,0.45
+Morocco,30,0.45
+Morocco,31,1.5
+Morocco,32,0.35
+Morocco,33,0.35
+Morocco,34,0.3
+Morocco,35,0.25
+Morocco,36,0.25
+Morocco,37,0.25
+Morocco,38,0.3
+Morocco,39,0.2
+Morocco,40,0.2
+Morocco,41,0.15
+Morocco,42,0.15
+Morocco,43,0.15
+Morocco,44,0.15
+Morocco,45,0.1
+Morocco,46,0.09
+Morocco,47,0.1
+Morocco,48,0.15
+Morocco,49,0.07
+Morocco,50,0.07
+Morocco,51,0.06
+Morocco,52,0.06
+Morocco,53,0.06
+Morocco,54,0.05
+Morocco,55,0.045
+Morocco,56,0.045
+Morocco,57,0.045
+Morocco,58,0.05
+Morocco,59,0.035
+Morocco,60,0.03
+Morocco,61,0.03
+Morocco,62,0.03
+Morocco,63,0.025
+Morocco,64,0.02
+Morocco,65,0.3
+Saudi Arabia,18,0.6
+Saudi Arabia,19,0.7
+Saudi Arabia,20,0.5
+Saudi Arabia,21,0.4
+Saudi Arabia,22,0.45
+Saudi Arabia,23,0.6
+Saudi Arabia,24,0.6
+Saudi Arabia,25,2
+Saudi Arabia,26,0.7
+Saudi Arabia,27,0.7
+Saudi Arabia,28,1
+Saudi Arabia,29,0.7
+Saudi Arabia,30,0.8
+Saudi Arabia,31,0.8
+Saudi Arabia,32,0.6
+Saudi Arabia,33,0.6
+Saudi Arabia,34,0.45
+Saudi Arabia,35,0.4
+Saudi Arabia,36,0.4
+Saudi Arabia,37,0.4
+Saudi Arabia,38,0.5
+Saudi Arabia,39,0.25
+Saudi Arabia,40,0.25
+Saudi Arabia,41,0.25
+Saudi Arabia,42,0.2
+Saudi Arabia,43,0.25
+Saudi Arabia,44,0.15
+Saudi Arabia,45,0.15
+Saudi Arabia,46,0.15
+Saudi Arabia,47,0.15
+Saudi Arabia,48,0.2
+Saudi Arabia,49,0.09
+Saudi Arabia,50,0.09
+Saudi Arabia,51,0.07
+Saudi Arabia,52,0.08
+Saudi Arabia,53,0.07
+Saudi Arabia,54,0.05
+Saudi Arabia,55,0.045
+Saudi Arabia,56,0.04
+Saudi Arabia,57,0.04
+Saudi Arabia,58,0.05
+Saudi Arabia,59,0.03
+Saudi Arabia,60,0.025
+Saudi Arabia,61,0.025
+Saudi Arabia,62,0.02
+Saudi Arabia,63,0.02
+Saudi Arabia,64,0.015
+Saudi Arabia,65,0.2
+Australia,18,0.35
+Australia,19,0.4
+Australia,20,0.4
+Australia,21,0.4
+Australia,22,0.45
+Australia,23,0.45
+Australia,24,0.45
+Australia,25,0.5
+Australia,26,0.45
+Australia,27,0.45
+Australia,28,0.5
+Australia,29,0.45
+Australia,30,0.45
+Australia,31,0.4
+Australia,32,0.4
+Australia,33,0.4
+Australia,34,0.4
+Australia,35,0.4
+Australia,36,0.35
+Australia,37,0.35
+Australia,38,0.35
+Australia,39,0.3
+Australia,40,0.3
+Australia,41,0.3
+Australia,42,0.3
+Australia,43,0.3
+Australia,44,0.3
+Australia,45,0.3
+Australia,46,0.3
+Australia,47,0.3
+Australia,48,0.3
+Australia,49,0.25
+Australia,50,0.25
+Australia,51,0.25
+Australia,52,0.25
+Australia,53,0.25
+Australia,54,0.25
+Australia,55,0.25
+Australia,56,0.25
+Australia,57,0.25
+Australia,58,0.2
+Australia,59,0.2
+Australia,60,0.2
+Australia,61,0.2
+Australia,62,0.2
+Australia,63,0.15
+Australia,64,0.15
+Australia,65,1.5
+South Korea,18,0.9
+South Korea,19,0.8
+South Korea,20,0.8
+South Korea,21,0.8
+South Korea,22,0.8
+South Korea,23,0.7
+South Korea,24,0.7
+South Korea,25,0.8
+South Korea,26,0.6
+South Korea,27,0.6
+South Korea,28,0.6
+South Korea,29,0.5
+South Korea,30,0.5
+South Korea,31,0.45
+South Korea,32,0.4
+South Korea,33,0.4
+South Korea,34,0.35
+South Korea,35,0.35
+South Korea,36,0.35
+South Korea,37,0.35
+South Korea,38,0.35
+South Korea,39,0.3
+South Korea,40,0.25
+South Korea,41,0.25
+South Korea,42,0.25
+South Korea,43,0.25
+South Korea,44,0.25
+South Korea,45,0.25
+South Korea,46,0.25
+South Korea,47,0.25
+South Korea,48,0.2
+South Korea,49,0.2
+South Korea,50,0.2
+South Korea,51,0.15
+South Korea,52,0.15
+South Korea,53,0.15
+South Korea,54,0.15
+South Korea,55,0.15
+South Korea,56,0.09
+South Korea,57,0.09
+South Korea,58,0.08
+South Korea,59,0.07
+South Korea,60,0.06
+South Korea,61,0.05
+South Korea,62,0.04
+South Korea,63,0.04
+South Korea,64,0.03
+South Korea,65,0.2
+Poland,18,0.7
+Poland,19,0.6
+Poland,20,0.5
+Poland,21,0.5
+Poland,22,0.5
+Poland,23,0.5
+Poland,24,0.5
+Poland,25,0.6
+Poland,26,0.5
+Poland,27,0.6
+Poland,28,0.6
+Poland,29,0.5
+Poland,30,0.5
+Poland,31,0.5
+Poland,32,0.45
+Poland,33,0.45
+Poland,34,0.45
+Poland,35,0.45
+Poland,36,0.4
+Poland,37,0.4
+Poland,38,0.4
+Poland,39,0.35
+Poland,40,0.35
+Poland,41,0.35
+Poland,42,0.3
+Poland,43,0.3
+Poland,44,0.25
+Poland,45,0.25
+Poland,46,0.2
+Poland,47,0.2
+Poland,48,0.2
+Poland,49,0.2
+Poland,50,0.15
+Poland,51,0.15
+Poland,52,0.15
+Poland,53,0.15
+Poland,54,0.15
+Poland,55,0.15
+Poland,56,0.15
+Poland,57,0.15
+Poland,58,0.15
+Poland,59,0.15
+Poland,60,0.15
+Poland,61,0.1
+Poland,62,0.1
+Poland,63,0.09
+Poland,64,0.08
+Poland,65,0.6
+Chile,18,0.35
+Chile,19,0.35
+Chile,20,0.4
+Chile,21,0.45
+Chile,22,0.45
+Chile,23,0.5
+Chile,24,0.5
+Chile,25,0.6
+Chile,26,0.45
+Chile,27,0.5
+Chile,28,0.5
+Chile,29,0.4
+Chile,30,0.4
+Chile,31,0.4
+Chile,32,0.35
+Chile,33,0.35
+Chile,34,0.3
+Chile,35,0.3
+Chile,36,0.3
+Chile,37,0.3
+Chile,38,0.3
+Chile,39,0.25
+Chile,40,0.25
+Chile,41,0.25
+Chile,42,0.25
+Chile,43,0.25
+Chile,44,0.25
+Chile,45,0.25
+Chile,46,0.2
+Chile,47,0.2
+Chile,48,0.2
+Chile,49,0.2
+Chile,50,0.2
+Chile,51,0.2
+Chile,52,0.2
+Chile,53,0.2
+Chile,54,0.15
+Chile,55,0.15
+Chile,56,0.15
+Chile,57,0.15
+Chile,58,0.15
+Chile,59,0.1
+Chile,60,0.09
+Chile,61,0.09
+Chile,62,0.08
+Chile,63,0.08
+Chile,64,0.07
+Chile,65,0.5
+Russia,18,0.25
+Russia,19,0.25
+Russia,20,0.25
+Russia,21,0.25
+Russia,22,0.3
+Russia,23,0.3
+Russia,24,0.3
+Russia,25,0.5
+Russia,26,0.35
+Russia,27,0.4
+Russia,28,0.45
+Russia,29,0.4
+Russia,30,0.45
+Russia,31,0.45
+Russia,32,0.45
+Russia,33,0.45
+Russia,34,0.45
+Russia,35,0.4
+Russia,36,0.4
+Russia,37,0.4
+Russia,38,0.4
+Russia,39,0.35
+Russia,40,0.3
+Russia,41,0.3
+Russia,42,0.3
+Russia,43,0.3
+Russia,44,0.25
+Russia,45,0.25
+Russia,46,0.25
+Russia,47,0.2
+Russia,48,0.2
+Russia,49,0.2
+Russia,50,0.15
+Russia,51,0.15
+Russia,52,0.15
+Russia,53,0.15
+Russia,54,0.15
+Russia,55,0.15
+Russia,56,0.15
+Russia,57,0.15
+Russia,58,0.1
+Russia,59,0.09
+Russia,60,0.08
+Russia,61,0.07
+Russia,62,0.06
+Russia,63,0.06
+Russia,64,0.05
+Russia,65,0.4
+Venezuela,18,0.6
+Venezuela,19,0.5
+Venezuela,20,0.5
+Venezuela,21,0.5
+Venezuela,22,0.6
+Venezuela,23,0.6
+Venezuela,24,0.5
+Venezuela,25,0.5
+Venezuela,26,0.4
+Venezuela,27,0.45
+Venezuela,28,0.45
+Venezuela,29,0.35
+Venezuela,30,0.35
+Venezuela,31,0.4
+Venezuela,32,0.3
+Venezuela,33,0.3
+Venezuela,34,0.3
+Venezuela,35,0.25
+Venezuela,36,0.25
+Venezuela,37,0.3
+Venezuela,38,0.3
+Venezuela,39,0.25
+Venezuela,40,0.2
+Venezuela,41,0.2
+Venezuela,42,0.2
+Venezuela,43,0.2
+Venezuela,44,0.15
+Venezuela,45,0.15
+Venezuela,46,0.15
+Venezuela,47,0.15
+Venezuela,48,0.15
+Venezuela,49,0.15
+Venezuela,50,0.15
+Venezuela,51,0.15
+Venezuela,52,0.1
+Venezuela,53,0.1
+Venezuela,54,0.09
+Venezuela,55,0.09
+Venezuela,56,0.08
+Venezuela,57,0.08
+Venezuela,58,0.07
+Venezuela,59,0.06
+Venezuela,60,0.06
+Venezuela,61,0.05
+Venezuela,62,0.045
+Venezuela,63,0.045
+Venezuela,64,0.04
+Venezuela,65,0.35
+Ukraine,18,0.3
+Ukraine,19,0.25
+Ukraine,20,0.25
+Ukraine,21,0.3
+Ukraine,22,0.3
+Ukraine,23,0.3
+Ukraine,24,0.3
+Ukraine,25,0.45
+Ukraine,26,0.35
+Ukraine,27,0.4
+Ukraine,28,0.4
+Ukraine,29,0.4
+Ukraine,30,0.4
+Ukraine,31,0.4
+Ukraine,32,0.4
+Ukraine,33,0.4
+Ukraine,34,0.4
+Ukraine,35,0.35
+Ukraine,36,0.35
+Ukraine,37,0.35
+Ukraine,38,0.3
+Ukraine,39,0.3
+Ukraine,40,0.3
+Ukraine,41,0.25
+Ukraine,42,0.25
+Ukraine,43,0.25
+Ukraine,44,0.2
+Ukraine,45,0.2
+Ukraine,46,0.2
+Ukraine,47,0.2
+Ukraine,48,0.2
+Ukraine,49,0.15
+Ukraine,50,0.15
+Ukraine,51,0.15
+Ukraine,52,0.15
+Ukraine,53,0.15
+Ukraine,54,0.15
+Ukraine,55,0.15
+Ukraine,56,0.15
+Ukraine,57,0.15
+Ukraine,58,0.1
+Ukraine,59,0.09
+Ukraine,60,0.08
+Ukraine,61,0.07
+Ukraine,62,0.06
+Ukraine,63,0.06
+Ukraine,64,0.045
+Ukraine,65,0.35
+Ecuador,18,0.7
+Ecuador,19,0.6
+Ecuador,20,0.6
+Ecuador,21,0.6
+Ecuador,22,0.6
+Ecuador,23,0.5
+Ecuador,24,0.45
+Ecuador,25,0.5
+Ecuador,26,0.35
+Ecuador,27,0.4
+Ecuador,28,0.4
+Ecuador,29,0.3
+Ecuador,30,0.35
+Ecuador,31,0.4
+Ecuador,32,0.3
+Ecuador,33,0.3
+Ecuador,34,0.25
+Ecuador,35,0.25
+Ecuador,36,0.25
+Ecuador,37,0.25
+Ecuador,38,0.25
+Ecuador,39,0.2
+Ecuador,40,0.2
+Ecuador,41,0.2
+Ecuador,42,0.15
+Ecuador,43,0.15
+Ecuador,44,0.15
+Ecuador,45,0.15
+Ecuador,46,0.15
+Ecuador,47,0.15
+Ecuador,48,0.15
+Ecuador,49,0.1
+Ecuador,50,0.09
+Ecuador,51,0.08
+Ecuador,52,0.08
+Ecuador,53,0.08
+Ecuador,54,0.07
+Ecuador,55,0.06
+Ecuador,56,0.06
+Ecuador,57,0.06
+Ecuador,58,0.05
+Ecuador,59,0.04
+Ecuador,60,0.04
+Ecuador,61,0.035
+Ecuador,62,0.035
+Ecuador,63,0.03
+Ecuador,64,0.03
+Ecuador,65,0.25
+Netherlands,18,0.25
+Netherlands,19,0.25
+Netherlands,20,0.25
+Netherlands,21,0.25
+Netherlands,22,0.25
+Netherlands,23,0.25
+Netherlands,24,0.25
+Netherlands,25,0.3
+Netherlands,26,0.25
+Netherlands,27,0.25
+Netherlands,28,0.3
+Netherlands,29,0.25
+Netherlands,30,0.25
+Netherlands,31,0.25
+Netherlands,32,0.25
+Netherlands,33,0.2
+Netherlands,34,0.2
+Netherlands,35,0.2
+Netherlands,36,0.2
+Netherlands,37,0.2
+Netherlands,38,0.2
+Netherlands,39,0.2
+Netherlands,40,0.2
+Netherlands,41,0.2
+Netherlands,42,0.2
+Netherlands,43,0.2
+Netherlands,44,0.2
+Netherlands,45,0.2
+Netherlands,46,0.2
+Netherlands,47,0.2
+Netherlands,48,0.2
+Netherlands,49,0.2
+Netherlands,50,0.2
+Netherlands,51,0.2
+Netherlands,52,0.2
+Netherlands,53,0.2
+Netherlands,54,0.2
+Netherlands,55,0.15
+Netherlands,56,0.15
+Netherlands,57,0.15
+Netherlands,58,0.15
+Netherlands,59,0.15
+Netherlands,60,0.15
+Netherlands,61,0.15
+Netherlands,62,0.15
+Netherlands,63,0.1
+Netherlands,64,0.1
+Netherlands,65,1
+Romania,18,0.35
+Romania,19,0.35
+Romania,20,0.3
+Romania,21,0.3
+Romania,22,0.3
+Romania,23,0.3
+Romania,24,0.25
+Romania,25,0.35
+Romania,26,0.25
+Romania,27,0.25
+Romania,28,0.35
+Romania,29,0.3
+Romania,30,0.3
+Romania,31,0.3
+Romania,32,0.25
+Romania,33,0.25
+Romania,34,0.2
+Romania,35,0.2
+Romania,36,0.25
+Romania,37,0.25
+Romania,38,0.25
+Romania,39,0.25
+Romania,40,0.25
+Romania,41,0.25
+Romania,42,0.25
+Romania,43,0.25
+Romania,44,0.2
+Romania,45,0.2
+Romania,46,0.2
+Romania,47,0.2
+Romania,48,0.2
+Romania,49,0.2
+Romania,50,0.25
+Romania,51,0.15
+Romania,52,0.1
+Romania,53,0.1
+Romania,54,0.1
+Romania,55,0.09
+Romania,56,0.09
+Romania,57,0.09
+Romania,58,0.09
+Romania,59,0.08
+Romania,60,0.09
+Romania,61,0.08
+Romania,62,0.08
+Romania,63,0.07
+Romania,64,0.06
+Romania,65,0.4
+United Arab Emirates,18,0.2
+United Arab Emirates,19,0.25
+United Arab Emirates,20,0.25
+United Arab Emirates,21,0.25
+United Arab Emirates,22,0.3
+United Arab Emirates,23,0.35
+United Arab Emirates,24,0.35
+United Arab Emirates,25,0.7
+United Arab Emirates,26,0.4
+United Arab Emirates,27,0.45
+United Arab Emirates,28,0.6
+United Arab Emirates,29,0.45
+United Arab Emirates,30,0.45
+United Arab Emirates,31,0.45
+United Arab Emirates,32,0.4
+United Arab Emirates,33,0.4
+United Arab Emirates,34,0.3
+United Arab Emirates,35,0.3
+United Arab Emirates,36,0.3
+United Arab Emirates,37,0.3
+United Arab Emirates,38,0.3
+United Arab Emirates,39,0.2
+United Arab Emirates,40,0.2
+United Arab Emirates,41,0.15
+United Arab Emirates,42,0.15
+United Arab Emirates,43,0.15
+United Arab Emirates,44,0.15
+United Arab Emirates,45,0.1
+United Arab Emirates,46,0.09
+United Arab Emirates,47,0.09
+United Arab Emirates,48,0.09
+United Arab Emirates,49,0.07
+United Arab Emirates,50,0.06
+United Arab Emirates,51,0.05
+United Arab Emirates,52,0.045
+United Arab Emirates,53,0.045
+United Arab Emirates,54,0.035
+United Arab Emirates,55,0.03
+United Arab Emirates,56,0.03
+United Arab Emirates,57,0.025
+United Arab Emirates,58,0.03
+United Arab Emirates,59,0.02
+United Arab Emirates,60,0.02
+United Arab Emirates,61,0.015
+United Arab Emirates,62,0.015
+United Arab Emirates,63,0.015
+United Arab Emirates,64,0.008
+United Arab Emirates,65,0.15
+Nepal,18,0.7
+Nepal,19,0.7
+Nepal,20,0.6
+Nepal,21,0.45
+Nepal,22,0.45
+Nepal,23,0.5
+Nepal,24,0.35
+Nepal,25,0.6
+Nepal,26,0.3
+Nepal,27,0.3
+Nepal,28,0.4
+Nepal,29,0.25
+Nepal,30,0.3
+Nepal,31,1.5
+Nepal,32,0.2
+Nepal,33,0.2
+Nepal,34,0.1
+Nepal,35,0.15
+Nepal,36,0.15
+Nepal,37,0.1
+Nepal,38,0.15
+Nepal,39,0.06
+Nepal,40,0.06
+Nepal,41,0.05
+Nepal,42,0.06
+Nepal,43,0.06
+Nepal,44,0.04
+Nepal,45,0.035
+Nepal,46,0.04
+Nepal,47,0.04
+Nepal,48,0.05
+Nepal,49,0.03
+Nepal,50,0.03
+Nepal,51,0.025
+Nepal,52,0.025
+Nepal,53,0.025
+Nepal,54,0.02
+Nepal,55,0.015
+Nepal,56,0.015
+Nepal,57,0.02
+Nepal,58,0.025
+Nepal,59,0.015
+Nepal,60,0.015
+Nepal,61,0.015
+Nepal,62,0.015
+Nepal,63,0.015
+Nepal,64,0.008
+Nepal,65,0.3
+Belgium,18,0.2
+Belgium,19,0.2
+Belgium,20,0.2
+Belgium,21,0.2
+Belgium,22,0.2
+Belgium,23,0.2
+Belgium,24,0.2
+Belgium,25,0.2
+Belgium,26,0.2
+Belgium,27,0.2
+Belgium,28,0.2
+Belgium,29,0.2
+Belgium,30,0.2
+Belgium,31,0.2
+Belgium,32,0.2
+Belgium,33,0.2
+Belgium,34,0.15
+Belgium,35,0.15
+Belgium,36,0.15
+Belgium,37,0.2
+Belgium,38,0.2
+Belgium,39,0.15
+Belgium,40,0.15
+Belgium,41,0.15
+Belgium,42,0.15
+Belgium,43,0.15
+Belgium,44,0.15
+Belgium,45,0.15
+Belgium,46,0.15
+Belgium,47,0.15
+Belgium,48,0.15
+Belgium,49,0.15
+Belgium,50,0.15
+Belgium,51,0.15
+Belgium,52,0.15
+Belgium,53,0.15
+Belgium,54,0.15
+Belgium,55,0.1
+Belgium,56,0.1
+Belgium,57,0.09
+Belgium,58,0.09
+Belgium,59,0.08
+Belgium,60,0.08
+Belgium,61,0.07
+Belgium,62,0.07
+Belgium,63,0.07
+Belgium,64,0.06
+Belgium,65,0.6
+Kenya,18,0.35
+Kenya,19,0.45
+Kenya,20,0.45
+Kenya,21,0.45
+Kenya,22,0.45
+Kenya,23,0.4
+Kenya,24,0.35
+Kenya,25,0.4
+Kenya,26,0.25
+Kenya,27,0.25
+Kenya,28,0.3
+Kenya,29,0.25
+Kenya,30,0.25
+Kenya,31,0.45
+Kenya,32,0.2
+Kenya,33,0.15
+Kenya,34,0.15
+Kenya,35,0.15
+Kenya,36,0.1
+Kenya,37,0.15
+Kenya,38,0.15
+Kenya,39,0.09
+Kenya,40,0.08
+Kenya,41,0.07
+Kenya,42,0.06
+Kenya,43,0.06
+Kenya,44,0.06
+Kenya,45,0.045
+Kenya,46,0.04
+Kenya,47,0.045
+Kenya,48,0.05
+Kenya,49,0.035
+Kenya,50,0.03
+Kenya,51,0.025
+Kenya,52,0.025
+Kenya,53,0.025
+Kenya,54,0.03
+Kenya,55,0.025
+Kenya,56,0.015
+Kenya,57,0.025
+Kenya,58,0.025
+Kenya,59,0.015
+Kenya,60,0.01
+Kenya,61,0.008
+Kenya,62,0.008
+Kenya,63,0.007
+Kenya,64,0.006
+Kenya,65,0.5
+Cambodia,18,0.6
+Cambodia,19,0.5
+Cambodia,20,0.4
+Cambodia,21,0.35
+Cambodia,22,0.4
+Cambodia,23,0.4
+Cambodia,24,0.4
+Cambodia,25,1
+Cambodia,26,0.35
+Cambodia,27,0.4
+Cambodia,28,0.45
+Cambodia,29,0.3
+Cambodia,30,0.25
+Cambodia,31,0.25
+Cambodia,32,0.15
+Cambodia,33,0.15
+Cambodia,34,0.1
+Cambodia,35,0.1
+Cambodia,36,0.09
+Cambodia,37,0.09
+Cambodia,38,0.15
+Cambodia,39,0.06
+Cambodia,40,0.03
+Cambodia,41,0.03
+Cambodia,42,0.03
+Cambodia,43,0.035
+Cambodia,44,0.025
+Cambodia,45,0.025
+Cambodia,46,0.025
+Cambodia,47,0.025
+Cambodia,48,0.04
+Cambodia,49,0.02
+Cambodia,50,0.02
+Cambodia,51,0.015
+Cambodia,52,0.015
+Cambodia,53,0.02
+Cambodia,54,0.015
+Cambodia,55,0.015
+Cambodia,56,0.01
+Cambodia,57,0.015
+Cambodia,58,0.015
+Cambodia,59,0.008
+Cambodia,60,0.008
+Cambodia,61,0.007
+Cambodia,62,0.007
+Cambodia,63,0.008
+Cambodia,64,0.006
+Cambodia,65,0.06
+Sweden,18,0.15
+Sweden,19,0.15
+Sweden,20,0.15
+Sweden,21,0.15
+Sweden,22,0.15
+Sweden,23,0.15
+Sweden,24,0.15
+Sweden,25,0.2
+Sweden,26,0.2
+Sweden,27,0.2
+Sweden,28,0.2
+Sweden,29,0.15
+Sweden,30,0.15
+Sweden,31,0.15
+Sweden,32,0.15
+Sweden,33,0.15
+Sweden,34,0.15
+Sweden,35,0.15
+Sweden,36,0.15
+Sweden,37,0.15
+Sweden,38,0.15
+Sweden,39,0.15
+Sweden,40,0.15
+Sweden,41,0.15
+Sweden,42,0.15
+Sweden,43,0.15
+Sweden,44,0.15
+Sweden,45,0.15
+Sweden,46,0.15
+Sweden,47,0.15
+Sweden,48,0.15
+Sweden,49,0.1
+Sweden,50,0.15
+Sweden,51,0.15
+Sweden,52,0.15
+Sweden,53,0.15
+Sweden,54,0.1
+Sweden,55,0.09
+Sweden,56,0.09
+Sweden,57,0.08
+Sweden,58,0.08
+Sweden,59,0.08
+Sweden,60,0.07
+Sweden,61,0.07
+Sweden,62,0.07
+Sweden,63,0.07
+Sweden,64,0.06
+Sweden,65,0.8
+Tunisia,18,0.35
+Tunisia,19,0.35
+Tunisia,20,0.3
+Tunisia,21,0.3
+Tunisia,22,0.3
+Tunisia,23,0.3
+Tunisia,24,0.3
+Tunisia,25,0.45
+Tunisia,26,0.25
+Tunisia,27,0.25
+Tunisia,28,0.3
+Tunisia,29,0.2
+Tunisia,30,0.25
+Tunisia,31,0.5
+Tunisia,32,0.2
+Tunisia,33,0.2
+Tunisia,34,0.15
+Tunisia,35,0.15
+Tunisia,36,0.15
+Tunisia,37,0.15
+Tunisia,38,0.2
+Tunisia,39,0.15
+Tunisia,40,0.1
+Tunisia,41,0.09
+Tunisia,42,0.09
+Tunisia,43,0.08
+Tunisia,44,0.07
+Tunisia,45,0.07
+Tunisia,46,0.06
+Tunisia,47,0.06
+Tunisia,48,0.07
+Tunisia,49,0.05
+Tunisia,50,0.045
+Tunisia,51,0.045
+Tunisia,52,0.045
+Tunisia,53,0.04
+Tunisia,54,0.035
+Tunisia,55,0.035
+Tunisia,56,0.03
+Tunisia,57,0.03
+Tunisia,58,0.03
+Tunisia,59,0.025
+Tunisia,60,0.025
+Tunisia,61,0.02
+Tunisia,62,0.025
+Tunisia,63,0.02
+Tunisia,64,0.015
+Tunisia,65,0.2
+Portugal,18,0.15
+Portugal,19,0.15
+Portugal,20,0.2
+Portugal,21,0.2
+Portugal,22,0.2
+Portugal,23,0.2
+Portugal,24,0.15
+Portugal,25,0.2
+Portugal,26,0.15
+Portugal,27,0.2
+Portugal,28,0.2
+Portugal,29,0.15
+Portugal,30,0.15
+Portugal,31,0.15
+Portugal,32,0.15
+Portugal,33,0.15
+Portugal,34,0.15
+Portugal,35,0.15
+Portugal,36,0.15
+Portugal,37,0.15
+Portugal,38,0.2
+Portugal,39,0.15
+Portugal,40,0.15
+Portugal,41,0.15
+Portugal,42,0.2
+Portugal,43,0.15
+Portugal,44,0.15
+Portugal,45,0.15
+Portugal,46,0.15
+Portugal,47,0.15
+Portugal,48,0.15
+Portugal,49,0.15
+Portugal,50,0.1
+Portugal,51,0.1
+Portugal,52,0.1
+Portugal,53,0.09
+Portugal,54,0.09
+Portugal,55,0.09
+Portugal,56,0.08
+Portugal,57,0.08
+Portugal,58,0.08
+Portugal,59,0.07
+Portugal,60,0.07
+Portugal,61,0.06
+Portugal,62,0.06
+Portugal,63,0.06
+Portugal,64,0.05
+Portugal,65,0.45
+Guatemala,18,0.6
+Guatemala,19,0.45
+Guatemala,20,0.4
+Guatemala,21,0.35
+Guatemala,22,0.35
+Guatemala,23,0.35
+Guatemala,24,0.3
+Guatemala,25,0.4
+Guatemala,26,0.25
+Guatemala,27,0.25
+Guatemala,28,0.25
+Guatemala,29,0.2
+Guatemala,30,0.2
+Guatemala,31,0.3
+Guatemala,32,0.15
+Guatemala,33,0.15
+Guatemala,34,0.15
+Guatemala,35,0.15
+Guatemala,36,0.1
+Guatemala,37,0.15
+Guatemala,38,0.15
+Guatemala,39,0.08
+Guatemala,40,0.08
+Guatemala,41,0.07
+Guatemala,42,0.07
+Guatemala,43,0.06
+Guatemala,44,0.05
+Guatemala,45,0.05
+Guatemala,46,0.045
+Guatemala,47,0.045
+Guatemala,48,0.045
+Guatemala,49,0.035
+Guatemala,50,0.03
+Guatemala,51,0.03
+Guatemala,52,0.03
+Guatemala,53,0.03
+Guatemala,54,0.025
+Guatemala,55,0.025
+Guatemala,56,0.02
+Guatemala,57,0.02
+Guatemala,58,0.02
+Guatemala,59,0.02
+Guatemala,60,0.015
+Guatemala,61,0.015
+Guatemala,62,0.015
+Guatemala,63,0.015
+Guatemala,64,0.01
+Guatemala,65,0.15
+Hungary,18,0.15
+Hungary,19,0.15
+Hungary,20,0.2
+Hungary,21,0.2
+Hungary,22,0.2
+Hungary,23,0.2
+Hungary,24,0.15
+Hungary,25,0.2
+Hungary,26,0.15
+Hungary,27,0.15
+Hungary,28,0.15
+Hungary,29,0.15
+Hungary,30,0.15
+Hungary,31,0.15
+Hungary,32,0.15
+Hungary,33,0.15
+Hungary,34,0.15
+Hungary,35,0.15
+Hungary,36,0.15
+Hungary,37,0.15
+Hungary,38,0.15
+Hungary,39,0.15
+Hungary,40,0.15
+Hungary,41,0.15
+Hungary,42,0.15
+Hungary,43,0.15
+Hungary,44,0.15
+Hungary,45,0.15
+Hungary,46,0.1
+Hungary,47,0.1
+Hungary,48,0.15
+Hungary,49,0.1
+Hungary,50,0.09
+Hungary,51,0.08
+Hungary,52,0.08
+Hungary,53,0.07
+Hungary,54,0.07
+Hungary,55,0.06
+Hungary,56,0.06
+Hungary,57,0.06
+Hungary,58,0.06
+Hungary,59,0.06
+Hungary,60,0.06
+Hungary,61,0.06
+Hungary,62,0.06
+Hungary,63,0.06
+Hungary,64,0.06
+Hungary,65,0.4
+Israel,18,0.2
+Israel,19,0.2
+Israel,20,0.2
+Israel,21,0.2
+Israel,22,0.2
+Israel,23,0.2
+Israel,24,0.2
+Israel,25,0.3
+Israel,26,0.2
+Israel,27,0.2
+Israel,28,0.25
+Israel,29,0.2
+Israel,30,0.2
+Israel,31,0.2
+Israel,32,0.15
+Israel,33,0.15
+Israel,34,0.15
+Israel,35,0.15
+Israel,36,0.15
+Israel,37,0.15
+Israel,38,0.15
+Israel,39,0.15
+Israel,40,0.15
+Israel,41,0.15
+Israel,42,0.1
+Israel,43,0.1
+Israel,44,0.09
+Israel,45,0.09
+Israel,46,0.09
+Israel,47,0.09
+Israel,48,0.045
+Israel,49,0.045
+Israel,50,0.04
+Israel,51,0.04
+Israel,52,0.06
+Israel,53,0.06
+Israel,54,0.06
+Israel,55,0.06
+Israel,56,0.05
+Israel,57,0.06
+Israel,58,0.06
+Israel,59,0.05
+Israel,60,0.045
+Israel,61,0.045
+Israel,62,0.045
+Israel,63,0.04
+Israel,64,0.04
+Israel,65,0.4
+Bolivia,18,0.4
+Bolivia,19,0.35
+Bolivia,20,0.3
+Bolivia,21,0.3
+Bolivia,22,0.3
+Bolivia,23,0.3
+Bolivia,24,0.25
+Bolivia,25,0.3
+Bolivia,26,0.2
+Bolivia,27,0.25
+Bolivia,28,0.25
+Bolivia,29,0.2
+Bolivia,30,0.2
+Bolivia,31,0.2
+Bolivia,32,0.15
+Bolivia,33,0.15
+Bolivia,34,0.15
+Bolivia,35,0.15
+Bolivia,36,0.15
+Bolivia,37,0.15
+Bolivia,38,0.15
+Bolivia,39,0.09
+Bolivia,40,0.08
+Bolivia,41,0.08
+Bolivia,42,0.07
+Bolivia,43,0.07
+Bolivia,44,0.06
+Bolivia,45,0.06
+Bolivia,46,0.05
+Bolivia,47,0.05
+Bolivia,48,0.05
+Bolivia,49,0.04
+Bolivia,50,0.035
+Bolivia,51,0.035
+Bolivia,52,0.035
+Bolivia,53,0.03
+Bolivia,54,0.03
+Bolivia,55,0.025
+Bolivia,56,0.025
+Bolivia,57,0.025
+Bolivia,58,0.025
+Bolivia,59,0.02
+Bolivia,60,0.02
+Bolivia,61,0.015
+Bolivia,62,0.015
+Bolivia,63,0.015
+Bolivia,64,0.015
+Bolivia,65,0.15
+Greece,18,0.15
+Greece,19,0.15
+Greece,20,0.15
+Greece,21,0.2
+Greece,22,0.2
+Greece,23,0.2
+Greece,24,0.15
+Greece,25,0.2
+Greece,26,0.15
+Greece,27,0.15
+Greece,28,0.2
+Greece,29,0.15
+Greece,30,0.15
+Greece,31,0.15
+Greece,32,0.15
+Greece,33,0.15
+Greece,34,0.15
+Greece,35,0.15
+Greece,36,0.15
+Greece,37,0.15
+Greece,38,0.2
+Greece,39,0.15
+Greece,40,0.15
+Greece,41,0.15
+Greece,42,0.15
+Greece,43,0.15
+Greece,44,0.15
+Greece,45,0.15
+Greece,46,0.15
+Greece,47,0.15
+Greece,48,0.04
+Greece,49,0.04
+Greece,50,0.035
+Greece,51,0.03
+Greece,52,0.08
+Greece,53,0.08
+Greece,54,0.07
+Greece,55,0.06
+Greece,56,0.06
+Greece,57,0.06
+Greece,58,0.06
+Greece,59,0.05
+Greece,60,0.045
+Greece,61,0.04
+Greece,62,0.04
+Greece,63,0.035
+Greece,64,0.03
+Greece,65,0.3
+Sri Lanka,18,0.25
+Sri Lanka,19,0.25
+Sri Lanka,20,0.25
+Sri Lanka,21,0.25
+Sri Lanka,22,0.3
+Sri Lanka,23,0.3
+Sri Lanka,24,0.25
+Sri Lanka,25,0.35
+Sri Lanka,26,0.25
+Sri Lanka,27,0.25
+Sri Lanka,28,0.25
+Sri Lanka,29,0.2
+Sri Lanka,30,0.2
+Sri Lanka,31,0.25
+Sri Lanka,32,0.2
+Sri Lanka,33,0.2
+Sri Lanka,34,0.15
+Sri Lanka,35,0.15
+Sri Lanka,36,0.15
+Sri Lanka,37,0.15
+Sri Lanka,38,0.15
+Sri Lanka,39,0.15
+Sri Lanka,40,0.1
+Sri Lanka,41,0.09
+Sri Lanka,42,0.08
+Sri Lanka,43,0.07
+Sri Lanka,44,0.06
+Sri Lanka,45,0.06
+Sri Lanka,46,0.06
+Sri Lanka,47,0.045
+Sri Lanka,48,0.045
+Sri Lanka,49,0.035
+Sri Lanka,50,0.035
+Sri Lanka,51,0.03
+Sri Lanka,52,0.03
+Sri Lanka,53,0.03
+Sri Lanka,54,0.025
+Sri Lanka,55,0.025
+Sri Lanka,56,0.02
+Sri Lanka,57,0.02
+Sri Lanka,58,0.02
+Sri Lanka,59,0.015
+Sri Lanka,60,0.015
+Sri Lanka,61,0.015
+Sri Lanka,62,0.015
+Sri Lanka,63,0.01
+Sri Lanka,64,0.009
+Sri Lanka,65,0.09
+Hong Kong,18,0.15
+Hong Kong,19,0.1
+Hong Kong,20,0.15
+Hong Kong,21,0.15
+Hong Kong,22,0.15
+Hong Kong,23,0.15
+Hong Kong,24,0.15
+Hong Kong,25,0.2
+Hong Kong,26,0.15
+Hong Kong,27,0.2
+Hong Kong,28,0.25
+Hong Kong,29,0.2
+Hong Kong,30,0.2
+Hong Kong,31,0.2
+Hong Kong,32,0.2
+Hong Kong,33,0.2
+Hong Kong,34,0.15
+Hong Kong,35,0.15
+Hong Kong,36,0.15
+Hong Kong,37,0.2
+Hong Kong,38,0.2
+Hong Kong,39,0.15
+Hong Kong,40,0.15
+Hong Kong,41,0.15
+Hong Kong,42,0.15
+Hong Kong,43,0.1
+Hong Kong,44,0.09
+Hong Kong,45,0.09
+Hong Kong,46,0.08
+Hong Kong,47,0.09
+Hong Kong,48,0.04
+Hong Kong,49,0.035
+Hong Kong,50,0.035
+Hong Kong,51,0.03
+Hong Kong,52,0.06
+Hong Kong,53,0.06
+Hong Kong,54,0.06
+Hong Kong,55,0.06
+Hong Kong,56,0.05
+Hong Kong,57,0.06
+Hong Kong,58,0.06
+Hong Kong,59,0.045
+Hong Kong,60,0.045
+Hong Kong,61,0.04
+Hong Kong,62,0.035
+Hong Kong,63,0.035
+Hong Kong,64,0.03
+Hong Kong,65,0.35
+Dominican Republic,18,0.25
+Dominican Republic,19,0.25
+Dominican Republic,20,0.25
+Dominican Republic,21,0.25
+Dominican Republic,22,0.25
+Dominican Republic,23,0.25
+Dominican Republic,24,0.25
+Dominican Republic,25,0.35
+Dominican Republic,26,0.2
+Dominican Republic,27,0.2
+Dominican Republic,28,0.2
+Dominican Republic,29,0.2
+Dominican Republic,30,0.2
+Dominican Republic,31,0.25
+Dominican Republic,32,0.15
+Dominican Republic,33,0.15
+Dominican Republic,34,0.15
+Dominican Republic,35,0.15
+Dominican Republic,36,0.15
+Dominican Republic,37,0.15
+Dominican Republic,38,0.15
+Dominican Republic,39,0.1
+Dominican Republic,40,0.09
+Dominican Republic,41,0.08
+Dominican Republic,42,0.08
+Dominican Republic,43,0.08
+Dominican Republic,44,0.07
+Dominican Republic,45,0.07
+Dominican Republic,46,0.06
+Dominican Republic,47,0.06
+Dominican Republic,48,0.06
+Dominican Republic,49,0.05
+Dominican Republic,50,0.05
+Dominican Republic,51,0.045
+Dominican Republic,52,0.045
+Dominican Republic,53,0.045
+Dominican Republic,54,0.04
+Dominican Republic,55,0.035
+Dominican Republic,56,0.03
+Dominican Republic,57,0.03
+Dominican Republic,58,0.03
+Dominican Republic,59,0.025
+Dominican Republic,60,0.02
+Dominican Republic,61,0.02
+Dominican Republic,62,0.02
+Dominican Republic,63,0.015
+Dominican Republic,64,0.015
+Dominican Republic,65,0.15
+Jordan,18,0.3
+Jordan,19,0.3
+Jordan,20,0.25
+Jordan,21,0.25
+Jordan,22,0.25
+Jordan,23,0.25
+Jordan,24,0.25
+Jordan,25,0.4
+Jordan,26,0.2
+Jordan,27,0.2
+Jordan,28,0.25
+Jordan,29,0.2
+Jordan,30,0.2
+Jordan,31,0.2
+Jordan,32,0.15
+Jordan,33,0.15
+Jordan,34,0.15
+Jordan,35,0.15
+Jordan,36,0.1
+Jordan,37,0.15
+Jordan,38,0.15
+Jordan,39,0.09
+Jordan,40,0.08
+Jordan,41,0.07
+Jordan,42,0.07
+Jordan,43,0.07
+Jordan,44,0.06
+Jordan,45,0.06
+Jordan,46,0.06
+Jordan,47,0.06
+Jordan,48,0.015
+Jordan,49,0.015
+Jordan,50,0.015
+Jordan,51,0.01
+Jordan,52,0.04
+Jordan,53,0.035
+Jordan,54,0.03
+Jordan,55,0.03
+Jordan,56,0.025
+Jordan,57,0.025
+Jordan,58,0.025
+Jordan,59,0.02
+Jordan,60,0.02
+Jordan,61,0.015
+Jordan,62,0.015
+Jordan,63,0.015
+Jordan,64,0.01
+Jordan,65,0.1
+Czech Republic,18,0.15
+Czech Republic,19,0.15
+Czech Republic,20,0.15
+Czech Republic,21,0.15
+Czech Republic,22,0.15
+Czech Republic,23,0.15
+Czech Republic,24,0.15
+Czech Republic,25,0.2
+Czech Republic,26,0.15
+Czech Republic,27,0.2
+Czech Republic,28,0.2
+Czech Republic,29,0.15
+Czech Republic,30,0.15
+Czech Republic,31,0.15
+Czech Republic,32,0.15
+Czech Republic,33,0.15
+Czech Republic,34,0.15
+Czech Republic,35,0.15
+Czech Republic,36,0.15
+Czech Republic,37,0.15
+Czech Republic,38,0.15
+Czech Republic,39,0.15
+Czech Republic,40,0.15
+Czech Republic,41,0.15
+Czech Republic,42,0.15
+Czech Republic,43,0.15
+Czech Republic,44,0.15
+Czech Republic,45,0.1
+Czech Republic,46,0.09
+Czech Republic,47,0.08
+Czech Republic,48,0.08
+Czech Republic,49,0.07
+Czech Republic,50,0.06
+Czech Republic,51,0.06
+Czech Republic,52,0.06
+Czech Republic,53,0.06
+Czech Republic,54,0.06
+Czech Republic,55,0.045
+Czech Republic,56,0.04
+Czech Republic,57,0.04
+Czech Republic,58,0.04
+Czech Republic,59,0.035
+Czech Republic,60,0.035
+Czech Republic,61,0.035
+Czech Republic,62,0.03
+Czech Republic,63,0.03
+Czech Republic,64,0.03
+Czech Republic,65,0.3
+Ethiopia,18,0.2
+Ethiopia,19,0.2
+Ethiopia,20,0.15
+Ethiopia,21,0.15
+Ethiopia,22,0.15
+Ethiopia,23,0.2
+Ethiopia,24,0.2
+Ethiopia,25,0.35
+Ethiopia,26,0.25
+Ethiopia,27,0.3
+Ethiopia,28,0.4
+Ethiopia,29,0.25
+Ethiopia,30,0.3
+Ethiopia,31,0.7
+Ethiopia,32,0.2
+Ethiopia,33,0.2
+Ethiopia,34,0.15
+Ethiopia,35,0.15
+Ethiopia,36,0.1
+Ethiopia,37,0.1
+Ethiopia,38,0.15
+Ethiopia,39,0.06
+Ethiopia,40,0.06
+Ethiopia,41,0.045
+Ethiopia,42,0.04
+Ethiopia,43,0.04
+Ethiopia,44,0.03
+Ethiopia,45,0.025
+Ethiopia,46,0.025
+Ethiopia,47,0.025
+Ethiopia,48,0.03
+Ethiopia,49,0.015
+Ethiopia,50,0.015
+Ethiopia,51,0.015
+Ethiopia,52,0.015
+Ethiopia,53,0.015
+Ethiopia,54,0.009
+Ethiopia,55,0.007
+Ethiopia,56,0.006
+Ethiopia,57,0.007
+Ethiopia,58,0.008
+Ethiopia,59,0.004
+Ethiopia,60,0.0045
+Ethiopia,61,0.0035
+Ethiopia,62,0.003
+Ethiopia,63,0.003
+Ethiopia,64,0.0025
+Ethiopia,65,0.08
+Ghana,18,0.3
+Ghana,19,0.3
+Ghana,20,0.3
+Ghana,21,0.25
+Ghana,22,0.25
+Ghana,23,0.3
+Ghana,24,0.25
+Ghana,25,0.3
+Ghana,26,0.2
+Ghana,27,0.2
+Ghana,28,0.25
+Ghana,29,0.2
+Ghana,30,0.2
+Ghana,31,0.35
+Ghana,32,0.15
+Ghana,33,0.15
+Ghana,34,0.1
+Ghana,35,0.1
+Ghana,36,0.08
+Ghana,37,0.08
+Ghana,38,0.09
+Ghana,39,0.06
+Ghana,40,0.06
+Ghana,41,0.05
+Ghana,42,0.045
+Ghana,43,0.045
+Ghana,44,0.035
+Ghana,45,0.03
+Ghana,46,0.03
+Ghana,47,0.03
+Ghana,48,0.03
+Ghana,49,0.025
+Ghana,50,0.025
+Ghana,51,0.02
+Ghana,52,0.025
+Ghana,53,0.025
+Ghana,54,0.02
+Ghana,55,0.02
+Ghana,56,0.015
+Ghana,57,0.02
+Ghana,58,0.025
+Ghana,59,0.015
+Ghana,60,0.02
+Ghana,61,0.02
+Ghana,62,0.008
+Ghana,63,0.008
+Ghana,64,0.006
+Ghana,65,0.25
+Singapore,18,0.07
+Singapore,19,0.08
+Singapore,20,0.09
+Singapore,21,0.1
+Singapore,22,0.15
+Singapore,23,0.15
+Singapore,24,0.15
+Singapore,25,0.2
+Singapore,26,0.15
+Singapore,27,0.2
+Singapore,28,0.2
+Singapore,29,0.2
+Singapore,30,0.2
+Singapore,31,0.15
+Singapore,32,0.15
+Singapore,33,0.15
+Singapore,34,0.15
+Singapore,35,0.15
+Singapore,36,0.15
+Singapore,37,0.15
+Singapore,38,0.15
+Singapore,39,0.1
+Singapore,40,0.09
+Singapore,41,0.09
+Singapore,42,0.08
+Singapore,43,0.08
+Singapore,44,0.08
+Singapore,45,0.08
+Singapore,46,0.07
+Singapore,47,0.07
+Singapore,48,0.07
+Singapore,49,0.06
+Singapore,50,0.05
+Singapore,51,0.05
+Singapore,52,0.06
+Singapore,53,0.05
+Singapore,54,0.045
+Singapore,55,0.04
+Singapore,56,0.04
+Singapore,57,0.045
+Singapore,58,0.04
+Singapore,59,0.035
+Singapore,60,0.035
+Singapore,61,0.035
+Singapore,62,0.03
+Singapore,63,0.03
+Singapore,64,0.025
+Singapore,65,0.2
+Tanzania,18,0.2
+Tanzania,19,0.25
+Tanzania,20,0.25
+Tanzania,21,0.25
+Tanzania,22,0.25
+Tanzania,23,0.25
+Tanzania,24,0.25
+Tanzania,25,0.35
+Tanzania,26,0.2
+Tanzania,27,0.2
+Tanzania,28,0.2
+Tanzania,29,0.15
+Tanzania,30,0.15
+Tanzania,31,0.25
+Tanzania,32,0.15
+Tanzania,33,0.1
+Tanzania,34,0.08
+Tanzania,35,0.07
+Tanzania,36,0.06
+Tanzania,37,0.07
+Tanzania,38,0.08
+Tanzania,39,0.06
+Tanzania,40,0.05
+Tanzania,41,0.045
+Tanzania,42,0.045
+Tanzania,43,0.04
+Tanzania,44,0.035
+Tanzania,45,0.03
+Tanzania,46,0.03
+Tanzania,47,0.025
+Tanzania,48,0.03
+Tanzania,49,0.02
+Tanzania,50,0.02
+Tanzania,51,0.015
+Tanzania,52,0.015
+Tanzania,53,0.015
+Tanzania,54,0.015
+Tanzania,55,0.01
+Tanzania,56,0.015
+Tanzania,57,0.015
+Tanzania,58,0.015
+Tanzania,59,0.008
+Tanzania,60,0.007
+Tanzania,61,0.006
+Tanzania,62,0.005
+Tanzania,63,0.005
+Tanzania,64,0.0045
+Tanzania,65,0.15
+Austria,18,0.08
+Austria,19,0.09
+Austria,20,0.15
+Austria,21,0.15
+Austria,22,0.15
+Austria,23,0.15
+Austria,24,0.15
+Austria,25,0.15
+Austria,26,0.15
+Austria,27,0.15
+Austria,28,0.15
+Austria,29,0.15
+Austria,30,0.15
+Austria,31,0.15
+Austria,32,0.1
+Austria,33,0.1
+Austria,34,0.1
+Austria,35,0.1
+Austria,36,0.1
+Austria,37,0.09
+Austria,38,0.09
+Austria,39,0.08
+Austria,40,0.08
+Austria,41,0.07
+Austria,42,0.07
+Austria,43,0.08
+Austria,44,0.07
+Austria,45,0.07
+Austria,46,0.07
+Austria,47,0.07
+Austria,48,0.07
+Austria,49,0.07
+Austria,50,0.06
+Austria,51,0.06
+Austria,52,0.06
+Austria,53,0.06
+Austria,54,0.05
+Austria,55,0.05
+Austria,56,0.045
+Austria,57,0.04
+Austria,58,0.04
+Austria,59,0.035
+Austria,60,0.03
+Austria,61,0.03
+Austria,62,0.025
+Austria,63,0.025
+Austria,64,0.02
+Austria,65,0.2
+Switzerland,18,0.06
+Switzerland,19,0.07
+Switzerland,20,0.09
+Switzerland,21,0.1
+Switzerland,22,0.1
+Switzerland,23,0.1
+Switzerland,24,0.1
+Switzerland,25,0.15
+Switzerland,26,0.15
+Switzerland,27,0.15
+Switzerland,28,0.15
+Switzerland,29,0.15
+Switzerland,30,0.15
+Switzerland,31,0.15
+Switzerland,32,0.1
+Switzerland,33,0.15
+Switzerland,34,0.1
+Switzerland,35,0.1
+Switzerland,36,0.1
+Switzerland,37,0.15
+Switzerland,38,0.1
+Switzerland,39,0.09
+Switzerland,40,0.08
+Switzerland,41,0.08
+Switzerland,42,0.08
+Switzerland,43,0.08
+Switzerland,44,0.07
+Switzerland,45,0.07
+Switzerland,46,0.07
+Switzerland,47,0.07
+Switzerland,48,0.08
+Switzerland,49,0.07
+Switzerland,50,0.07
+Switzerland,51,0.06
+Switzerland,52,0.06
+Switzerland,53,0.06
+Switzerland,54,0.06
+Switzerland,55,0.05
+Switzerland,56,0.045
+Switzerland,57,0.045
+Switzerland,58,0.045
+Switzerland,59,0.04
+Switzerland,60,0.035
+Switzerland,61,0.03
+Switzerland,62,0.03
+Switzerland,63,0.025
+Switzerland,64,0.025
+Switzerland,65,0.25
+Libya,18,0.2
+Libya,19,0.2
+Libya,20,0.2
+Libya,21,0.15
+Libya,22,0.15
+Libya,23,0.15
+Libya,24,0.15
+Libya,25,0.25
+Libya,26,0.15
+Libya,27,0.15
+Libya,28,0.2
+Libya,29,0.15
+Libya,30,0.15
+Libya,31,0.25
+Libya,32,0.15
+Libya,33,0.15
+Libya,34,0.09
+Libya,35,0.09
+Libya,36,0.08
+Libya,37,0.09
+Libya,38,0.1
+Libya,39,0.07
+Libya,40,0.07
+Libya,41,0.06
+Libya,42,0.06
+Libya,43,0.06
+Libya,44,0.045
+Libya,45,0.045
+Libya,46,0.04
+Libya,47,0.04
+Libya,48,0.06
+Libya,49,0.035
+Libya,50,0.025
+Libya,51,0.025
+Libya,52,0.025
+Libya,53,0.02
+Libya,54,0.02
+Libya,55,0.015
+Libya,56,0.015
+Libya,57,0.015
+Libya,58,0.015
+Libya,59,0.009
+Libya,60,0.008
+Libya,61,0.007
+Libya,62,0.006
+Libya,63,0.006
+Libya,64,0.0045
+Libya,65,0.06
+Lebanon,18,0.2
+Lebanon,19,0.2
+Lebanon,20,0.15
+Lebanon,21,0.15
+Lebanon,22,0.15
+Lebanon,23,0.15
+Lebanon,24,0.15
+Lebanon,25,0.3
+Lebanon,26,0.15
+Lebanon,27,0.15
+Lebanon,28,0.15
+Lebanon,29,0.15
+Lebanon,30,0.15
+Lebanon,31,0.15
+Lebanon,32,0.09
+Lebanon,33,0.1
+Lebanon,34,0.08
+Lebanon,35,0.08
+Lebanon,36,0.07
+Lebanon,37,0.08
+Lebanon,38,0.09
+Lebanon,39,0.06
+Lebanon,40,0.05
+Lebanon,41,0.05
+Lebanon,42,0.05
+Lebanon,43,0.06
+Lebanon,44,0.045
+Lebanon,45,0.045
+Lebanon,46,0.04
+Lebanon,47,0.045
+Lebanon,48,0.05
+Lebanon,49,0.035
+Lebanon,50,0.035
+Lebanon,51,0.035
+Lebanon,52,0.035
+Lebanon,53,0.035
+Lebanon,54,0.03
+Lebanon,55,0.025
+Lebanon,56,0.025
+Lebanon,57,0.025
+Lebanon,58,0.025
+Lebanon,59,0.02
+Lebanon,60,0.02
+Lebanon,61,0.015
+Lebanon,62,0.015
+Lebanon,63,0.015
+Lebanon,64,0.015
+Lebanon,65,0.1
+Denmark,18,0.09
+Denmark,19,0.09
+Denmark,20,0.09
+Denmark,21,0.1
+Denmark,22,0.1
+Denmark,23,0.1
+Denmark,24,0.09
+Denmark,25,0.1
+Denmark,26,0.09
+Denmark,27,0.09
+Denmark,28,0.09
+Denmark,29,0.08
+Denmark,30,0.08
+Denmark,31,0.08
+Denmark,32,0.07
+Denmark,33,0.07
+Denmark,34,0.07
+Denmark,35,0.07
+Denmark,36,0.07
+Denmark,37,0.07
+Denmark,38,0.07
+Denmark,39,0.07
+Denmark,40,0.07
+Denmark,41,0.07
+Denmark,42,0.07
+Denmark,43,0.08
+Denmark,44,0.07
+Denmark,45,0.07
+Denmark,46,0.07
+Denmark,47,0.07
+Denmark,48,0.07
+Denmark,49,0.07
+Denmark,50,0.07
+Denmark,51,0.07
+Denmark,52,0.07
+Denmark,53,0.07
+Denmark,54,0.07
+Denmark,55,0.06
+Denmark,56,0.06
+Denmark,57,0.06
+Denmark,58,0.05
+Denmark,59,0.05
+Denmark,60,0.045
+Denmark,61,0.045
+Denmark,62,0.045
+Denmark,63,0.04
+Denmark,64,0.04
+Denmark,65,0.45
+Bulgaria,18,0.15
+Bulgaria,19,0.1
+Bulgaria,20,0.09
+Bulgaria,21,0.1
+Bulgaria,22,0.09
+Bulgaria,23,0.09
+Bulgaria,24,0.09
+Bulgaria,25,0.15
+Bulgaria,26,0.09
+Bulgaria,27,0.1
+Bulgaria,28,0.1
+Bulgaria,29,0.09
+Bulgaria,30,0.09
+Bulgaria,31,0.15
+Bulgaria,32,0.09
+Bulgaria,33,0.09
+Bulgaria,34,0.09
+Bulgaria,35,0.08
+Bulgaria,36,0.09
+Bulgaria,37,0.09
+Bulgaria,38,0.09
+Bulgaria,39,0.08
+Bulgaria,40,0.08
+Bulgaria,41,0.09
+Bulgaria,42,0.09
+Bulgaria,43,0.08
+Bulgaria,44,0.08
+Bulgaria,45,0.07
+Bulgaria,46,0.07
+Bulgaria,47,0.07
+Bulgaria,48,0.07
+Bulgaria,49,0.07
+Bulgaria,50,0.06
+Bulgaria,51,0.05
+Bulgaria,52,0.05
+Bulgaria,53,0.05
+Bulgaria,54,0.045
+Bulgaria,55,0.045
+Bulgaria,56,0.045
+Bulgaria,57,0.045
+Bulgaria,58,0.04
+Bulgaria,59,0.04
+Bulgaria,60,0.035
+Bulgaria,61,0.035
+Bulgaria,62,0.03
+Bulgaria,63,0.03
+Bulgaria,64,0.025
+Bulgaria,65,0.2
+Afghanistan,18,0.4
+Afghanistan,19,0.35
+Afghanistan,20,0.25
+Afghanistan,21,0.2
+Afghanistan,22,0.2
+Afghanistan,23,0.2
+Afghanistan,24,0.15
+Afghanistan,25,0.35
+Afghanistan,26,0.15
+Afghanistan,27,0.15
+Afghanistan,28,0.2
+Afghanistan,29,0.09
+Afghanistan,30,0.09
+Afghanistan,31,0.4
+Afghanistan,32,0.05
+Afghanistan,33,0.06
+Afghanistan,34,0.03
+Afghanistan,35,0.03
+Afghanistan,36,0.035
+Afghanistan,37,0.025
+Afghanistan,38,0.045
+Afghanistan,39,0.015
+Afghanistan,40,0.015
+Afghanistan,41,0.015
+Afghanistan,42,0.015
+Afghanistan,43,0.02
+Afghanistan,44,0.01
+Afghanistan,45,0.01
+Afghanistan,46,0.009
+Afghanistan,47,0.01
+Afghanistan,48,0.02
+Afghanistan,49,0.006
+Afghanistan,50,0.006
+Afghanistan,51,0.006
+Afghanistan,52,0.006
+Afghanistan,53,0.007
+Afghanistan,54,0.004
+Afghanistan,55,0.004
+Afghanistan,56,0.003
+Afghanistan,57,0.004
+Afghanistan,58,0.006
+Afghanistan,59,0.0025
+Afghanistan,60,0.0025
+Afghanistan,61,0.002
+Afghanistan,62,0.0025
+Afghanistan,63,0.0025
+Afghanistan,64,0.0015
+Afghanistan,65,0.08
+Costa Rica,18,0.15
+Costa Rica,19,0.15
+Costa Rica,20,0.15
+Costa Rica,21,0.15
+Costa Rica,22,0.15
+Costa Rica,23,0.15
+Costa Rica,24,0.15
+Costa Rica,25,0.15
+Costa Rica,26,0.1
+Costa Rica,27,0.15
+Costa Rica,28,0.15
+Costa Rica,29,0.1
+Costa Rica,30,0.1
+Costa Rica,31,0.15
+Costa Rica,32,0.09
+Costa Rica,33,0.09
+Costa Rica,34,0.08
+Costa Rica,35,0.08
+Costa Rica,36,0.08
+Costa Rica,37,0.08
+Costa Rica,38,0.08
+Costa Rica,39,0.07
+Costa Rica,40,0.06
+Costa Rica,41,0.06
+Costa Rica,42,0.06
+Costa Rica,43,0.06
+Costa Rica,44,0.05
+Costa Rica,45,0.045
+Costa Rica,46,0.045
+Costa Rica,47,0.045
+Costa Rica,48,0.045
+Costa Rica,49,0.04
+Costa Rica,50,0.04
+Costa Rica,51,0.04
+Costa Rica,52,0.04
+Costa Rica,53,0.035
+Costa Rica,54,0.035
+Costa Rica,55,0.035
+Costa Rica,56,0.03
+Costa Rica,57,0.03
+Costa Rica,58,0.03
+Costa Rica,59,0.025
+Costa Rica,60,0.025
+Costa Rica,61,0.02
+Costa Rica,62,0.02
+Costa Rica,63,0.02
+Costa Rica,64,0.015
+Costa Rica,65,0.15
+El Salvador,18,0.2
+El Salvador,19,0.2
+El Salvador,20,0.2
+El Salvador,21,0.2
+El Salvador,22,0.2
+El Salvador,23,0.2
+El Salvador,24,0.15
+El Salvador,25,0.2
+El Salvador,26,0.15
+El Salvador,27,0.15
+El Salvador,28,0.15
+El Salvador,29,0.1
+El Salvador,30,0.1
+El Salvador,31,0.15
+El Salvador,32,0.08
+El Salvador,33,0.08
+El Salvador,34,0.07
+El Salvador,35,0.06
+El Salvador,36,0.06
+El Salvador,37,0.07
+El Salvador,38,0.07
+El Salvador,39,0.06
+El Salvador,40,0.06
+El Salvador,41,0.05
+El Salvador,42,0.05
+El Salvador,43,0.045
+El Salvador,44,0.04
+El Salvador,45,0.035
+El Salvador,46,0.035
+El Salvador,47,0.035
+El Salvador,48,0.035
+El Salvador,49,0.03
+El Salvador,50,0.03
+El Salvador,51,0.025
+El Salvador,52,0.025
+El Salvador,53,0.025
+El Salvador,54,0.02
+El Salvador,55,0.02
+El Salvador,56,0.015
+El Salvador,57,0.02
+El Salvador,58,0.02
+El Salvador,59,0.015
+El Salvador,60,0.015
+El Salvador,61,0.015
+El Salvador,62,0.01
+El Salvador,63,0.009
+El Salvador,64,0.008
+El Salvador,65,0.09
+Serbia,18,0.09
+Serbia,19,0.1
+Serbia,20,0.1
+Serbia,21,0.15
+Serbia,22,0.15
+Serbia,23,0.15
+Serbia,24,0.15
+Serbia,25,0.15
+Serbia,26,0.1
+Serbia,27,0.15
+Serbia,28,0.15
+Serbia,29,0.09
+Serbia,30,0.09
+Serbia,31,0.1
+Serbia,32,0.09
+Serbia,33,0.09
+Serbia,34,0.09
+Serbia,35,0.09
+Serbia,36,0.08
+Serbia,37,0.09
+Serbia,38,0.09
+Serbia,39,0.08
+Serbia,40,0.08
+Serbia,41,0.07
+Serbia,42,0.07
+Serbia,43,0.07
+Serbia,44,0.06
+Serbia,45,0.06
+Serbia,46,0.06
+Serbia,47,0.06
+Serbia,48,0.06
+Serbia,49,0.045
+Serbia,50,0.045
+Serbia,51,0.04
+Serbia,52,0.04
+Serbia,53,0.035
+Serbia,54,0.035
+Serbia,55,0.03
+Serbia,56,0.03
+Serbia,57,0.03
+Serbia,58,0.03
+Serbia,59,0.025
+Serbia,60,0.025
+Serbia,61,0.025
+Serbia,62,0.02
+Serbia,63,0.02
+Serbia,64,0.02
+Serbia,65,0.15
+Norway,18,0.08
+Norway,19,0.08
+Norway,20,0.08
+Norway,21,0.08
+Norway,22,0.08
+Norway,23,0.08
+Norway,24,0.08
+Norway,25,0.08
+Norway,26,0.08
+Norway,27,0.09
+Norway,28,0.09
+Norway,29,0.08
+Norway,30,0.08
+Norway,31,0.08
+Norway,32,0.08
+Norway,33,0.08
+Norway,34,0.07
+Norway,35,0.07
+Norway,36,0.07
+Norway,37,0.07
+Norway,38,0.07
+Norway,39,0.07
+Norway,40,0.07
+Norway,41,0.07
+Norway,42,0.07
+Norway,43,0.07
+Norway,44,0.07
+Norway,45,0.07
+Norway,46,0.07
+Norway,47,0.07
+Norway,48,0.07
+Norway,49,0.07
+Norway,50,0.07
+Norway,51,0.07
+Norway,52,0.06
+Norway,53,0.06
+Norway,54,0.06
+Norway,55,0.06
+Norway,56,0.05
+Norway,57,0.05
+Norway,58,0.045
+Norway,59,0.045
+Norway,60,0.045
+Norway,61,0.04
+Norway,62,0.04
+Norway,63,0.04
+Norway,64,0.035
+Norway,65,0.4
+Paraguay,18,0.15
+Paraguay,19,0.15
+Paraguay,20,0.15
+Paraguay,21,0.15
+Paraguay,22,0.15
+Paraguay,23,0.15
+Paraguay,24,0.15
+Paraguay,25,0.2
+Paraguay,26,0.15
+Paraguay,27,0.15
+Paraguay,28,0.15
+Paraguay,29,0.15
+Paraguay,30,0.15
+Paraguay,31,0.15
+Paraguay,32,0.09
+Paraguay,33,0.09
+Paraguay,34,0.08
+Paraguay,35,0.08
+Paraguay,36,0.08
+Paraguay,37,0.07
+Paraguay,38,0.07
+Paraguay,39,0.06
+Paraguay,40,0.06
+Paraguay,41,0.05
+Paraguay,42,0.045
+Paraguay,43,0.045
+Paraguay,44,0.04
+Paraguay,45,0.04
+Paraguay,46,0.035
+Paraguay,47,0.035
+Paraguay,48,0.035
+Paraguay,49,0.03
+Paraguay,50,0.03
+Paraguay,51,0.025
+Paraguay,52,0.025
+Paraguay,53,0.025
+Paraguay,54,0.025
+Paraguay,55,0.025
+Paraguay,56,0.02
+Paraguay,57,0.02
+Paraguay,58,0.02
+Paraguay,59,0.015
+Paraguay,60,0.015
+Paraguay,61,0.015
+Paraguay,62,0.015
+Paraguay,63,0.01
+Paraguay,64,0.009
+Paraguay,65,0.07
+Cameroon,18,0.2
+Cameroon,19,0.2
+Cameroon,20,0.2
+Cameroon,21,0.15
+Cameroon,22,0.15
+Cameroon,23,0.15
+Cameroon,24,0.15
+Cameroon,25,0.2
+Cameroon,26,0.15
+Cameroon,27,0.15
+Cameroon,28,0.15
+Cameroon,29,0.15
+Cameroon,30,0.15
+Cameroon,31,0.3
+Cameroon,32,0.09
+Cameroon,33,0.09
+Cameroon,34,0.07
+Cameroon,35,0.07
+Cameroon,36,0.06
+Cameroon,37,0.06
+Cameroon,38,0.07
+Cameroon,39,0.045
+Cameroon,40,0.04
+Cameroon,41,0.04
+Cameroon,42,0.035
+Cameroon,43,0.035
+Cameroon,44,0.03
+Cameroon,45,0.025
+Cameroon,46,0.025
+Cameroon,47,0.025
+Cameroon,48,0.025
+Cameroon,49,0.02
+Cameroon,50,0.015
+Cameroon,51,0.015
+Cameroon,52,0.015
+Cameroon,53,0.015
+Cameroon,54,0.01
+Cameroon,55,0.009
+Cameroon,56,0.008
+Cameroon,57,0.01
+Cameroon,58,0.015
+Cameroon,59,0.006
+Cameroon,60,0.006
+Cameroon,61,0.0045
+Cameroon,62,0.0045
+Cameroon,63,0.004
+Cameroon,64,0.0035
+Cameroon,65,0.1
+Honduras,18,0.2
+Honduras,19,0.2
+Honduras,20,0.2
+Honduras,21,0.2
+Honduras,22,0.2
+Honduras,23,0.15
+Honduras,24,0.15
+Honduras,25,0.2
+Honduras,26,0.15
+Honduras,27,0.15
+Honduras,28,0.15
+Honduras,29,0.1
+Honduras,30,0.1
+Honduras,31,0.15
+Honduras,32,0.08
+Honduras,33,0.08
+Honduras,34,0.07
+Honduras,35,0.07
+Honduras,36,0.06
+Honduras,37,0.07
+Honduras,38,0.06
+Honduras,39,0.05
+Honduras,40,0.045
+Honduras,41,0.045
+Honduras,42,0.04
+Honduras,43,0.04
+Honduras,44,0.035
+Honduras,45,0.03
+Honduras,46,0.03
+Honduras,47,0.03
+Honduras,48,0.03
+Honduras,49,0.025
+Honduras,50,0.02
+Honduras,51,0.02
+Honduras,52,0.02
+Honduras,53,0.02
+Honduras,54,0.015
+Honduras,55,0.015
+Honduras,56,0.015
+Honduras,57,0.015
+Honduras,58,0.015
+Honduras,59,0.01
+Honduras,60,0.009
+Honduras,61,0.009
+Honduras,62,0.008
+Honduras,63,0.007
+Honduras,64,0.006
+Honduras,65,0.07
+Kuwait,18,0.07
+Kuwait,19,0.08
+Kuwait,20,0.06
+Kuwait,21,0.06
+Kuwait,22,0.07
+Kuwait,23,0.09
+Kuwait,24,0.1
+Kuwait,25,0.25
+Kuwait,26,0.15
+Kuwait,27,0.15
+Kuwait,28,0.2
+Kuwait,29,0.15
+Kuwait,30,0.15
+Kuwait,31,0.15
+Kuwait,32,0.15
+Kuwait,33,0.15
+Kuwait,34,0.1
+Kuwait,35,0.09
+Kuwait,36,0.09
+Kuwait,37,0.1
+Kuwait,38,0.15
+Kuwait,39,0.07
+Kuwait,40,0.07
+Kuwait,41,0.06
+Kuwait,42,0.06
+Kuwait,43,0.06
+Kuwait,44,0.045
+Kuwait,45,0.04
+Kuwait,46,0.04
+Kuwait,47,0.04
+Kuwait,48,0.04
+Kuwait,49,0.025
+Kuwait,50,0.025
+Kuwait,51,0.02
+Kuwait,52,0.02
+Kuwait,53,0.02
+Kuwait,54,0.015
+Kuwait,55,0.015
+Kuwait,56,0.015
+Kuwait,57,0.015
+Kuwait,58,0.015
+Kuwait,59,0.008
+Kuwait,60,0.007
+Kuwait,61,0.006
+Kuwait,62,0.006
+Kuwait,63,0.005
+Kuwait,64,0.0035
+Kuwait,65,0.035
+China,18,0.15
+China,19,0.15
+China,20,0.15
+China,21,0.15
+China,22,0.2
+China,23,0.2
+China,24,0.2
+China,25,0.25
+China,26,0.15
+China,27,0.15
+China,28,0.2
+China,29,0.15
+China,30,0.15
+China,31,0.15
+China,32,0.09
+China,33,0.08
+China,34,0.07
+China,35,0.07
+China,36,0.06
+China,37,0.05
+China,38,0.05
+China,39,0.035
+China,40,0.035
+China,41,0.03
+China,42,0.025
+China,43,0.025
+China,44,0.02
+China,45,0.02
+China,46,0.02
+China,47,0.02
+China,48,0.02
+China,49,0.015
+China,50,0.015
+China,51,0.009
+China,52,0.009
+China,53,0.008
+China,54,0.008
+China,55,0.007
+China,56,0.006
+China,57,0.006
+China,58,0.006
+China,59,0.004
+China,60,0.0035
+China,61,0.003
+China,62,0.003
+China,63,0.0025
+China,64,0.002
+China,65,0.045
+New Zealand,18,0.08
+New Zealand,19,0.08
+New Zealand,20,0.09
+New Zealand,21,0.09
+New Zealand,22,0.09
+New Zealand,23,0.09
+New Zealand,24,0.09
+New Zealand,25,0.1
+New Zealand,26,0.09
+New Zealand,27,0.1
+New Zealand,28,0.1
+New Zealand,29,0.08
+New Zealand,30,0.08
+New Zealand,31,0.08
+New Zealand,32,0.07
+New Zealand,33,0.07
+New Zealand,34,0.07
+New Zealand,35,0.07
+New Zealand,36,0.06
+New Zealand,37,0.07
+New Zealand,38,0.07
+New Zealand,39,0.06
+New Zealand,40,0.06
+New Zealand,41,0.06
+New Zealand,42,0.06
+New Zealand,43,0.06
+New Zealand,44,0.06
+New Zealand,45,0.06
+New Zealand,46,0.06
+New Zealand,47,0.06
+New Zealand,48,0.06
+New Zealand,49,0.05
+New Zealand,50,0.045
+New Zealand,51,0.045
+New Zealand,52,0.045
+New Zealand,53,0.045
+New Zealand,54,0.045
+New Zealand,55,0.045
+New Zealand,56,0.045
+New Zealand,57,0.045
+New Zealand,58,0.04
+New Zealand,59,0.04
+New Zealand,60,0.035
+New Zealand,61,0.035
+New Zealand,62,0.03
+New Zealand,63,0.03
+New Zealand,64,0.03
+New Zealand,65,0.3
+Qatar,18,0.07
+Qatar,19,0.09
+Qatar,20,0.08
+Qatar,21,0.08
+Qatar,22,0.1
+Qatar,23,0.15
+Qatar,24,0.15
+Qatar,25,0.25
+Qatar,26,0.15
+Qatar,27,0.15
+Qatar,28,0.2
+Qatar,29,0.15
+Qatar,30,0.15
+Qatar,31,0.2
+Qatar,32,0.15
+Qatar,33,0.15
+Qatar,34,0.09
+Qatar,35,0.08
+Qatar,36,0.08
+Qatar,37,0.08
+Qatar,38,0.09
+Qatar,39,0.06
+Qatar,40,0.05
+Qatar,41,0.045
+Qatar,42,0.04
+Qatar,43,0.04
+Qatar,44,0.03
+Qatar,45,0.03
+Qatar,46,0.025
+Qatar,47,0.03
+Qatar,48,0.03
+Qatar,49,0.02
+Qatar,50,0.02
+Qatar,51,0.015
+Qatar,52,0.015
+Qatar,53,0.015
+Qatar,54,0.01
+Qatar,55,0.009
+Qatar,56,0.008
+Qatar,57,0.007
+Qatar,58,0.008
+Qatar,59,0.005
+Qatar,60,0.0045
+Qatar,61,0.0035
+Qatar,62,0.0035
+Qatar,63,0.003
+Qatar,64,0.002
+Qatar,65,0.035
+Senegal,18,0.2
+Senegal,19,0.2
+Senegal,20,0.2
+Senegal,21,0.15
+Senegal,22,0.15
+Senegal,23,0.15
+Senegal,24,0.15
+Senegal,25,0.2
+Senegal,26,0.15
+Senegal,27,0.1
+Senegal,28,0.15
+Senegal,29,0.1
+Senegal,30,0.1
+Senegal,31,0.3
+Senegal,32,0.08
+Senegal,33,0.07
+Senegal,34,0.06
+Senegal,35,0.06
+Senegal,36,0.05
+Senegal,37,0.05
+Senegal,38,0.06
+Senegal,39,0.04
+Senegal,40,0.04
+Senegal,41,0.035
+Senegal,42,0.03
+Senegal,43,0.03
+Senegal,44,0.025
+Senegal,45,0.02
+Senegal,46,0.02
+Senegal,47,0.02
+Senegal,48,0.02
+Senegal,49,0.015
+Senegal,50,0.015
+Senegal,51,0.015
+Senegal,52,0.015
+Senegal,53,0.01
+Senegal,54,0.008
+Senegal,55,0.008
+Senegal,56,0.007
+Senegal,57,0.009
+Senegal,58,0.01
+Senegal,59,0.006
+Senegal,60,0.005
+Senegal,61,0.0045
+Senegal,62,0.004
+Senegal,63,0.0035
+Senegal,64,0.0035
+Senegal,65,0.08
+Finland,18,0.07
+Finland,19,0.07
+Finland,20,0.07
+Finland,21,0.08
+Finland,22,0.08
+Finland,23,0.08
+Finland,24,0.07
+Finland,25,0.08
+Finland,26,0.07
+Finland,27,0.08
+Finland,28,0.08
+Finland,29,0.07
+Finland,30,0.07
+Finland,31,0.07
+Finland,32,0.07
+Finland,33,0.07
+Finland,34,0.07
+Finland,35,0.07
+Finland,36,0.07
+Finland,37,0.07
+Finland,38,0.07
+Finland,39,0.06
+Finland,40,0.06
+Finland,41,0.06
+Finland,42,0.06
+Finland,43,0.06
+Finland,44,0.05
+Finland,45,0.045
+Finland,46,0.045
+Finland,47,0.045
+Finland,48,0.05
+Finland,49,0.045
+Finland,50,0.05
+Finland,51,0.045
+Finland,52,0.045
+Finland,53,0.045
+Finland,54,0.045
+Finland,55,0.04
+Finland,56,0.04
+Finland,57,0.035
+Finland,58,0.035
+Finland,59,0.035
+Finland,60,0.03
+Finland,61,0.03
+Finland,62,0.03
+Finland,63,0.03
+Finland,64,0.025
+Finland,65,0.3
+Angola,18,0.25
+Angola,19,0.25
+Angola,20,0.2
+Angola,21,0.2
+Angola,22,0.15
+Angola,23,0.15
+Angola,24,0.15
+Angola,25,0.15
+Angola,26,0.1
+Angola,27,0.09
+Angola,28,0.1
+Angola,29,0.09
+Angola,30,0.08
+Angola,31,0.09
+Angola,32,0.07
+Angola,33,0.06
+Angola,34,0.045
+Angola,35,0.045
+Angola,36,0.04
+Angola,37,0.04
+Angola,38,0.04
+Angola,39,0.03
+Angola,40,0.03
+Angola,41,0.025
+Angola,42,0.025
+Angola,43,0.025
+Angola,44,0.02
+Angola,45,0.015
+Angola,46,0.015
+Angola,47,0.015
+Angola,48,0.015
+Angola,49,0.015
+Angola,50,0.015
+Angola,51,0.01
+Angola,52,0.009
+Angola,53,0.009
+Angola,54,0.007
+Angola,55,0.007
+Angola,56,0.006
+Angola,57,0.007
+Angola,58,0.008
+Angola,59,0.004
+Angola,60,0.0035
+Angola,61,0.003
+Angola,62,0.003
+Angola,63,0.0025
+Angola,64,0.002
+Angola,65,0.15
+Nicaragua,18,0.2
+Nicaragua,19,0.15
+Nicaragua,20,0.15
+Nicaragua,21,0.15
+Nicaragua,22,0.15
+Nicaragua,23,0.15
+Nicaragua,24,0.15
+Nicaragua,25,0.15
+Nicaragua,26,0.09
+Nicaragua,27,0.1
+Nicaragua,28,0.1
+Nicaragua,29,0.08
+Nicaragua,30,0.08
+Nicaragua,31,0.2
+Nicaragua,32,0.07
+Nicaragua,33,0.07
+Nicaragua,34,0.06
+Nicaragua,35,0.06
+Nicaragua,36,0.06
+Nicaragua,37,0.06
+Nicaragua,38,0.05
+Nicaragua,39,0.04
+Nicaragua,40,0.035
+Nicaragua,41,0.03
+Nicaragua,42,0.03
+Nicaragua,43,0.03
+Nicaragua,44,0.025
+Nicaragua,45,0.025
+Nicaragua,46,0.025
+Nicaragua,47,0.02
+Nicaragua,48,0.02
+Nicaragua,49,0.02
+Nicaragua,50,0.02
+Nicaragua,51,0.015
+Nicaragua,52,0.015
+Nicaragua,53,0.015
+Nicaragua,54,0.015
+Nicaragua,55,0.015
+Nicaragua,56,0.015
+Nicaragua,57,0.01
+Nicaragua,58,0.01
+Nicaragua,59,0.008
+Nicaragua,60,0.007
+Nicaragua,61,0.007
+Nicaragua,62,0.006
+Nicaragua,63,0.006
+Nicaragua,64,0.0045
+Nicaragua,65,0.06
+Ireland,18,0.07
+Ireland,19,0.07
+Ireland,20,0.08
+Ireland,21,0.08
+Ireland,22,0.08
+Ireland,23,0.08
+Ireland,24,0.07
+Ireland,25,0.08
+Ireland,26,0.07
+Ireland,27,0.08
+Ireland,28,0.08
+Ireland,29,0.07
+Ireland,30,0.07
+Ireland,31,0.07
+Ireland,32,0.08
+Ireland,33,0.08
+Ireland,34,0.08
+Ireland,35,0.08
+Ireland,36,0.08
+Ireland,37,0.08
+Ireland,38,0.08
+Ireland,39,0.07
+Ireland,40,0.07
+Ireland,41,0.07
+Ireland,42,0.06
+Ireland,43,0.06
+Ireland,44,0.06
+Ireland,45,0.06
+Ireland,46,0.06
+Ireland,47,0.06
+Ireland,48,0.025
+Ireland,49,0.02
+Ireland,50,0.02
+Ireland,51,0.02
+Ireland,52,0.04
+Ireland,53,0.035
+Ireland,54,0.035
+Ireland,55,0.035
+Ireland,56,0.03
+Ireland,57,0.03
+Ireland,58,0.03
+Ireland,59,0.025
+Ireland,60,0.025
+Ireland,61,0.025
+Ireland,62,0.02
+Ireland,63,0.02
+Ireland,64,0.02
+Ireland,65,0.2
+Uganda,18,0.15
+Uganda,19,0.15
+Uganda,20,0.2
+Uganda,21,0.2
+Uganda,22,0.2
+Uganda,23,0.2
+Uganda,24,0.15
+Uganda,25,0.2
+Uganda,26,0.15
+Uganda,27,0.1
+Uganda,28,0.15
+Uganda,29,0.09
+Uganda,30,0.08
+Uganda,31,0.15
+Uganda,32,0.06
+Uganda,33,0.05
+Uganda,34,0.04
+Uganda,35,0.04
+Uganda,36,0.03
+Uganda,37,0.03
+Uganda,38,0.035
+Uganda,39,0.025
+Uganda,40,0.02
+Uganda,41,0.02
+Uganda,42,0.02
+Uganda,43,0.015
+Uganda,44,0.015
+Uganda,45,0.015
+Uganda,46,0.009
+Uganda,47,0.01
+Uganda,48,0.015
+Uganda,49,0.008
+Uganda,50,0.006
+Uganda,51,0.005
+Uganda,52,0.005
+Uganda,53,0.005
+Uganda,54,0.004
+Uganda,55,0.006
+Uganda,56,0.0045
+Uganda,57,0.004
+Uganda,58,0.0045
+Uganda,59,0.0025
+Uganda,60,0.002
+Uganda,61,0.002
+Uganda,62,0.002
+Uganda,63,0.0015
+Uganda,64,0.0015
+Uganda,65,0.09
+Democratic Republic of the Congo,18,0.15
+Democratic Republic of the Congo,19,0.15
+Democratic Republic of the Congo,20,0.15
+Democratic Republic of the Congo,21,0.15
+Democratic Republic of the Congo,22,0.15
+Democratic Republic of the Congo,23,0.15
+Democratic Republic of the Congo,24,0.09
+Democratic Republic of the Congo,25,0.15
+Democratic Republic of the Congo,26,0.08
+Democratic Republic of the Congo,27,0.08
+Democratic Republic of the Congo,28,0.09
+Democratic Republic of the Congo,29,0.07
+Democratic Republic of the Congo,30,0.07
+Democratic Republic of the Congo,31,0.15
+Democratic Republic of the Congo,32,0.06
+Democratic Republic of the Congo,33,0.05
+Democratic Republic of the Congo,34,0.04
+Democratic Republic of the Congo,35,0.04
+Democratic Republic of the Congo,36,0.035
+Democratic Republic of the Congo,37,0.04
+Democratic Republic of the Congo,38,0.045
+Democratic Republic of the Congo,39,0.03
+Democratic Republic of the Congo,40,0.025
+Democratic Republic of the Congo,41,0.025
+Democratic Republic of the Congo,42,0.025
+Democratic Republic of the Congo,43,0.025
+Democratic Republic of the Congo,44,0.02
+Democratic Republic of the Congo,45,0.02
+Democratic Republic of the Congo,46,0.015
+Democratic Republic of the Congo,47,0.02
+Democratic Republic of the Congo,48,0.02
+Democratic Republic of the Congo,49,0.015
+Democratic Republic of the Congo,50,0.015
+Democratic Republic of the Congo,51,0.009
+Democratic Republic of the Congo,52,0.01
+Democratic Republic of the Congo,53,0.009
+Democratic Republic of the Congo,54,0.008
+Democratic Republic of the Congo,55,0.007
+Democratic Republic of the Congo,56,0.006
+Democratic Republic of the Congo,57,0.02
+Democratic Republic of the Congo,58,0.025
+Democratic Republic of the Congo,59,0.005
+Democratic Republic of the Congo,60,0.0045
+Democratic Republic of the Congo,61,0.004
+Democratic Republic of the Congo,62,0.004
+Democratic Republic of the Congo,63,0.004
+Democratic Republic of the Congo,64,0.003
+Democratic Republic of the Congo,65,0.25
+Slovakia,18,0.08
+Slovakia,19,0.08
+Slovakia,20,0.08
+Slovakia,21,0.08
+Slovakia,22,0.08
+Slovakia,23,0.08
+Slovakia,24,0.08
+Slovakia,25,0.1
+Slovakia,26,0.08
+Slovakia,27,0.08
+Slovakia,28,0.09
+Slovakia,29,0.07
+Slovakia,30,0.07
+Slovakia,31,0.08
+Slovakia,32,0.07
+Slovakia,33,0.07
+Slovakia,34,0.07
+Slovakia,35,0.07
+Slovakia,36,0.06
+Slovakia,37,0.07
+Slovakia,38,0.07
+Slovakia,39,0.06
+Slovakia,40,0.06
+Slovakia,41,0.06
+Slovakia,42,0.06
+Slovakia,43,0.06
+Slovakia,44,0.05
+Slovakia,45,0.045
+Slovakia,46,0.04
+Slovakia,47,0.04
+Slovakia,48,0.035
+Slovakia,49,0.03
+Slovakia,50,0.03
+Slovakia,51,0.03
+Slovakia,52,0.03
+Slovakia,53,0.03
+Slovakia,54,0.03
+Slovakia,55,0.025
+Slovakia,56,0.025
+Slovakia,57,0.025
+Slovakia,58,0.02
+Slovakia,59,0.02
+Slovakia,60,0.02
+Slovakia,61,0.02
+Slovakia,62,0.02
+Slovakia,63,0.015
+Slovakia,64,0.015
+Slovakia,65,0.1
+Uruguay,18,0.07
+Uruguay,19,0.08
+Uruguay,20,0.08
+Uruguay,21,0.09
+Uruguay,22,0.09
+Uruguay,23,0.09
+Uruguay,24,0.08
+Uruguay,25,0.09
+Uruguay,26,0.07
+Uruguay,27,0.07
+Uruguay,28,0.08
+Uruguay,29,0.06
+Uruguay,30,0.07
+Uruguay,31,0.07
+Uruguay,32,0.06
+Uruguay,33,0.06
+Uruguay,34,0.05
+Uruguay,35,0.05
+Uruguay,36,0.05
+Uruguay,37,0.05
+Uruguay,38,0.06
+Uruguay,39,0.05
+Uruguay,40,0.05
+Uruguay,41,0.045
+Uruguay,42,0.045
+Uruguay,43,0.045
+Uruguay,44,0.04
+Uruguay,45,0.04
+Uruguay,46,0.035
+Uruguay,47,0.04
+Uruguay,48,0.04
+Uruguay,49,0.035
+Uruguay,50,0.035
+Uruguay,51,0.03
+Uruguay,52,0.03
+Uruguay,53,0.03
+Uruguay,54,0.03
+Uruguay,55,0.03
+Uruguay,56,0.03
+Uruguay,57,0.03
+Uruguay,58,0.03
+Uruguay,59,0.025
+Uruguay,60,0.025
+Uruguay,61,0.025
+Uruguay,62,0.025
+Uruguay,63,0.02
+Uruguay,64,0.02
+Uruguay,65,0.2
+Georgia,18,0.1
+Georgia,19,0.09
+Georgia,20,0.09
+Georgia,21,0.09
+Georgia,22,0.09
+Georgia,23,0.08
+Georgia,24,0.08
+Georgia,25,0.15
+Georgia,26,0.08
+Georgia,27,0.09
+Georgia,28,0.09
+Georgia,29,0.07
+Georgia,30,0.07
+Georgia,31,0.08
+Georgia,32,0.07
+Georgia,33,0.07
+Georgia,34,0.06
+Georgia,35,0.06
+Georgia,36,0.06
+Georgia,37,0.06
+Georgia,38,0.06
+Georgia,39,0.05
+Georgia,40,0.045
+Georgia,41,0.045
+Georgia,42,0.045
+Georgia,43,0.04
+Georgia,44,0.04
+Georgia,45,0.035
+Georgia,46,0.035
+Georgia,47,0.035
+Georgia,48,0.035
+Georgia,49,0.03
+Georgia,50,0.03
+Georgia,51,0.025
+Georgia,52,0.025
+Georgia,53,0.025
+Georgia,54,0.025
+Georgia,55,0.025
+Georgia,56,0.025
+Georgia,57,0.025
+Georgia,58,0.02
+Georgia,59,0.02
+Georgia,60,0.015
+Georgia,61,0.015
+Georgia,62,0.015
+Georgia,63,0.015
+Georgia,64,0.01
+Georgia,65,0.09
+Laos,18,0.2
+Laos,19,0.15
+Laos,20,0.15
+Laos,21,0.15
+Laos,22,0.15
+Laos,23,0.15
+Laos,24,0.1
+Laos,25,0.25
+Laos,26,0.09
+Laos,27,0.08
+Laos,28,0.09
+Laos,29,0.07
+Laos,30,0.07
+Laos,31,0.08
+Laos,32,0.06
+Laos,33,0.05
+Laos,34,0.04
+Laos,35,0.04
+Laos,36,0.035
+Laos,37,0.035
+Laos,38,0.035
+Laos,39,0.025
+Laos,40,0.02
+Laos,41,0.02
+Laos,42,0.02
+Laos,43,0.025
+Laos,44,0.015
+Laos,45,0.02
+Laos,46,0.015
+Laos,47,0.015
+Laos,48,0.02
+Laos,49,0.015
+Laos,50,0.015
+Laos,51,0.01
+Laos,52,0.015
+Laos,53,0.009
+Laos,54,0.009
+Laos,55,0.008
+Laos,56,0.007
+Laos,57,0.007
+Laos,58,0.008
+Laos,59,0.0045
+Laos,60,0.004
+Laos,61,0.0035
+Laos,62,0.003
+Laos,63,0.003
+Laos,64,0.0025
+Laos,65,0.025
+Yemen,18,0.15
+Yemen,19,0.15
+Yemen,20,0.15
+Yemen,21,0.1
+Yemen,22,0.1
+Yemen,23,0.15
+Yemen,24,0.1
+Yemen,25,0.2
+Yemen,26,0.08
+Yemen,27,0.08
+Yemen,28,0.15
+Yemen,29,0.08
+Yemen,30,0.08
+Yemen,31,0.2
+Yemen,32,0.06
+Yemen,33,0.06
+Yemen,34,0.045
+Yemen,35,0.04
+Yemen,36,0.04
+Yemen,37,0.035
+Yemen,38,0.06
+Yemen,39,0.03
+Yemen,40,0.025
+Yemen,41,0.02
+Yemen,42,0.02
+Yemen,43,0.025
+Yemen,44,0.015
+Yemen,45,0.015
+Yemen,46,0.015
+Yemen,47,0.01
+Yemen,48,0.015
+Yemen,49,0.007
+Yemen,50,0.007
+Yemen,51,0.006
+Yemen,52,0.005
+Yemen,53,0.006
+Yemen,54,0.0045
+Yemen,55,0.0045
+Yemen,56,0.0045
+Yemen,57,0.003
+Yemen,58,0.0045
+Yemen,59,0.0025
+Yemen,60,0.002
+Yemen,61,0.002
+Yemen,62,0.002
+Yemen,63,0.002
+Yemen,64,0
+Yemen,65,0.025
+Kazakhstan,18,0.05
+Kazakhstan,19,0.045
+Kazakhstan,20,0.04
+Kazakhstan,21,0.04
+Kazakhstan,22,0.045
+Kazakhstan,23,0.05
+Kazakhstan,24,0.06
+Kazakhstan,25,0.15
+Kazakhstan,26,0.07
+Kazakhstan,27,0.07
+Kazakhstan,28,0.08
+Kazakhstan,29,0.08
+Kazakhstan,30,0.09
+Kazakhstan,31,0.09
+Kazakhstan,32,0.08
+Kazakhstan,33,0.08
+Kazakhstan,34,0.08
+Kazakhstan,35,0.07
+Kazakhstan,36,0.07
+Kazakhstan,37,0.07
+Kazakhstan,38,0.06
+Kazakhstan,39,0.06
+Kazakhstan,40,0.05
+Kazakhstan,41,0.05
+Kazakhstan,42,0.045
+Kazakhstan,43,0.04
+Kazakhstan,44,0.04
+Kazakhstan,45,0.035
+Kazakhstan,46,0.035
+Kazakhstan,47,0.03
+Kazakhstan,48,0.03
+Kazakhstan,49,0.025
+Kazakhstan,50,0.025
+Kazakhstan,51,0.025
+Kazakhstan,52,0.02
+Kazakhstan,53,0.02
+Kazakhstan,54,0.02
+Kazakhstan,55,0.02
+Kazakhstan,56,0.02
+Kazakhstan,57,0.015
+Kazakhstan,58,0.015
+Kazakhstan,59,0.015
+Kazakhstan,60,0.01
+Kazakhstan,61,0.009
+Kazakhstan,62,0.008
+Kazakhstan,63,0.007
+Kazakhstan,64,0.006
+Kazakhstan,65,0.04
+Oman,18,0.06
+Oman,19,0.07
+Oman,20,0.06
+Oman,21,0.06
+Oman,22,0.07
+Oman,23,0.08
+Oman,24,0.08
+Oman,25,0.2
+Oman,26,0.09
+Oman,27,0.09
+Oman,28,0.15
+Oman,29,0.09
+Oman,30,0.1
+Oman,31,0.15
+Oman,32,0.08
+Oman,33,0.08
+Oman,34,0.06
+Oman,35,0.05
+Oman,36,0.045
+Oman,37,0.045
+Oman,38,0.06
+Oman,39,0.035
+Oman,40,0.03
+Oman,41,0.025
+Oman,42,0.025
+Oman,43,0.025
+Oman,44,0.02
+Oman,45,0.02
+Oman,46,0.02
+Oman,47,0.02
+Oman,48,0.02
+Oman,49,0.015
+Oman,50,0.01
+Oman,51,0.008
+Oman,52,0.008
+Oman,53,0.008
+Oman,54,0.006
+Oman,55,0.005
+Oman,56,0.0045
+Oman,57,0.0045
+Oman,58,0.005
+Oman,59,0.0035
+Oman,60,0.003
+Oman,61,0.0025
+Oman,62,0.002
+Oman,63,0.002
+Oman,64,0.0015
+Oman,65,0.02
+Mozambique,18,0.2
+Mozambique,19,0.15
+Mozambique,20,0.15
+Mozambique,21,0.15
+Mozambique,22,0.15
+Mozambique,23,0.1
+Mozambique,24,0.09
+Mozambique,25,0.09
+Mozambique,26,0.07
+Mozambique,27,0.06
+Mozambique,28,0.07
+Mozambique,29,0.06
+Mozambique,30,0.06
+Mozambique,31,0.15
+Mozambique,32,0.045
+Mozambique,33,0.04
+Mozambique,34,0.035
+Mozambique,35,0.035
+Mozambique,36,0.03
+Mozambique,37,0.03
+Mozambique,38,0.03
+Mozambique,39,0.025
+Mozambique,40,0.02
+Mozambique,41,0.02
+Mozambique,42,0.02
+Mozambique,43,0.015
+Mozambique,44,0.015
+Mozambique,45,0.01
+Mozambique,46,0.009
+Mozambique,47,0.008
+Mozambique,48,0.009
+Mozambique,49,0.007
+Mozambique,50,0.006
+Mozambique,51,0.006
+Mozambique,52,0.006
+Mozambique,53,0.006
+Mozambique,54,0.005
+Mozambique,55,0.0045
+Mozambique,56,0.004
+Mozambique,57,0.004
+Mozambique,58,0.004
+Mozambique,59,0.003
+Mozambique,60,0.0025
+Mozambique,61,0.002
+Mozambique,62,0.002
+Mozambique,63,0.002
+Mozambique,64,0.0015
+Mozambique,65,0.07
+Puerto Rico,18,0.03
+Puerto Rico,19,0.04
+Puerto Rico,20,0.045
+Puerto Rico,21,0.05
+Puerto Rico,22,0.05
+Puerto Rico,23,0.06
+Puerto Rico,24,0.06
+Puerto Rico,25,0.07
+Puerto Rico,26,0.05
+Puerto Rico,27,0.06
+Puerto Rico,28,0.06
+Puerto Rico,29,0.045
+Puerto Rico,30,0.045
+Puerto Rico,31,0.045
+Puerto Rico,32,0.04
+Puerto Rico,33,0.04
+Puerto Rico,34,0.04
+Puerto Rico,35,0.04
+Puerto Rico,36,0.04
+Puerto Rico,37,0.045
+Puerto Rico,38,0.05
+Puerto Rico,39,0.04
+Puerto Rico,40,0.04
+Puerto Rico,41,0.04
+Puerto Rico,42,0.04
+Puerto Rico,43,0.04
+Puerto Rico,44,0.035
+Puerto Rico,45,0.035
+Puerto Rico,46,0.035
+Puerto Rico,47,0.04
+Puerto Rico,48,0.04
+Puerto Rico,49,0.035
+Puerto Rico,50,0.03
+Puerto Rico,51,0.03
+Puerto Rico,52,0.035
+Puerto Rico,53,0.035
+Puerto Rico,54,0.03
+Puerto Rico,55,0.03
+Puerto Rico,56,0.03
+Puerto Rico,57,0.03
+Puerto Rico,58,0.03
+Puerto Rico,59,0.025
+Puerto Rico,60,0.025
+Puerto Rico,61,0.025
+Puerto Rico,62,0.025
+Puerto Rico,63,0.025
+Puerto Rico,64,0.02
+Puerto Rico,65,0.2
+Madagascar,18,0.2
+Madagascar,19,0.2
+Madagascar,20,0.15
+Madagascar,21,0.15
+Madagascar,22,0.1
+Madagascar,23,0.09
+Madagascar,24,0.08
+Madagascar,25,0.1
+Madagascar,26,0.06
+Madagascar,27,0.06
+Madagascar,28,0.07
+Madagascar,29,0.045
+Madagascar,30,0.045
+Madagascar,31,0.15
+Madagascar,32,0.035
+Madagascar,33,0.03
+Madagascar,34,0.025
+Madagascar,35,0.025
+Madagascar,36,0.02
+Madagascar,37,0.025
+Madagascar,38,0.025
+Madagascar,39,0.02
+Madagascar,40,0.015
+Madagascar,41,0.015
+Madagascar,42,0.015
+Madagascar,43,0.015
+Madagascar,44,0.01
+Madagascar,45,0.01
+Madagascar,46,0.009
+Madagascar,47,0.009
+Madagascar,48,0.009
+Madagascar,49,0.007
+Madagascar,50,0.007
+Madagascar,51,0.006
+Madagascar,52,0.006
+Madagascar,53,0.006
+Madagascar,54,0.0045
+Madagascar,55,0.0045
+Madagascar,56,0.004
+Madagascar,57,0.006
+Madagascar,58,0.008
+Madagascar,59,0.0035
+Madagascar,60,0.003
+Madagascar,61,0.003
+Madagascar,62,0.0025
+Madagascar,63,0.0025
+Madagascar,64,0.002
+Madagascar,65,0.09
+Haiti,18,0.1
+Haiti,19,0.1
+Haiti,20,0.09
+Haiti,21,0.09
+Haiti,22,0.09
+Haiti,23,0.09
+Haiti,24,0.08
+Haiti,25,0.15
+Haiti,26,0.07
+Haiti,27,0.08
+Haiti,28,0.08
+Haiti,29,0.07
+Haiti,30,0.08
+Haiti,31,0.2
+Haiti,32,0.06
+Haiti,33,0.05
+Haiti,34,0.04
+Haiti,35,0.04
+Haiti,36,0.035
+Haiti,37,0.035
+Haiti,38,0.035
+Haiti,39,0.025
+Haiti,40,0.025
+Haiti,41,0.02
+Haiti,42,0.02
+Haiti,43,0.02
+Haiti,44,0.015
+Haiti,45,0.015
+Haiti,46,0.015
+Haiti,47,0.015
+Haiti,48,0.015
+Haiti,49,0.008
+Haiti,50,0.007
+Haiti,51,0.007
+Haiti,52,0.006
+Haiti,53,0.005
+Haiti,54,0.0045
+Haiti,55,0.004
+Haiti,56,0.0035
+Haiti,57,0.004
+Haiti,58,0.004
+Haiti,59,0.0025
+Haiti,60,0.0025
+Haiti,61,0.0025
+Haiti,62,0.002
+Haiti,63,0.002
+Haiti,64,0.002
+Haiti,65,0.06
+Mongolia,18,0.15
+Mongolia,19,0.09
+Mongolia,20,0.08
+Mongolia,21,0.07
+Mongolia,22,0.07
+Mongolia,23,0.07
+Mongolia,24,0.07
+Mongolia,25,0.09
+Mongolia,26,0.07
+Mongolia,27,0.07
+Mongolia,28,0.08
+Mongolia,29,0.07
+Mongolia,30,0.07
+Mongolia,31,0.08
+Mongolia,32,0.06
+Mongolia,33,0.05
+Mongolia,34,0.045
+Mongolia,35,0.04
+Mongolia,36,0.04
+Mongolia,37,0.04
+Mongolia,38,0.04
+Mongolia,39,0.035
+Mongolia,40,0.035
+Mongolia,41,0.03
+Mongolia,42,0.03
+Mongolia,43,0.03
+Mongolia,44,0.025
+Mongolia,45,0.025
+Mongolia,46,0.025
+Mongolia,47,0.025
+Mongolia,48,0.025
+Mongolia,49,0.02
+Mongolia,50,0.02
+Mongolia,51,0.02
+Mongolia,52,0.02
+Mongolia,53,0.015
+Mongolia,54,0.015
+Mongolia,55,0.015
+Mongolia,56,0.015
+Mongolia,57,0.015
+Mongolia,58,0.015
+Mongolia,59,0.008
+Mongolia,60,0.007
+Mongolia,61,0.006
+Mongolia,62,0.005
+Mongolia,63,0.0045
+Mongolia,64,0.0035
+Mongolia,65,0.04
+Croatia,18,0.045
+Croatia,19,0.05
+Croatia,20,0.06
+Croatia,21,0.07
+Croatia,22,0.07
+Croatia,23,0.07
+Croatia,24,0.06
+Croatia,25,0.07
+Croatia,26,0.06
+Croatia,27,0.07
+Croatia,28,0.07
+Croatia,29,0.05
+Croatia,30,0.05
+Croatia,31,0.05
+Croatia,32,0.05
+Croatia,33,0.05
+Croatia,34,0.05
+Croatia,35,0.045
+Croatia,36,0.05
+Croatia,37,0.05
+Croatia,38,0.05
+Croatia,39,0.045
+Croatia,40,0.04
+Croatia,41,0.04
+Croatia,42,0.04
+Croatia,43,0.04
+Croatia,44,0.035
+Croatia,45,0.035
+Croatia,46,0.035
+Croatia,47,0.03
+Croatia,48,0.03
+Croatia,49,0.03
+Croatia,50,0.025
+Croatia,51,0.025
+Croatia,52,0.025
+Croatia,53,0.025
+Croatia,54,0.02
+Croatia,55,0.02
+Croatia,56,0.02
+Croatia,57,0.02
+Croatia,58,0.02
+Croatia,59,0.015
+Croatia,60,0.015
+Croatia,61,0.015
+Croatia,62,0.015
+Croatia,63,0.015
+Croatia,64,0.01
+Croatia,65,0.09
+Zambia,18,0.15
+Zambia,19,0.15
+Zambia,20,0.15
+Zambia,21,0.1
+Zambia,22,0.1
+Zambia,23,0.09
+Zambia,24,0.09
+Zambia,25,0.1
+Zambia,26,0.07
+Zambia,27,0.06
+Zambia,28,0.06
+Zambia,29,0.045
+Zambia,30,0.05
+Zambia,31,0.08
+Zambia,32,0.035
+Zambia,33,0.035
+Zambia,34,0.03
+Zambia,35,0.03
+Zambia,36,0.025
+Zambia,37,0.03
+Zambia,38,0.03
+Zambia,39,0.025
+Zambia,40,0.02
+Zambia,41,0.02
+Zambia,42,0.02
+Zambia,43,0.015
+Zambia,44,0.015
+Zambia,45,0.015
+Zambia,46,0.015
+Zambia,47,0.015
+Zambia,48,0.015
+Zambia,49,0.008
+Zambia,50,0.007
+Zambia,51,0.006
+Zambia,52,0.006
+Zambia,53,0.01
+Zambia,54,0.009
+Zambia,55,0.004
+Zambia,56,0.0035
+Zambia,57,0.005
+Zambia,58,0.006
+Zambia,59,0.003
+Zambia,60,0.0025
+Zambia,61,0.0025
+Zambia,62,0.0025
+Zambia,63,0.0025
+Zambia,64,0.002
+Zambia,65,0.2
+Azerbaijan,18,0.06
+Azerbaijan,19,0.06
+Azerbaijan,20,0.06
+Azerbaijan,21,0.06
+Azerbaijan,22,0.07
+Azerbaijan,23,0.07
+Azerbaijan,24,0.08
+Azerbaijan,25,0.15
+Azerbaijan,26,0.07
+Azerbaijan,27,0.07
+Azerbaijan,28,0.08
+Azerbaijan,29,0.07
+Azerbaijan,30,0.07
+Azerbaijan,31,0.07
+Azerbaijan,32,0.06
+Azerbaijan,33,0.06
+Azerbaijan,34,0.05
+Azerbaijan,35,0.045
+Azerbaijan,36,0.045
+Azerbaijan,37,0.045
+Azerbaijan,38,0.045
+Azerbaijan,39,0.035
+Azerbaijan,40,0.035
+Azerbaijan,41,0.03
+Azerbaijan,42,0.03
+Azerbaijan,43,0.025
+Azerbaijan,44,0.025
+Azerbaijan,45,0.02
+Azerbaijan,46,0.02
+Azerbaijan,47,0.02
+Azerbaijan,48,0.02
+Azerbaijan,49,0.015
+Azerbaijan,50,0.015
+Azerbaijan,51,0.015
+Azerbaijan,52,0.015
+Azerbaijan,53,0.015
+Azerbaijan,54,0.015
+Azerbaijan,55,0.015
+Azerbaijan,56,0.015
+Azerbaijan,57,0.015
+Azerbaijan,58,0.015
+Azerbaijan,59,0.01
+Azerbaijan,60,0.008
+Azerbaijan,61,0.008
+Azerbaijan,62,0.007
+Azerbaijan,63,0.006
+Azerbaijan,64,0.0045
+Azerbaijan,65,0.04
+Panama,18,0.06
+Panama,19,0.07
+Panama,20,0.07
+Panama,21,0.07
+Panama,22,0.07
+Panama,23,0.07
+Panama,24,0.07
+Panama,25,0.09
+Panama,26,0.06
+Panama,27,0.07
+Panama,28,0.07
+Panama,29,0.06
+Panama,30,0.06
+Panama,31,0.06
+Panama,32,0.06
+Panama,33,0.05
+Panama,34,0.045
+Panama,35,0.045
+Panama,36,0.045
+Panama,37,0.045
+Panama,38,0.045
+Panama,39,0.04
+Panama,40,0.035
+Panama,41,0.035
+Panama,42,0.035
+Panama,43,0.03
+Panama,44,0.03
+Panama,45,0.03
+Panama,46,0.025
+Panama,47,0.025
+Panama,48,0.025
+Panama,49,0.025
+Panama,50,0.02
+Panama,51,0.02
+Panama,52,0.02
+Panama,53,0.02
+Panama,54,0.015
+Panama,55,0.015
+Panama,56,0.015
+Panama,57,0.015
+Panama,58,0.015
+Panama,59,0.01
+Panama,60,0.009
+Panama,61,0.009
+Panama,62,0.008
+Panama,63,0.007
+Panama,64,0.006
+Panama,65,0.05
+Guinea,18,0.15
+Guinea,19,0.15
+Guinea,20,0.15
+Guinea,21,0.09
+Guinea,22,0.1
+Guinea,23,0.1
+Guinea,24,0.08
+Guinea,25,0.15
+Guinea,26,0.07
+Guinea,27,0.06
+Guinea,28,0.1
+Guinea,29,0.05
+Guinea,30,0.06
+Guinea,31,0.09
+Guinea,32,0.045
+Guinea,33,0.045
+Guinea,34,0.035
+Guinea,35,0.025
+Guinea,36,0.025
+Guinea,37,0.025
+Guinea,38,0.035
+Guinea,39,0.015
+Guinea,40,0.015
+Guinea,41,0.015
+Guinea,42,0.015
+Guinea,43,0.015
+Guinea,44,0.009
+Guinea,45,0.008
+Guinea,46,0.008
+Guinea,47,0.009
+Guinea,48,0.015
+Guinea,49,0.006
+Guinea,50,0.006
+Guinea,51,0.005
+Guinea,52,0.006
+Guinea,53,0.006
+Guinea,54,0.0045
+Guinea,55,0.0035
+Guinea,56,0.0035
+Guinea,57,0.0035
+Guinea,58,0.005
+Guinea,59,0.0035
+Guinea,60,0.004
+Guinea,61,0.0025
+Guinea,62,0.0025
+Guinea,63,0.0025
+Guinea,64,0.002
+Guinea,65,0.02
+Mali,18,0.15
+Mali,19,0.1
+Mali,20,0.09
+Mali,21,0.08
+Mali,22,0.08
+Mali,23,0.08
+Mali,24,0.07
+Mali,25,0.1
+Mali,26,0.06
+Mali,27,0.07
+Mali,28,0.07
+Mali,29,0.05
+Mali,30,0.06
+Mali,31,0.2
+Mali,32,0.04
+Mali,33,0.04
+Mali,34,0.03
+Mali,35,0.025
+Mali,36,0.025
+Mali,37,0.025
+Mali,38,0.03
+Mali,39,0.02
+Mali,40,0.015
+Mali,41,0.015
+Mali,42,0.015
+Mali,43,0.015
+Mali,44,0.009
+Mali,45,0.008
+Mali,46,0.007
+Mali,47,0.008
+Mali,48,0.009
+Mali,49,0.005
+Mali,50,0.006
+Mali,51,0.004
+Mali,52,0.004
+Mali,53,0.004
+Mali,54,0.0035
+Mali,55,0.003
+Mali,56,0.0025
+Mali,57,0.004
+Mali,58,0.0045
+Mali,59,0.002
+Mali,60,0.002
+Mali,61,0.0015
+Mali,62,0.0015
+Mali,63,0.0015
+Mali,64,0
+Mali,65,0.03
+Bosnia and Herzegovina,18,0.05
+Bosnia and Herzegovina,19,0.05
+Bosnia and Herzegovina,20,0.06
+Bosnia and Herzegovina,21,0.07
+Bosnia and Herzegovina,22,0.07
+Bosnia and Herzegovina,23,0.07
+Bosnia and Herzegovina,24,0.05
+Bosnia and Herzegovina,25,0.06
+Bosnia and Herzegovina,26,0.045
+Bosnia and Herzegovina,27,0.06
+Bosnia and Herzegovina,28,0.06
+Bosnia and Herzegovina,29,0.045
+Bosnia and Herzegovina,30,0.045
+Bosnia and Herzegovina,31,0.05
+Bosnia and Herzegovina,32,0.04
+Bosnia and Herzegovina,33,0.045
+Bosnia and Herzegovina,34,0.04
+Bosnia and Herzegovina,35,0.04
+Bosnia and Herzegovina,36,0.04
+Bosnia and Herzegovina,37,0.04
+Bosnia and Herzegovina,38,0.04
+Bosnia and Herzegovina,39,0.035
+Bosnia and Herzegovina,40,0.035
+Bosnia and Herzegovina,41,0.03
+Bosnia and Herzegovina,42,0.03
+Bosnia and Herzegovina,43,0.03
+Bosnia and Herzegovina,44,0.03
+Bosnia and Herzegovina,45,0.025
+Bosnia and Herzegovina,46,0.025
+Bosnia and Herzegovina,47,0.025
+Bosnia and Herzegovina,48,0.025
+Bosnia and Herzegovina,49,0.02
+Bosnia and Herzegovina,50,0.02
+Bosnia and Herzegovina,51,0.02
+Bosnia and Herzegovina,52,0.02
+Bosnia and Herzegovina,53,0.02
+Bosnia and Herzegovina,54,0.02
+Bosnia and Herzegovina,55,0.015
+Bosnia and Herzegovina,56,0.015
+Bosnia and Herzegovina,57,0.015
+Bosnia and Herzegovina,58,0.015
+Bosnia and Herzegovina,59,0.015
+Bosnia and Herzegovina,60,0.015
+Bosnia and Herzegovina,61,0.009
+Bosnia and Herzegovina,62,0.009
+Bosnia and Herzegovina,63,0.009
+Bosnia and Herzegovina,64,0.008
+Bosnia and Herzegovina,65,0.05
+Lithuania,18,0.06
+Lithuania,19,0.05
+Lithuania,20,0.05
+Lithuania,21,0.05
+Lithuania,22,0.05
+Lithuania,23,0.045
+Lithuania,24,0.045
+Lithuania,25,0.06
+Lithuania,26,0.045
+Lithuania,27,0.05
+Lithuania,28,0.06
+Lithuania,29,0.045
+Lithuania,30,0.045
+Lithuania,31,0.045
+Lithuania,32,0.045
+Lithuania,33,0.04
+Lithuania,34,0.04
+Lithuania,35,0.04
+Lithuania,36,0.035
+Lithuania,37,0.035
+Lithuania,38,0.035
+Lithuania,39,0.03
+Lithuania,40,0.03
+Lithuania,41,0.03
+Lithuania,42,0.03
+Lithuania,43,0.03
+Lithuania,44,0.03
+Lithuania,45,0.03
+Lithuania,46,0.025
+Lithuania,47,0.03
+Lithuania,48,0.03
+Lithuania,49,0.025
+Lithuania,50,0.025
+Lithuania,51,0.025
+Lithuania,52,0.025
+Lithuania,53,0.02
+Lithuania,54,0.02
+Lithuania,55,0.02
+Lithuania,56,0.02
+Lithuania,57,0.02
+Lithuania,58,0.02
+Lithuania,59,0.02
+Lithuania,60,0.02
+Lithuania,61,0.015
+Lithuania,62,0.015
+Lithuania,63,0.015
+Lithuania,64,0.009
+Lithuania,65,0.07
+Palestine,18,0.1
+Palestine,19,0.09
+Palestine,20,0.08
+Palestine,21,0.07
+Palestine,22,0.07
+Palestine,23,0.07
+Palestine,24,0.07
+Palestine,25,0.15
+Palestine,26,0.06
+Palestine,27,0.06
+Palestine,28,0.06
+Palestine,29,0.045
+Palestine,30,0.045
+Palestine,31,0.05
+Palestine,32,0.035
+Palestine,33,0.035
+Palestine,34,0.03
+Palestine,35,0.03
+Palestine,36,0.025
+Palestine,37,0.025
+Palestine,38,0.03
+Palestine,39,0.02
+Palestine,40,0.02
+Palestine,41,0.02
+Palestine,42,0.02
+Palestine,43,0.02
+Palestine,44,0.015
+Palestine,45,0.015
+Palestine,46,0.015
+Palestine,47,0.015
+Palestine,48,0.015
+Palestine,49,0.01
+Palestine,50,0.009
+Palestine,51,0.009
+Palestine,52,0.009
+Palestine,53,0.009
+Palestine,54,0.008
+Palestine,55,0.007
+Palestine,56,0.006
+Palestine,57,0.006
+Palestine,58,0.006
+Palestine,59,0.0045
+Palestine,60,0.004
+Palestine,61,0.0035
+Palestine,62,0.0035
+Palestine,63,0.003
+Palestine,64,0.0025
+Palestine,65,0.025
+Albania,18,0.05
+Albania,19,0.05
+Albania,20,0.06
+Albania,21,0.06
+Albania,22,0.06
+Albania,23,0.06
+Albania,24,0.06
+Albania,25,0.08
+Albania,26,0.05
+Albania,27,0.06
+Albania,28,0.06
+Albania,29,0.04
+Albania,30,0.04
+Albania,31,0.045
+Albania,32,0.035
+Albania,33,0.035
+Albania,34,0.03
+Albania,35,0.025
+Albania,36,0.025
+Albania,37,0.025
+Albania,38,0.025
+Albania,39,0.02
+Albania,40,0.02
+Albania,41,0.02
+Albania,42,0.02
+Albania,43,0.015
+Albania,44,0.015
+Albania,45,0.015
+Albania,46,0.015
+Albania,47,0.015
+Albania,48,0.015
+Albania,49,0.015
+Albania,50,0.015
+Albania,51,0.015
+Albania,52,0.009
+Albania,53,0.01
+Albania,54,0.009
+Albania,55,0.009
+Albania,56,0.008
+Albania,57,0.008
+Albania,58,0.009
+Albania,59,0.007
+Albania,60,0.007
+Albania,61,0.006
+Albania,62,0.006
+Albania,63,0.006
+Albania,64,0.0045
+Albania,65,0.035
+Somalia,18,0.15
+Somalia,19,0.15
+Somalia,20,0.09
+Somalia,21,0.07
+Somalia,22,0.06
+Somalia,23,0.06
+Somalia,24,0.045
+Somalia,25,0.15
+Somalia,26,0.04
+Somalia,27,0.04
+Somalia,28,0.05
+Somalia,29,0.03
+Somalia,30,0.035
+Somalia,31,0.15
+Somalia,32,0.02
+Somalia,33,0.02
+Somalia,34,0.015
+Somalia,35,0.01
+Somalia,36,0.015
+Somalia,37,0.009
+Somalia,38,0.015
+Somalia,39,0.005
+Somalia,40,0.006
+Somalia,41,0.006
+Somalia,42,0.004
+Somalia,43,0.005
+Somalia,44,0.0035
+Somalia,45,0.003
+Somalia,46,0.003
+Somalia,47,0.003
+Somalia,48,0.006
+Somalia,49,0.003
+Somalia,50,0.0025
+Somalia,51,0.002
+Somalia,52,0.002
+Somalia,53,0.0025
+Somalia,54,0.002
+Somalia,55,0.0015
+Somalia,56,0.0015
+Somalia,57,0.002
+Somalia,58,0.0035
+Somalia,59,0
+Somalia,60,0
+Somalia,61,0
+Somalia,62,0
+Somalia,63,0
+Somalia,64,0
+Somalia,65,0.025
+Armenia,18,0.045
+Armenia,19,0.04
+Armenia,20,0.04
+Armenia,21,0.04
+Armenia,22,0.04
+Armenia,23,0.04
+Armenia,24,0.04
+Armenia,25,0.06
+Armenia,26,0.04
+Armenia,27,0.045
+Armenia,28,0.045
+Armenia,29,0.04
+Armenia,30,0.04
+Armenia,31,0.04
+Armenia,32,0.035
+Armenia,33,0.035
+Armenia,34,0.035
+Armenia,35,0.03
+Armenia,36,0.03
+Armenia,37,0.03
+Armenia,38,0.03
+Armenia,39,0.025
+Armenia,40,0.025
+Armenia,41,0.02
+Armenia,42,0.02
+Armenia,43,0.02
+Armenia,44,0.02
+Armenia,45,0.015
+Armenia,46,0.015
+Armenia,47,0.015
+Armenia,48,0.015
+Armenia,49,0.015
+Armenia,50,0.015
+Armenia,51,0.015
+Armenia,52,0.015
+Armenia,53,0.015
+Armenia,54,0.015
+Armenia,55,0.015
+Armenia,56,0.015
+Armenia,57,0.015
+Armenia,58,0.015
+Armenia,59,0.015
+Armenia,60,0.009
+Armenia,61,0.008
+Armenia,62,0.008
+Armenia,63,0.007
+Armenia,64,0.006
+Armenia,65,0.04
+Benin,18,0.07
+Benin,19,0.07
+Benin,20,0.06
+Benin,21,0.06
+Benin,22,0.06
+Benin,23,0.06
+Benin,24,0.05
+Benin,25,0.08
+Benin,26,0.04
+Benin,27,0.04
+Benin,28,0.045
+Benin,29,0.035
+Benin,30,0.035
+Benin,31,0.06
+Benin,32,0.03
+Benin,33,0.03
+Benin,34,0.025
+Benin,35,0.025
+Benin,36,0.02
+Benin,37,0.02
+Benin,38,0.025
+Benin,39,0.015
+Benin,40,0.015
+Benin,41,0.015
+Benin,42,0.015
+Benin,43,0.015
+Benin,44,0.009
+Benin,45,0.008
+Benin,46,0.008
+Benin,47,0.008
+Benin,48,0.009
+Benin,49,0.006
+Benin,50,0.006
+Benin,51,0.005
+Benin,52,0.005
+Benin,53,0.005
+Benin,54,0.004
+Benin,55,0.004
+Benin,56,0.003
+Benin,57,0.0045
+Benin,58,0.006
+Benin,59,0.0025
+Benin,60,0.0025
+Benin,61,0.002
+Benin,62,0.002
+Benin,63,0.002
+Benin,64,0.0015
+Benin,65,0.03
+Macedonia,18,0.03
+Macedonia,19,0.035
+Macedonia,20,0.035
+Macedonia,21,0.035
+Macedonia,22,0.04
+Macedonia,23,0.04
+Macedonia,24,0.035
+Macedonia,25,0.045
+Macedonia,26,0.035
+Macedonia,27,0.04
+Macedonia,28,0.04
+Macedonia,29,0.03
+Macedonia,30,0.03
+Macedonia,31,0.035
+Macedonia,32,0.03
+Macedonia,33,0.03
+Macedonia,34,0.03
+Macedonia,35,0.025
+Macedonia,36,0.025
+Macedonia,37,0.03
+Macedonia,38,0.03
+Macedonia,39,0.025
+Macedonia,40,0.025
+Macedonia,41,0.025
+Macedonia,42,0.025
+Macedonia,43,0.02
+Macedonia,44,0.02
+Macedonia,45,0.02
+Macedonia,46,0.02
+Macedonia,47,0.02
+Macedonia,48,0.02
+Macedonia,49,0.015
+Macedonia,50,0.015
+Macedonia,51,0.015
+Macedonia,52,0.015
+Macedonia,53,0.015
+Macedonia,54,0.015
+Macedonia,55,0.015
+Macedonia,56,0.01
+Macedonia,57,0.009
+Macedonia,58,0.009
+Macedonia,59,0.008
+Macedonia,60,0.007
+Macedonia,61,0.007
+Macedonia,62,0.006
+Macedonia,63,0.006
+Macedonia,64,0.005
+Macedonia,65,0.035
+Bahrain,18,0.025
+Bahrain,19,0.035
+Bahrain,20,0.03
+Bahrain,21,0.03
+Bahrain,22,0.035
+Bahrain,23,0.04
+Bahrain,24,0.04
+Bahrain,25,0.08
+Bahrain,26,0.045
+Bahrain,27,0.045
+Bahrain,28,0.06
+Bahrain,29,0.045
+Bahrain,30,0.05
+Bahrain,31,0.05
+Bahrain,32,0.04
+Bahrain,33,0.045
+Bahrain,34,0.035
+Bahrain,35,0.03
+Bahrain,36,0.03
+Bahrain,37,0.03
+Bahrain,38,0.035
+Bahrain,39,0.025
+Bahrain,40,0.025
+Bahrain,41,0.02
+Bahrain,42,0.02
+Bahrain,43,0.02
+Bahrain,44,0.015
+Bahrain,45,0.015
+Bahrain,46,0.015
+Bahrain,47,0.015
+Bahrain,48,0.015
+Bahrain,49,0.009
+Bahrain,50,0.008
+Bahrain,51,0.007
+Bahrain,52,0.007
+Bahrain,53,0.007
+Bahrain,54,0.005
+Bahrain,55,0.0045
+Bahrain,56,0.0045
+Bahrain,57,0.004
+Bahrain,58,0.0045
+Bahrain,59,0.003
+Bahrain,60,0.003
+Bahrain,61,0.0025
+Bahrain,62,0.002
+Bahrain,63,0.002
+Bahrain,64,0.0015
+Bahrain,65,0.015
+Jamaica,18,0.035
+Jamaica,19,0.04
+Jamaica,20,0.04
+Jamaica,21,0.04
+Jamaica,22,0.045
+Jamaica,23,0.05
+Jamaica,24,0.045
+Jamaica,25,0.06
+Jamaica,26,0.04
+Jamaica,27,0.04
+Jamaica,28,0.04
+Jamaica,29,0.035
+Jamaica,30,0.035
+Jamaica,31,0.035
+Jamaica,32,0.03
+Jamaica,33,0.03
+Jamaica,34,0.03
+Jamaica,35,0.025
+Jamaica,36,0.025
+Jamaica,37,0.025
+Jamaica,38,0.025
+Jamaica,39,0.02
+Jamaica,40,0.02
+Jamaica,41,0.02
+Jamaica,42,0.02
+Jamaica,43,0.02
+Jamaica,44,0.015
+Jamaica,45,0.015
+Jamaica,46,0.015
+Jamaica,47,0.015
+Jamaica,48,0.015
+Jamaica,49,0.015
+Jamaica,50,0.015
+Jamaica,51,0.015
+Jamaica,52,0.01
+Jamaica,53,0.01
+Jamaica,54,0.009
+Jamaica,55,0.008
+Jamaica,56,0.008
+Jamaica,57,0.007
+Jamaica,58,0.007
+Jamaica,59,0.005
+Jamaica,60,0.0045
+Jamaica,61,0.004
+Jamaica,62,0.004
+Jamaica,63,0.0035
+Jamaica,64,0.003
+Jamaica,65,0.025
+Slovenia,18,0.025
+Slovenia,19,0.025
+Slovenia,20,0.03
+Slovenia,21,0.03
+Slovenia,22,0.03
+Slovenia,23,0.03
+Slovenia,24,0.03
+Slovenia,25,0.03
+Slovenia,26,0.025
+Slovenia,27,0.03
+Slovenia,28,0.03
+Slovenia,29,0.03
+Slovenia,30,0.03
+Slovenia,31,0.03
+Slovenia,32,0.025
+Slovenia,33,0.03
+Slovenia,34,0.025
+Slovenia,35,0.025
+Slovenia,36,0.03
+Slovenia,37,0.03
+Slovenia,38,0.03
+Slovenia,39,0.025
+Slovenia,40,0.025
+Slovenia,41,0.025
+Slovenia,42,0.025
+Slovenia,43,0.025
+Slovenia,44,0.02
+Slovenia,45,0.02
+Slovenia,46,0.02
+Slovenia,47,0.02
+Slovenia,48,0.02
+Slovenia,49,0.015
+Slovenia,50,0.015
+Slovenia,51,0.015
+Slovenia,52,0.015
+Slovenia,53,0.015
+Slovenia,54,0.015
+Slovenia,55,0.015
+Slovenia,56,0.015
+Slovenia,57,0.01
+Slovenia,58,0.01
+Slovenia,59,0.009
+Slovenia,60,0.008
+Slovenia,61,0.008
+Slovenia,62,0.008
+Slovenia,63,0.007
+Slovenia,64,0.007
+Slovenia,65,0.05
+Burkina Faso,18,0.06
+Burkina Faso,19,0.05
+Burkina Faso,20,0.05
+Burkina Faso,21,0.05
+Burkina Faso,22,0.05
+Burkina Faso,23,0.05
+Burkina Faso,24,0.045
+Burkina Faso,25,0.06
+Burkina Faso,26,0.04
+Burkina Faso,27,0.045
+Burkina Faso,28,0.05
+Burkina Faso,29,0.035
+Burkina Faso,30,0.035
+Burkina Faso,31,0.07
+Burkina Faso,32,0.03
+Burkina Faso,33,0.03
+Burkina Faso,34,0.025
+Burkina Faso,35,0.025
+Burkina Faso,36,0.02
+Burkina Faso,37,0.025
+Burkina Faso,38,0.025
+Burkina Faso,39,0.015
+Burkina Faso,40,0.015
+Burkina Faso,41,0.015
+Burkina Faso,42,0.015
+Burkina Faso,43,0.01
+Burkina Faso,44,0.009
+Burkina Faso,45,0.008
+Burkina Faso,46,0.007
+Burkina Faso,47,0.007
+Burkina Faso,48,0.007
+Burkina Faso,49,0.0045
+Burkina Faso,50,0.0045
+Burkina Faso,51,0.004
+Burkina Faso,52,0.0035
+Burkina Faso,53,0.0035
+Burkina Faso,54,0.0025
+Burkina Faso,55,0.0025
+Burkina Faso,56,0.002
+Burkina Faso,57,0.003
+Burkina Faso,58,0.003
+Burkina Faso,59,0.0015
+Burkina Faso,60,0.0015
+Burkina Faso,61,0.0015
+Burkina Faso,62,0
+Burkina Faso,63,0
+Burkina Faso,64,0
+Burkina Faso,65,0.025
+Uzbekistan,18,0.02
+Uzbekistan,19,0.025
+Uzbekistan,20,0.025
+Uzbekistan,21,0.03
+Uzbekistan,22,0.035
+Uzbekistan,23,0.04
+Uzbekistan,24,0.04
+Uzbekistan,25,0.06
+Uzbekistan,26,0.04
+Uzbekistan,27,0.045
+Uzbekistan,28,0.04
+Uzbekistan,29,0.04
+Uzbekistan,30,0.04
+Uzbekistan,31,0.045
+Uzbekistan,32,0.04
+Uzbekistan,33,0.04
+Uzbekistan,34,0.035
+Uzbekistan,35,0.035
+Uzbekistan,36,0.03
+Uzbekistan,37,0.03
+Uzbekistan,38,0.03
+Uzbekistan,39,0.025
+Uzbekistan,40,0.02
+Uzbekistan,41,0.02
+Uzbekistan,42,0.02
+Uzbekistan,43,0.015
+Uzbekistan,44,0.015
+Uzbekistan,45,0.015
+Uzbekistan,46,0.01
+Uzbekistan,47,0.01
+Uzbekistan,48,0.009
+Uzbekistan,49,0.008
+Uzbekistan,50,0.007
+Uzbekistan,51,0.006
+Uzbekistan,52,0.006
+Uzbekistan,53,0.006
+Uzbekistan,54,0.006
+Uzbekistan,55,0.005
+Uzbekistan,56,0.005
+Uzbekistan,57,0.0045
+Uzbekistan,58,0.0045
+Uzbekistan,59,0.004
+Uzbekistan,60,0.0035
+Uzbekistan,61,0.003
+Uzbekistan,62,0.003
+Uzbekistan,63,0.0025
+Uzbekistan,64,0.002
+Uzbekistan,65,0.02
+Cyprus,18,0.02
+Cyprus,19,0.025
+Cyprus,20,0.03
+Cyprus,21,0.03
+Cyprus,22,0.035
+Cyprus,23,0.035
+Cyprus,24,0.03
+Cyprus,25,0.04
+Cyprus,26,0.03
+Cyprus,27,0.03
+Cyprus,28,0.035
+Cyprus,29,0.025
+Cyprus,30,0.025
+Cyprus,31,0.03
+Cyprus,32,0.025
+Cyprus,33,0.025
+Cyprus,34,0.025
+Cyprus,35,0.025
+Cyprus,36,0.025
+Cyprus,37,0.025
+Cyprus,38,0.025
+Cyprus,39,0.02
+Cyprus,40,0.02
+Cyprus,41,0.02
+Cyprus,42,0.02
+Cyprus,43,0.02
+Cyprus,44,0.02
+Cyprus,45,0.015
+Cyprus,46,0.015
+Cyprus,47,0.015
+Cyprus,48,0.015
+Cyprus,49,0.015
+Cyprus,50,0.015
+Cyprus,51,0.015
+Cyprus,52,0.015
+Cyprus,53,0.01
+Cyprus,54,0.01
+Cyprus,55,0.009
+Cyprus,56,0.009
+Cyprus,57,0.009
+Cyprus,58,0.009
+Cyprus,59,0.008
+Cyprus,60,0.007
+Cyprus,61,0.006
+Cyprus,62,0.006
+Cyprus,63,0.005
+Cyprus,64,0.0045
+Cyprus,65,0.045
+Moldova,18,0.035
+Moldova,19,0.035
+Moldova,20,0.03
+Moldova,21,0.03
+Moldova,22,0.03
+Moldova,23,0.03
+Moldova,24,0.03
+Moldova,25,0.045
+Moldova,26,0.03
+Moldova,27,0.03
+Moldova,28,0.035
+Moldova,29,0.03
+Moldova,30,0.035
+Moldova,31,0.035
+Moldova,32,0.03
+Moldova,33,0.03
+Moldova,34,0.03
+Moldova,35,0.025
+Moldova,36,0.025
+Moldova,37,0.025
+Moldova,38,0.025
+Moldova,39,0.02
+Moldova,40,0.02
+Moldova,41,0.02
+Moldova,42,0.02
+Moldova,43,0.015
+Moldova,44,0.015
+Moldova,45,0.015
+Moldova,46,0.015
+Moldova,47,0.015
+Moldova,48,0.015
+Moldova,49,0.01
+Moldova,50,0.01
+Moldova,51,0.009
+Moldova,52,0.009
+Moldova,53,0.009
+Moldova,54,0.008
+Moldova,55,0.009
+Moldova,56,0.008
+Moldova,57,0.008
+Moldova,58,0.008
+Moldova,59,0.008
+Moldova,60,0.006
+Moldova,61,0.006
+Moldova,62,0.0045
+Moldova,63,0.0045
+Moldova,64,0.004
+Moldova,65,0.025
+Belarus,18,0.025
+Belarus,19,0.025
+Belarus,20,0.02
+Belarus,21,0.02
+Belarus,22,0.025
+Belarus,23,0.025
+Belarus,24,0.025
+Belarus,25,0.04
+Belarus,26,0.03
+Belarus,27,0.03
+Belarus,28,0.035
+Belarus,29,0.035
+Belarus,30,0.035
+Belarus,31,0.035
+Belarus,32,0.035
+Belarus,33,0.035
+Belarus,34,0.035
+Belarus,35,0.035
+Belarus,36,0.03
+Belarus,37,0.03
+Belarus,38,0.03
+Belarus,39,0.025
+Belarus,40,0.025
+Belarus,41,0.02
+Belarus,42,0.02
+Belarus,43,0.02
+Belarus,44,0.015
+Belarus,45,0.015
+Belarus,46,0.015
+Belarus,47,0.015
+Belarus,48,0.015
+Belarus,49,0.01
+Belarus,50,0.009
+Belarus,51,0.009
+Belarus,52,0.009
+Belarus,53,0.008
+Belarus,54,0.008
+Belarus,55,0.008
+Belarus,56,0.007
+Belarus,57,0.007
+Belarus,58,0.007
+Belarus,59,0.006
+Belarus,60,0.005
+Belarus,61,0.0045
+Belarus,62,0.004
+Belarus,63,0.0035
+Belarus,64,0.003
+Belarus,65,0.025
+Latvia,18,0.025
+Latvia,19,0.025
+Latvia,20,0.02
+Latvia,21,0.02
+Latvia,22,0.02
+Latvia,23,0.025
+Latvia,24,0.025
+Latvia,25,0.03
+Latvia,26,0.025
+Latvia,27,0.03
+Latvia,28,0.03
+Latvia,29,0.03
+Latvia,30,0.03
+Latvia,31,0.03
+Latvia,32,0.03
+Latvia,33,0.025
+Latvia,34,0.025
+Latvia,35,0.025
+Latvia,36,0.025
+Latvia,37,0.025
+Latvia,38,0.025
+Latvia,39,0.02
+Latvia,40,0.02
+Latvia,41,0.02
+Latvia,42,0.02
+Latvia,43,0.02
+Latvia,44,0.02
+Latvia,45,0.015
+Latvia,46,0.015
+Latvia,47,0.015
+Latvia,48,0.015
+Latvia,49,0.015
+Latvia,50,0.015
+Latvia,51,0.015
+Latvia,52,0.015
+Latvia,53,0.015
+Latvia,54,0.015
+Latvia,55,0.015
+Latvia,56,0.01
+Latvia,57,0.01
+Latvia,58,0.01
+Latvia,59,0.009
+Latvia,60,0.008
+Latvia,61,0.007
+Latvia,62,0.007
+Latvia,63,0.006
+Latvia,64,0.005
+Latvia,65,0.035
+Botswana,18,0.045
+Botswana,19,0.045
+Botswana,20,0.045
+Botswana,21,0.045
+Botswana,22,0.045
+Botswana,23,0.04
+Botswana,24,0.04
+Botswana,25,0.04
+Botswana,26,0.035
+Botswana,27,0.03
+Botswana,28,0.035
+Botswana,29,0.03
+Botswana,30,0.03
+Botswana,31,0.04
+Botswana,32,0.025
+Botswana,33,0.025
+Botswana,34,0.025
+Botswana,35,0.025
+Botswana,36,0.02
+Botswana,37,0.02
+Botswana,38,0.02
+Botswana,39,0.015
+Botswana,40,0.015
+Botswana,41,0.015
+Botswana,42,0.015
+Botswana,43,0.015
+Botswana,44,0.009
+Botswana,45,0.008
+Botswana,46,0.007
+Botswana,47,0.007
+Botswana,48,0.007
+Botswana,49,0.005
+Botswana,50,0.004
+Botswana,51,0.005
+Botswana,52,0.0045
+Botswana,53,0.003
+Botswana,54,0.0025
+Botswana,55,0.0025
+Botswana,56,0.002
+Botswana,57,0.0025
+Botswana,58,0.0025
+Botswana,59,0.0015
+Botswana,60,0.0015
+Botswana,61,0
+Botswana,62,0.0015
+Botswana,63,0
+Botswana,64,0
+Botswana,65,0.07
+Trinidad and Tobago,18,0.02
+Trinidad and Tobago,19,0.02
+Trinidad and Tobago,20,0.02
+Trinidad and Tobago,21,0.02
+Trinidad and Tobago,22,0.025
+Trinidad and Tobago,23,0.025
+Trinidad and Tobago,24,0.025
+Trinidad and Tobago,25,0.03
+Trinidad and Tobago,26,0.025
+Trinidad and Tobago,27,0.025
+Trinidad and Tobago,28,0.03
+Trinidad and Tobago,29,0.025
+Trinidad and Tobago,30,0.025
+Trinidad and Tobago,31,0.025
+Trinidad and Tobago,32,0.025
+Trinidad and Tobago,33,0.025
+Trinidad and Tobago,34,0.025
+Trinidad and Tobago,35,0.025
+Trinidad and Tobago,36,0.02
+Trinidad and Tobago,37,0.025
+Trinidad and Tobago,38,0.025
+Trinidad and Tobago,39,0.02
+Trinidad and Tobago,40,0.02
+Trinidad and Tobago,41,0.015
+Trinidad and Tobago,42,0.015
+Trinidad and Tobago,43,0.015
+Trinidad and Tobago,44,0.015
+Trinidad and Tobago,45,0.015
+Trinidad and Tobago,46,0.015
+Trinidad and Tobago,47,0.015
+Trinidad and Tobago,48,0.01
+Trinidad and Tobago,49,0.009
+Trinidad and Tobago,50,0.009
+Trinidad and Tobago,51,0.008
+Trinidad and Tobago,52,0.009
+Trinidad and Tobago,53,0.008
+Trinidad and Tobago,54,0.008
+Trinidad and Tobago,55,0.008
+Trinidad and Tobago,56,0.007
+Trinidad and Tobago,57,0.007
+Trinidad and Tobago,58,0.007
+Trinidad and Tobago,59,0.006
+Trinidad and Tobago,60,0.005
+Trinidad and Tobago,61,0.005
+Trinidad and Tobago,62,0.0045
+Trinidad and Tobago,63,0.0045
+Trinidad and Tobago,64,0.0035
+Trinidad and Tobago,65,0.03
+Mauritius,18,0.03
+Mauritius,19,0.03
+Mauritius,20,0.03
+Mauritius,21,0.03
+Mauritius,22,0.03
+Mauritius,23,0.03
+Mauritius,24,0.03
+Mauritius,25,0.04
+Mauritius,26,0.03
+Mauritius,27,0.03
+Mauritius,28,0.03
+Mauritius,29,0.025
+Mauritius,30,0.025
+Mauritius,31,0.025
+Mauritius,32,0.02
+Mauritius,33,0.02
+Mauritius,34,0.02
+Mauritius,35,0.02
+Mauritius,36,0.02
+Mauritius,37,0.02
+Mauritius,38,0.02
+Mauritius,39,0.015
+Mauritius,40,0.015
+Mauritius,41,0.015
+Mauritius,42,0.015
+Mauritius,43,0.015
+Mauritius,44,0.01
+Mauritius,45,0.009
+Mauritius,46,0.008
+Mauritius,47,0.009
+Mauritius,48,0.009
+Mauritius,49,0.008
+Mauritius,50,0.008
+Mauritius,51,0.007
+Mauritius,52,0.008
+Mauritius,53,0.007
+Mauritius,54,0.007
+Mauritius,55,0.006
+Mauritius,56,0.006
+Mauritius,57,0.005
+Mauritius,58,0.005
+Mauritius,59,0.0045
+Mauritius,60,0.004
+Mauritius,61,0.004
+Mauritius,62,0.0035
+Mauritius,63,0.003
+Mauritius,64,0.003
+Mauritius,65,0.02
+Mauritania,18,0.06
+Mauritania,19,0.05
+Mauritania,20,0.04
+Mauritania,21,0.035
+Mauritania,22,0.035
+Mauritania,23,0.04
+Mauritania,24,0.03
+Mauritania,25,0.05
+Mauritania,26,0.025
+Mauritania,27,0.025
+Mauritania,28,0.03
+Mauritania,29,0.02
+Mauritania,30,0.02
+Mauritania,31,0.09
+Mauritania,32,0.015
+Mauritania,33,0.015
+Mauritania,34,0.015
+Mauritania,35,0.015
+Mauritania,36,0.009
+Mauritania,37,0.01
+Mauritania,38,0.015
+Mauritania,39,0.007
+Mauritania,40,0.007
+Mauritania,41,0.006
+Mauritania,42,0.005
+Mauritania,43,0.005
+Mauritania,44,0.004
+Mauritania,45,0.004
+Mauritania,46,0.003
+Mauritania,47,0.0035
+Mauritania,48,0.004
+Mauritania,49,0.003
+Mauritania,50,0.0025
+Mauritania,51,0.002
+Mauritania,52,0.002
+Mauritania,53,0.002
+Mauritania,54,0.0015
+Mauritania,55,0.0015
+Mauritania,56,0
+Mauritania,57,0.002
+Mauritania,58,0.0015
+Mauritania,59,0
+Mauritania,60,0
+Mauritania,61,0
+Mauritania,62,0
+Mauritania,63,0
+Mauritania,64,0
+Mauritania,65,0.015
+Estonia,18,0.02
+Estonia,19,0.02
+Estonia,20,0.02
+Estonia,21,0.02
+Estonia,22,0.02
+Estonia,23,0.02
+Estonia,24,0.015
+Estonia,25,0.02
+Estonia,26,0.02
+Estonia,27,0.02
+Estonia,28,0.025
+Estonia,29,0.02
+Estonia,30,0.02
+Estonia,31,0.02
+Estonia,32,0.02
+Estonia,33,0.02
+Estonia,34,0.02
+Estonia,35,0.02
+Estonia,36,0.02
+Estonia,37,0.02
+Estonia,38,0.02
+Estonia,39,0.015
+Estonia,40,0.015
+Estonia,41,0.015
+Estonia,42,0.015
+Estonia,43,0.015
+Estonia,44,0.015
+Estonia,45,0.015
+Estonia,46,0.015
+Estonia,47,0.015
+Estonia,48,0.015
+Estonia,49,0.01
+Estonia,50,0.009
+Estonia,51,0.009
+Estonia,52,0.008
+Estonia,53,0.009
+Estonia,54,0.008
+Estonia,55,0.008
+Estonia,56,0.008
+Estonia,57,0.008
+Estonia,58,0.007
+Estonia,59,0.006
+Estonia,60,0.006
+Estonia,61,0.006
+Estonia,62,0.005
+Estonia,63,0.005
+Estonia,64,0.0045
+Estonia,65,0.035
+Papua New Guinea,18,0.05
+Papua New Guinea,19,0.05
+Papua New Guinea,20,0.05
+Papua New Guinea,21,0.045
+Papua New Guinea,22,0.04
+Papua New Guinea,23,0.035
+Papua New Guinea,24,0.035
+Papua New Guinea,25,0.045
+Papua New Guinea,26,0.025
+Papua New Guinea,27,0.025
+Papua New Guinea,28,0.025
+Papua New Guinea,29,0.02
+Papua New Guinea,30,0.02
+Papua New Guinea,31,0.06
+Papua New Guinea,32,0.015
+Papua New Guinea,33,0.015
+Papua New Guinea,34,0.015
+Papua New Guinea,35,0.01
+Papua New Guinea,36,0.009
+Papua New Guinea,37,0.009
+Papua New Guinea,38,0.01
+Papua New Guinea,39,0.008
+Papua New Guinea,40,0.006
+Papua New Guinea,41,0.006
+Papua New Guinea,42,0.009
+Papua New Guinea,43,0.007
+Papua New Guinea,44,0.005
+Papua New Guinea,45,0.005
+Papua New Guinea,46,0.004
+Papua New Guinea,47,0.004
+Papua New Guinea,48,0.0045
+Papua New Guinea,49,0.004
+Papua New Guinea,50,0.003
+Papua New Guinea,51,0.0025
+Papua New Guinea,52,0.0025
+Papua New Guinea,53,0.0025
+Papua New Guinea,54,0.0025
+Papua New Guinea,55,0.002
+Papua New Guinea,56,0.0015
+Papua New Guinea,57,0.002
+Papua New Guinea,58,0.002
+Papua New Guinea,59,0.0015
+Papua New Guinea,60,0
+Papua New Guinea,61,0
+Papua New Guinea,62,0
+Papua New Guinea,63,0
+Papua New Guinea,64,0
+Papua New Guinea,65,0.025
+Gabon,18,0.035
+Gabon,19,0.03
+Gabon,20,0.03
+Gabon,21,0.025
+Gabon,22,0.025
+Gabon,23,0.025
+Gabon,24,0.025
+Gabon,25,0.035
+Gabon,26,0.025
+Gabon,27,0.025
+Gabon,28,0.03
+Gabon,29,0.02
+Gabon,30,0.025
+Gabon,31,0.045
+Gabon,32,0.02
+Gabon,33,0.02
+Gabon,34,0.02
+Gabon,35,0.015
+Gabon,36,0.015
+Gabon,37,0.015
+Gabon,38,0.015
+Gabon,39,0.015
+Gabon,40,0.015
+Gabon,41,0
+Gabon,42,0.009
+Gabon,43,0.009
+Gabon,44,0.007
+Gabon,45,0.007
+Gabon,46,0.006
+Gabon,47,0.006
+Gabon,48,0.007
+Gabon,49,0.0045
+Gabon,50,0.0045
+Gabon,51,0.0035
+Gabon,52,0.0035
+Gabon,53,0.0035
+Gabon,54,0.003
+Gabon,55,0.0025
+Gabon,56,0.0025
+Gabon,57,0.0045
+Gabon,58,0.006
+Gabon,59,0.002
+Gabon,60,0.0015
+Gabon,61,0.0015
+Gabon,62,0
+Gabon,63,0
+Gabon,64,0
+Gabon,65,0.03
+Republic of the Congo,18,0.04
+Republic of the Congo,19,0.035
+Republic of the Congo,20,0.03
+Republic of the Congo,21,0.03
+Republic of the Congo,22,0.03
+Republic of the Congo,23,0.03
+Republic of the Congo,24,0.025
+Republic of the Congo,25,0.03
+Republic of the Congo,26,0.025
+Republic of the Congo,27,0.025
+Republic of the Congo,28,0.025
+Republic of the Congo,29,0.02
+Republic of the Congo,30,0.02
+Republic of the Congo,31,0.04
+Republic of the Congo,32,0.015
+Republic of the Congo,33,0.015
+Republic of the Congo,34,0.015
+Republic of the Congo,35,0.015
+Republic of the Congo,36,0.015
+Republic of the Congo,37,0.015
+Republic of the Congo,38,0.015
+Republic of the Congo,39,0.009
+Republic of the Congo,40,0.009
+Republic of the Congo,41,0.008
+Republic of the Congo,42,0.007
+Republic of the Congo,43,0.007
+Republic of the Congo,44,0.005
+Republic of the Congo,45,0.005
+Republic of the Congo,46,0.0045
+Republic of the Congo,47,0.0045
+Republic of the Congo,48,0.0045
+Republic of the Congo,49,0.0035
+Republic of the Congo,50,0.003
+Republic of the Congo,51,0.0025
+Republic of the Congo,52,0.0025
+Republic of the Congo,53,0.0025
+Republic of the Congo,54,0.002
+Republic of the Congo,55,0.002
+Republic of the Congo,56,0.002
+Republic of the Congo,57,0.0035
+Republic of the Congo,58,0.0045
+Republic of the Congo,59,0.0015
+Republic of the Congo,60,0.0015
+Republic of the Congo,61,0.0015
+Republic of the Congo,62,0
+Republic of the Congo,63,0
+Republic of the Congo,64,0
+Republic of the Congo,65,0.045
+Togo,18,0.03
+Togo,19,0.03
+Togo,20,0.03
+Togo,21,0.03
+Togo,22,0.03
+Togo,23,0.03
+Togo,24,0.03
+Togo,25,0.035
+Togo,26,0.025
+Togo,27,0.03
+Togo,28,0.03
+Togo,29,0.025
+Togo,30,0.025
+Togo,31,0.05
+Togo,32,0.02
+Togo,33,0.02
+Togo,34,0.015
+Togo,35,0.015
+Togo,36,0.015
+Togo,37,0.015
+Togo,38,0.015
+Togo,39,0.009
+Togo,40,0.009
+Togo,41,0.008
+Togo,42,0.007
+Togo,43,0.007
+Togo,44,0.005
+Togo,45,0.0045
+Togo,46,0.004
+Togo,47,0.004
+Togo,48,0.004
+Togo,49,0.003
+Togo,50,0.003
+Togo,51,0.0025
+Togo,52,0.0025
+Togo,53,0.0025
+Togo,54,0.002
+Togo,55,0.002
+Togo,56,0.0015
+Togo,57,0.002
+Togo,58,0.0025
+Togo,59,0.0015
+Togo,60,0
+Togo,61,0
+Togo,62,0
+Togo,63,0
+Togo,64,0
+Togo,65,0.015
+Kyrgyzstan,18,0.02
+Kyrgyzstan,19,0.02
+Kyrgyzstan,20,0.02
+Kyrgyzstan,21,0.02
+Kyrgyzstan,22,0.02
+Kyrgyzstan,23,0.02
+Kyrgyzstan,24,0.025
+Kyrgyzstan,25,0.035
+Kyrgyzstan,26,0.025
+Kyrgyzstan,27,0.025
+Kyrgyzstan,28,0.025
+Kyrgyzstan,29,0.025
+Kyrgyzstan,30,0.025
+Kyrgyzstan,31,0.025
+Kyrgyzstan,32,0.02
+Kyrgyzstan,33,0.02
+Kyrgyzstan,34,0.02
+Kyrgyzstan,35,0.02
+Kyrgyzstan,36,0.02
+Kyrgyzstan,37,0.015
+Kyrgyzstan,38,0.015
+Kyrgyzstan,39,0.015
+Kyrgyzstan,40,0.015
+Kyrgyzstan,41,0.015
+Kyrgyzstan,42,0.01
+Kyrgyzstan,43,0.009
+Kyrgyzstan,44,0.008
+Kyrgyzstan,45,0.008
+Kyrgyzstan,46,0.007
+Kyrgyzstan,47,0.007
+Kyrgyzstan,48,0.006
+Kyrgyzstan,49,0.006
+Kyrgyzstan,50,0.006
+Kyrgyzstan,51,0.005
+Kyrgyzstan,52,0.0045
+Kyrgyzstan,53,0.0045
+Kyrgyzstan,54,0.0045
+Kyrgyzstan,55,0.004
+Kyrgyzstan,56,0.0035
+Kyrgyzstan,57,0.0035
+Kyrgyzstan,58,0.0035
+Kyrgyzstan,59,0.003
+Kyrgyzstan,60,0.0025
+Kyrgyzstan,61,0.002
+Kyrgyzstan,62,0.002
+Kyrgyzstan,63,0.0015
+Kyrgyzstan,64,0.0015
+Kyrgyzstan,65,0.01
+Sierra Leone,18,0.03
+Sierra Leone,19,0.035
+Sierra Leone,20,0.035
+Sierra Leone,21,0.03
+Sierra Leone,22,0.03
+Sierra Leone,23,0.03
+Sierra Leone,24,0.03
+Sierra Leone,25,0.035
+Sierra Leone,26,0.025
+Sierra Leone,27,0.02
+Sierra Leone,28,0.025
+Sierra Leone,29,0.02
+Sierra Leone,30,0.02
+Sierra Leone,31,0.04
+Sierra Leone,32,0.015
+Sierra Leone,33,0.015
+Sierra Leone,34,0.015
+Sierra Leone,35,0.01
+Sierra Leone,36,0.009
+Sierra Leone,37,0.008
+Sierra Leone,38,0.01
+Sierra Leone,39,0.007
+Sierra Leone,40,0.006
+Sierra Leone,41,0.006
+Sierra Leone,42,0.006
+Sierra Leone,43,0.006
+Sierra Leone,44,0.0045
+Sierra Leone,45,0.004
+Sierra Leone,46,0.0035
+Sierra Leone,47,0.0035
+Sierra Leone,48,0.004
+Sierra Leone,49,0.0035
+Sierra Leone,50,0.003
+Sierra Leone,51,0.0025
+Sierra Leone,52,0.0025
+Sierra Leone,53,0.0025
+Sierra Leone,54,0.0025
+Sierra Leone,55,0.002
+Sierra Leone,56,0.002
+Sierra Leone,57,0.0025
+Sierra Leone,58,0.002
+Sierra Leone,59,0.0015
+Sierra Leone,60,0.0015
+Sierra Leone,61,0
+Sierra Leone,62,0
+Sierra Leone,63,0
+Sierra Leone,64,0
+Sierra Leone,65,0.03
+Fiji,18,0.025
+Fiji,19,0.025
+Fiji,20,0.025
+Fiji,21,0.025
+Fiji,22,0.025
+Fiji,23,0.025
+Fiji,24,0.025
+Fiji,25,0.03
+Fiji,26,0.02
+Fiji,27,0.02
+Fiji,28,0.02
+Fiji,29,0.015
+Fiji,30,0.02
+Fiji,31,0.02
+Fiji,32,0.015
+Fiji,33,0.015
+Fiji,34,0.015
+Fiji,35,0.015
+Fiji,36,0.015
+Fiji,37,0.015
+Fiji,38,0.015
+Fiji,39,0.01
+Fiji,40,0.009
+Fiji,41,0.008
+Fiji,42,0.008
+Fiji,43,0.007
+Fiji,44,0.006
+Fiji,45,0.006
+Fiji,46,0.006
+Fiji,47,0.006
+Fiji,48,0.006
+Fiji,49,0.005
+Fiji,50,0.004
+Fiji,51,0.004
+Fiji,52,0.0035
+Fiji,53,0.0035
+Fiji,54,0.0035
+Fiji,55,0.003
+Fiji,56,0.003
+Fiji,57,0.0025
+Fiji,58,0.0025
+Fiji,59,0.002
+Fiji,60,0.002
+Fiji,61,0.0015
+Fiji,62,0.0015
+Fiji,63,0
+Fiji,64,0
+Fiji,65,0.009
+Réunion,18,0.02
+Réunion,19,0.02
+Réunion,20,0.02
+Réunion,21,0.02
+Réunion,22,0.02
+Réunion,23,0.015
+Réunion,24,0.015
+Réunion,25,0.02
+Réunion,26,0.015
+Réunion,27,0.015
+Réunion,28,0.015
+Réunion,29,0.015
+Réunion,30,0.015
+Réunion,31,0.015
+Réunion,32,0.015
+Réunion,33,0.015
+Réunion,34,0.015
+Réunion,35,0.015
+Réunion,36,0.015
+Réunion,37,0.015
+Réunion,38,0.015
+Réunion,39,0.01
+Réunion,40,0.009
+Réunion,41,0.009
+Réunion,42,0.009
+Réunion,43,0.008
+Réunion,44,0.008
+Réunion,45,0.008
+Réunion,46,0.007
+Réunion,47,0.007
+Réunion,48,0.007
+Réunion,49,0.007
+Réunion,50,0.007
+Réunion,51,0.006
+Réunion,52,0.006
+Réunion,53,0.006
+Réunion,54,0.005
+Réunion,55,0.0045
+Réunion,56,0.0045
+Réunion,57,0.004
+Réunion,58,0.004
+Réunion,59,0.0035
+Réunion,60,0.003
+Réunion,61,0.003
+Réunion,62,0.0025
+Réunion,63,0.0025
+Réunion,64,0.002
+Réunion,65,0.02
+Niger,18,0.03
+Niger,19,0.025
+Niger,20,0.025
+Niger,21,0.025
+Niger,22,0.025
+Niger,23,0.025
+Niger,24,0.02
+Niger,25,0.03
+Niger,26,0.02
+Niger,27,0.02
+Niger,28,0.02
+Niger,29,0.015
+Niger,30,0.015
+Niger,31,0.035
+Niger,32,0.015
+Niger,33,0.015
+Niger,34,0.01
+Niger,35,0.009
+Niger,36,0.009
+Niger,37,0.009
+Niger,38,0.015
+Niger,39,0.007
+Niger,40,0.007
+Niger,41,0.006
+Niger,42,0.006
+Niger,43,0.005
+Niger,44,0.0045
+Niger,45,0.004
+Niger,46,0.0035
+Niger,47,0.0035
+Niger,48,0.004
+Niger,49,0.003
+Niger,50,0.0025
+Niger,51,0.0025
+Niger,52,0.0025
+Niger,53,0.002
+Niger,54,0.002
+Niger,55,0.0015
+Niger,56,0.0015
+Niger,57,0.0015
+Niger,58,0.002
+Niger,59,0
+Niger,60,0
+Niger,61,0
+Niger,62,0
+Niger,63,0
+Niger,64,0
+Niger,65,0.009
+Rwanda,18,0.03
+Rwanda,19,0.03
+Rwanda,20,0.03
+Rwanda,21,0.03
+Rwanda,22,0.03
+Rwanda,23,0.025
+Rwanda,24,0.03
+Rwanda,25,0.03
+Rwanda,26,0.02
+Rwanda,27,0.02
+Rwanda,28,0.025
+Rwanda,29,0.02
+Rwanda,30,0.015
+Rwanda,31,0.02
+Rwanda,32,0.015
+Rwanda,33,0.015
+Rwanda,34,0.009
+Rwanda,35,0.008
+Rwanda,36,0.007
+Rwanda,37,0.007
+Rwanda,38,0.007
+Rwanda,39,0.005
+Rwanda,40,0.004
+Rwanda,41,0.0035
+Rwanda,42,0.0035
+Rwanda,43,0.003
+Rwanda,44,0.0025
+Rwanda,45,0.0025
+Rwanda,46,0.002
+Rwanda,47,0.002
+Rwanda,48,0.002
+Rwanda,49,0.0015
+Rwanda,50,0.0015
+Rwanda,51,0
+Rwanda,52,0
+Rwanda,53,0
+Rwanda,54,0
+Rwanda,55,0
+Rwanda,56,0
+Rwanda,57,0
+Rwanda,58,0.0015
+Rwanda,59,0
+Rwanda,60,0
+Rwanda,61,0
+Rwanda,62,0
+Rwanda,63,0
+Rwanda,64,0
+Rwanda,65,0.03
+Malawi,18,0.025
+Malawi,19,0.025
+Malawi,20,0.025
+Malawi,21,0.025
+Malawi,22,0.025
+Malawi,23,0.025
+Malawi,24,0.025
+Malawi,25,0.025
+Malawi,26,0.015
+Malawi,27,0.015
+Malawi,28,0.02
+Malawi,29,0.015
+Malawi,30,0.015
+Malawi,31,0.02
+Malawi,32,0.015
+Malawi,33,0.01
+Malawi,34,0.009
+Malawi,35,0.008
+Malawi,36,0.008
+Malawi,37,0.008
+Malawi,38,0.009
+Malawi,39,0.006
+Malawi,40,0.006
+Malawi,41,0.0045
+Malawi,42,0.0045
+Malawi,43,0.004
+Malawi,44,0.0035
+Malawi,45,0.003
+Malawi,46,0.003
+Malawi,47,0.003
+Malawi,48,0.003
+Malawi,49,0.002
+Malawi,50,0.002
+Malawi,51,0.0015
+Malawi,52,0.0015
+Malawi,53,0.002
+Malawi,54,0.0015
+Malawi,55,0
+Malawi,56,0
+Malawi,57,0.0015
+Malawi,58,0.0015
+Malawi,59,0
+Malawi,60,0
+Malawi,61,0
+Malawi,62,0
+Malawi,63,0
+Malawi,64,0
+Malawi,65,0.045
+Macau,18,0.008
+Macau,19,0.008
+Macau,20,0.008
+Macau,21,0.009
+Macau,22,0.01
+Macau,23,0.015
+Macau,24,0.015
+Macau,25,0.02
+Macau,26,0.015
+Macau,27,0.02
+Macau,28,0.02
+Macau,29,0.02
+Macau,30,0.02
+Macau,31,0.02
+Macau,32,0.02
+Macau,33,0.015
+Macau,34,0.015
+Macau,35,0.015
+Macau,36,0.015
+Macau,37,0.015
+Macau,38,0.015
+Macau,39,0.008
+Macau,40,0.008
+Macau,41,0.007
+Macau,42,0.007
+Macau,43,0.006
+Macau,44,0.006
+Macau,45,0.006
+Macau,46,0.005
+Macau,47,0.006
+Macau,48,0.005
+Macau,49,0.004
+Macau,50,0.0035
+Macau,51,0.0035
+Macau,52,0.0035
+Macau,53,0.003
+Macau,54,0.003
+Macau,55,0.003
+Macau,56,0.0025
+Macau,57,0.0025
+Macau,58,0.0025
+Macau,59,0.002
+Macau,60,0.002
+Macau,61,0.002
+Macau,62,0.002
+Macau,63,0.0015
+Macau,64,0.0015
+Macau,65,0.015
+Burundi,18,0.03
+Burundi,19,0.025
+Burundi,20,0.025
+Burundi,21,0.025
+Burundi,22,0.025
+Burundi,23,0.02
+Burundi,24,0.02
+Burundi,25,0.025
+Burundi,26,0.015
+Burundi,27,0.015
+Burundi,28,0.02
+Burundi,29,0.015
+Burundi,30,0.015
+Burundi,31,0.03
+Burundi,32,0.01
+Burundi,33,0.01
+Burundi,34,0.008
+Burundi,35,0.007
+Burundi,36,0.007
+Burundi,37,0.006
+Burundi,38,0.008
+Burundi,39,0.005
+Burundi,40,0.0045
+Burundi,41,0.0035
+Burundi,42,0.0035
+Burundi,43,0.0035
+Burundi,44,0.0025
+Burundi,45,0.0025
+Burundi,46,0.0025
+Burundi,47,0.002
+Burundi,48,0.002
+Burundi,49,0.0015
+Burundi,50,0.0015
+Burundi,51,0.0015
+Burundi,52,0.0015
+Burundi,53,0.0015
+Burundi,54,0
+Burundi,55,0.0015
+Burundi,56,0.0015
+Burundi,57,0
+Burundi,58,0.0015
+Burundi,59,0
+Burundi,60,0
+Burundi,61,0
+Burundi,62,0
+Burundi,63,0
+Burundi,64,0
+Burundi,65,0.015
+Guyana,18,0.02
+Guyana,19,0.02
+Guyana,20,0.02
+Guyana,21,0.02
+Guyana,22,0.02
+Guyana,23,0.02
+Guyana,24,0.02
+Guyana,25,0.02
+Guyana,26,0.015
+Guyana,27,0.015
+Guyana,28,0.015
+Guyana,29,0.015
+Guyana,30,0.015
+Guyana,31,0.015
+Guyana,32,0.009
+Guyana,33,0.009
+Guyana,34,0.007
+Guyana,35,0.008
+Guyana,36,0.007
+Guyana,37,0.008
+Guyana,38,0.008
+Guyana,39,0.007
+Guyana,40,0.006
+Guyana,41,0.006
+Guyana,42,0.006
+Guyana,43,0.006
+Guyana,44,0.005
+Guyana,45,0.005
+Guyana,46,0.0045
+Guyana,47,0.0045
+Guyana,48,0.0045
+Guyana,49,0.004
+Guyana,50,0.0035
+Guyana,51,0.0035
+Guyana,52,0.0035
+Guyana,53,0.003
+Guyana,54,0.003
+Guyana,55,0.003
+Guyana,56,0.0025
+Guyana,57,0.0025
+Guyana,58,0.0025
+Guyana,59,0.002
+Guyana,60,0.002
+Guyana,61,0.002
+Guyana,62,0.0015
+Guyana,63,0.0015
+Guyana,64,0.0015
+Guyana,65,0.009
+Bhutan,18,0.03
+Bhutan,19,0.025
+Bhutan,20,0.025
+Bhutan,21,0.02
+Bhutan,22,0.02
+Bhutan,23,0.02
+Bhutan,24,0.02
+Bhutan,25,0.03
+Bhutan,26,0.015
+Bhutan,27,0.015
+Bhutan,28,0.02
+Bhutan,29,0.015
+Bhutan,30,0.015
+Bhutan,31,0.02
+Bhutan,32,0.01
+Bhutan,33,0.01
+Bhutan,34,0.008
+Bhutan,35,0.007
+Bhutan,36,0.006
+Bhutan,37,0.006
+Bhutan,38,0.007
+Bhutan,39,0.0045
+Bhutan,40,0.004
+Bhutan,41,0.0035
+Bhutan,42,0.0035
+Bhutan,43,0.0035
+Bhutan,44,0.0025
+Bhutan,45,0.0025
+Bhutan,46,0.0025
+Bhutan,47,0.002
+Bhutan,48,0.0025
+Bhutan,49,0.002
+Bhutan,50,0.0015
+Bhutan,51,0.0015
+Bhutan,52,0.0015
+Bhutan,53,0.0015
+Bhutan,54,0
+Bhutan,55,0
+Bhutan,56,0
+Bhutan,57,0
+Bhutan,58,0
+Bhutan,59,0
+Bhutan,60,0
+Bhutan,61,0
+Bhutan,62,0
+Bhutan,63,0
+Bhutan,64,0
+Bhutan,65,0.008
+Malta,18,0.007
+Malta,19,0.008
+Malta,20,0.008
+Malta,21,0.009
+Malta,22,0.01
+Malta,23,0.009
+Malta,24,0.01
+Malta,25,0.015
+Malta,26,0.01
+Malta,27,0.015
+Malta,28,0.015
+Malta,29,0.015
+Malta,30,0.015
+Malta,31,0.01
+Malta,32,0.01
+Malta,33,0.01
+Malta,34,0.009
+Malta,35,0.009
+Malta,36,0.009
+Malta,37,0.009
+Malta,38,0.009
+Malta,39,0.008
+Malta,40,0.007
+Malta,41,0.007
+Malta,42,0.007
+Malta,43,0.007
+Malta,44,0.006
+Malta,45,0.006
+Malta,46,0.006
+Malta,47,0.005
+Malta,48,0.006
+Malta,49,0.005
+Malta,50,0.0045
+Malta,51,0.004
+Malta,52,0.0045
+Malta,53,0.0045
+Malta,54,0.0045
+Malta,55,0.0045
+Malta,56,0.0045
+Malta,57,0.004
+Malta,58,0.0045
+Malta,59,0.004
+Malta,60,0.004
+Malta,61,0.0035
+Malta,62,0.0035
+Malta,63,0.0035
+Malta,64,0.003
+Malta,65,0.03
+Montenegro,18,0.009
+Montenegro,19,0.01
+Montenegro,20,0.01
+Montenegro,21,0.015
+Montenegro,22,0.015
+Montenegro,23,0.015
+Montenegro,24,0.015
+Montenegro,25,0.02
+Montenegro,26,0.015
+Montenegro,27,0.015
+Montenegro,28,0.015
+Montenegro,29,0.01
+Montenegro,30,0.015
+Montenegro,31,0.015
+Montenegro,32,0.01
+Montenegro,33,0.01
+Montenegro,34,0.01
+Montenegro,35,0.009
+Montenegro,36,0.009
+Montenegro,37,0.009
+Montenegro,38,0.009
+Montenegro,39,0.008
+Montenegro,40,0.007
+Montenegro,41,0.007
+Montenegro,42,0.007
+Montenegro,43,0.006
+Montenegro,44,0.006
+Montenegro,45,0.005
+Montenegro,46,0.005
+Montenegro,47,0.005
+Montenegro,48,0.0045
+Montenegro,49,0.004
+Montenegro,50,0.0035
+Montenegro,51,0.0035
+Montenegro,52,0.0035
+Montenegro,53,0.003
+Montenegro,54,0.003
+Montenegro,55,0.003
+Montenegro,56,0.0025
+Montenegro,57,0.0025
+Montenegro,58,0.0025
+Montenegro,59,0.002
+Montenegro,60,0.002
+Montenegro,61,0.002
+Montenegro,62,0.0015
+Montenegro,63,0.0015
+Montenegro,64,0.0015
+Montenegro,65,0.015
+The Gambia,18,0.02
+The Gambia,19,0.02
+The Gambia,20,0.015
+The Gambia,21,0.015
+The Gambia,22,0.015
+The Gambia,23,0.02
+The Gambia,24,0.02
+The Gambia,25,0.025
+The Gambia,26,0.015
+The Gambia,27,0.015
+The Gambia,28,0.02
+The Gambia,29,0.015
+The Gambia,30,0.015
+The Gambia,31,0.035
+The Gambia,32,0.01
+The Gambia,33,0.01
+The Gambia,34,0.008
+The Gambia,35,0.007
+The Gambia,36,0.007
+The Gambia,37,0.007
+The Gambia,38,0.008
+The Gambia,39,0.005
+The Gambia,40,0.0045
+The Gambia,41,0.004
+The Gambia,42,0.004
+The Gambia,43,0.004
+The Gambia,44,0.003
+The Gambia,45,0.0025
+The Gambia,46,0.0025
+The Gambia,47,0.0025
+The Gambia,48,0.003
+The Gambia,49,0.002
+The Gambia,50,0.0015
+The Gambia,51,0.0015
+The Gambia,52,0.0015
+The Gambia,53,0.002
+The Gambia,54,0
+The Gambia,55,0
+The Gambia,56,0
+The Gambia,57,0
+The Gambia,58,0
+The Gambia,59,0
+The Gambia,60,0
+The Gambia,61,0
+The Gambia,62,0
+The Gambia,63,0
+The Gambia,64,0
+The Gambia,65,0.009
+Brunei,18,0.008
+Brunei,19,0.008
+Brunei,20,0.009
+Brunei,21,0.01
+Brunei,22,0.015
+Brunei,23,0.015
+Brunei,24,0.015
+Brunei,25,0.02
+Brunei,26,0.015
+Brunei,27,0.015
+Brunei,28,0.015
+Brunei,29,0.015
+Brunei,30,0.015
+Brunei,31,0.015
+Brunei,32,0.015
+Brunei,33,0.015
+Brunei,34,0.01
+Brunei,35,0.009
+Brunei,36,0.009
+Brunei,37,0.01
+Brunei,38,0.015
+Brunei,39,0.008
+Brunei,40,0.007
+Brunei,41,0.007
+Brunei,42,0.006
+Brunei,43,0.006
+Brunei,44,0.005
+Brunei,45,0.0045
+Brunei,46,0.0045
+Brunei,47,0.0045
+Brunei,48,0.0045
+Brunei,49,0.0035
+Brunei,50,0.0035
+Brunei,51,0.003
+Brunei,52,0.003
+Brunei,53,0.003
+Brunei,54,0.0025
+Brunei,55,0.0025
+Brunei,56,0.002
+Brunei,57,0.002
+Brunei,58,0.002
+Brunei,59,0.0015
+Brunei,60,0.0015
+Brunei,61,0.0015
+Brunei,62,0
+Brunei,63,0
+Brunei,64,0
+Brunei,65,0.008
+Maldives,18,0.015
+Maldives,19,0.015
+Maldives,20,0.015
+Maldives,21,0.015
+Maldives,22,0.015
+Maldives,23,0.015
+Maldives,24,0.015
+Maldives,25,0.025
+Maldives,26,0.015
+Maldives,27,0.015
+Maldives,28,0.02
+Maldives,29,0.015
+Maldives,30,0.015
+Maldives,31,0.02
+Maldives,32,0.015
+Maldives,33,0.015
+Maldives,34,0.01
+Maldives,35,0.009
+Maldives,36,0.008
+Maldives,37,0.008
+Maldives,38,0.009
+Maldives,39,0.006
+Maldives,40,0.0045
+Maldives,41,0.005
+Maldives,42,0.0045
+Maldives,43,0.004
+Maldives,44,0.003
+Maldives,45,0.003
+Maldives,46,0.003
+Maldives,47,0.003
+Maldives,48,0.003
+Maldives,49,0.0025
+Maldives,50,0.002
+Maldives,51,0.002
+Maldives,52,0.002
+Maldives,53,0.002
+Maldives,54,0.0015
+Maldives,55,0.0015
+Maldives,56,0
+Maldives,57,0
+Maldives,58,0
+Maldives,59,0
+Maldives,60,0
+Maldives,61,0
+Maldives,62,0
+Maldives,63,0
+Maldives,64,0
+Maldives,65,0.004
+Luxembourg,18,0.008
+Luxembourg,19,0.008
+Luxembourg,20,0.008
+Luxembourg,21,0.008
+Luxembourg,22,0.008
+Luxembourg,23,0.008
+Luxembourg,24,0.008
+Luxembourg,25,0.009
+Luxembourg,26,0.008
+Luxembourg,27,0.009
+Luxembourg,28,0.01
+Luxembourg,29,0.009
+Luxembourg,30,0.009
+Luxembourg,31,0.009
+Luxembourg,32,0.009
+Luxembourg,33,0.009
+Luxembourg,34,0.009
+Luxembourg,35,0.009
+Luxembourg,36,0.009
+Luxembourg,37,0.009
+Luxembourg,38,0.009
+Luxembourg,39,0.008
+Luxembourg,40,0.008
+Luxembourg,41,0.008
+Luxembourg,42,0.007
+Luxembourg,43,0.007
+Luxembourg,44,0.007
+Luxembourg,45,0.007
+Luxembourg,46,0.007
+Luxembourg,47,0.007
+Luxembourg,48,0.007
+Luxembourg,49,0.006
+Luxembourg,50,0.006
+Luxembourg,51,0.006
+Luxembourg,52,0.006
+Luxembourg,53,0.005
+Luxembourg,54,0.005
+Luxembourg,55,0.0045
+Luxembourg,56,0.004
+Luxembourg,57,0.004
+Luxembourg,58,0.0035
+Luxembourg,59,0.0035
+Luxembourg,60,0.003
+Luxembourg,61,0.0025
+Luxembourg,62,0.0025
+Luxembourg,63,0.0025
+Luxembourg,64,0.002
+Luxembourg,65,0.02
+Suriname,18,0.015
+Suriname,19,0.015
+Suriname,20,0.015
+Suriname,21,0.015
+Suriname,22,0.015
+Suriname,23,0.01
+Suriname,24,0.01
+Suriname,25,0.015
+Suriname,26,0.01
+Suriname,27,0.01
+Suriname,28,0.015
+Suriname,29,0.009
+Suriname,30,0.009
+Suriname,31,0.01
+Suriname,32,0.009
+Suriname,33,0.009
+Suriname,34,0.008
+Suriname,35,0.008
+Suriname,36,0.007
+Suriname,37,0.007
+Suriname,38,0.007
+Suriname,39,0.006
+Suriname,40,0.006
+Suriname,41,0.006
+Suriname,42,0.006
+Suriname,43,0.005
+Suriname,44,0.005
+Suriname,45,0.005
+Suriname,46,0.0045
+Suriname,47,0.0045
+Suriname,48,0.0045
+Suriname,49,0.004
+Suriname,50,0.0035
+Suriname,51,0.0035
+Suriname,52,0.0035
+Suriname,53,0.0035
+Suriname,54,0.003
+Suriname,55,0.003
+Suriname,56,0.003
+Suriname,57,0.0025
+Suriname,58,0.0025
+Suriname,59,0.002
+Suriname,60,0.002
+Suriname,61,0.0015
+Suriname,62,0.0015
+Suriname,63,0.0015
+Suriname,64,0
+Suriname,65,0.009
+Lesotho,18,0.02
+Lesotho,19,0.02
+Lesotho,20,0.02
+Lesotho,21,0.02
+Lesotho,22,0.015
+Lesotho,23,0.015
+Lesotho,24,0.015
+Lesotho,25,0.015
+Lesotho,26,0.01
+Lesotho,27,0
+Lesotho,28,0.01
+Lesotho,29,0.008
+Lesotho,30,0.01
+Lesotho,31,0.03
+Lesotho,32,0.006
+Lesotho,33,0.006
+Lesotho,34,0.0045
+Lesotho,35,0.0045
+Lesotho,36,0.004
+Lesotho,37,0.0045
+Lesotho,38,0.005
+Lesotho,39,0.0035
+Lesotho,40,0.003
+Lesotho,41,0.0025
+Lesotho,42,0.0025
+Lesotho,43,0.0025
+Lesotho,44,0.002
+Lesotho,45,0.002
+Lesotho,46,0.0015
+Lesotho,47,0.002
+Lesotho,48,0.0025
+Lesotho,49,0.0015
+Lesotho,50,0
+Lesotho,51,0
+Lesotho,52,0
+Lesotho,53,0
+Lesotho,54,0
+Lesotho,55,0
+Lesotho,56,0
+Lesotho,57,0
+Lesotho,58,0
+Lesotho,59,0
+Lesotho,60,0
+Lesotho,61,0
+Lesotho,62,0
+Lesotho,63,0
+Lesotho,64,0
+Lesotho,65,0.03
+Iceland,18,0.006
+Iceland,19,0.006
+Iceland,20,0.007
+Iceland,21,0.007
+Iceland,22,0.007
+Iceland,23,0.007
+Iceland,24,0.007
+Iceland,25,0.007
+Iceland,26,0.007
+Iceland,27,0.007
+Iceland,28,0.007
+Iceland,29,0.006
+Iceland,30,0.006
+Iceland,31,0.006
+Iceland,32,0.006
+Iceland,33,0.005
+Iceland,34,0.005
+Iceland,35,0.006
+Iceland,36,0.006
+Iceland,37,0.005
+Iceland,38,0.006
+Iceland,39,0.005
+Iceland,40,0.0045
+Iceland,41,0.0045
+Iceland,42,0.005
+Iceland,43,0.0045
+Iceland,44,0.0045
+Iceland,45,0.005
+Iceland,46,0.0045
+Iceland,47,0.0045
+Iceland,48,0.0045
+Iceland,49,0.004
+Iceland,50,0.004
+Iceland,51,0.004
+Iceland,52,0.004
+Iceland,53,0.004
+Iceland,54,0.004
+Iceland,55,0.004
+Iceland,56,0.004
+Iceland,57,0.004
+Iceland,58,0.004
+Iceland,59,0.0035
+Iceland,60,0.0035
+Iceland,61,0.0035
+Iceland,62,0.0035
+Iceland,63,0.0035
+Iceland,64,0.003
+Iceland,65,0.03
+Cape Verde,18,0.015
+Cape Verde,19,0.015
+Cape Verde,20,0.01
+Cape Verde,21,0.01
+Cape Verde,22,0.01
+Cape Verde,23,0.01
+Cape Verde,24,0.01
+Cape Verde,25,0.015
+Cape Verde,26,0.009
+Cape Verde,27,0.009
+Cape Verde,28,0.009
+Cape Verde,29,0.009
+Cape Verde,30,0.009
+Cape Verde,31,0.01
+Cape Verde,32,0.008
+Cape Verde,33,0.007
+Cape Verde,34,0.007
+Cape Verde,35,0.006
+Cape Verde,36,0.006
+Cape Verde,37,0.006
+Cape Verde,38,0.005
+Cape Verde,39,0.004
+Cape Verde,40,0.004
+Cape Verde,41,0.004
+Cape Verde,42,0.0035
+Cape Verde,43,0.0035
+Cape Verde,44,0.003
+Cape Verde,45,0.0025
+Cape Verde,46,0.0025
+Cape Verde,47,0.0025
+Cape Verde,48,0.0025
+Cape Verde,49,0.0025
+Cape Verde,50,0.002
+Cape Verde,51,0.002
+Cape Verde,52,0.002
+Cape Verde,53,0.002
+Cape Verde,54,0.0015
+Cape Verde,55,0.0015
+Cape Verde,56,0.0015
+Cape Verde,57,0.0015
+Cape Verde,58,0.0015
+Cape Verde,59,0
+Cape Verde,60,0
+Cape Verde,61,0
+Cape Verde,62,0
+Cape Verde,63,0
+Cape Verde,64,0
+Cape Verde,65,0.006
+The Bahamas,18,0.006
+The Bahamas,19,0.007
+The Bahamas,20,0.007
+The Bahamas,21,0.007
+The Bahamas,22,0.008
+The Bahamas,23,0.008
+The Bahamas,24,0.008
+The Bahamas,25,0.015
+The Bahamas,26,0.008
+The Bahamas,27,0.008
+The Bahamas,28,0.008
+The Bahamas,29,0.007
+The Bahamas,30,0.006
+The Bahamas,31,0.007
+The Bahamas,32,0.006
+The Bahamas,33,0.006
+The Bahamas,34,0.006
+The Bahamas,35,0.006
+The Bahamas,36,0.005
+The Bahamas,37,0.005
+The Bahamas,38,0.006
+The Bahamas,39,0.0045
+The Bahamas,40,0.0045
+The Bahamas,41,0.0045
+The Bahamas,42,0.0045
+The Bahamas,43,0.004
+The Bahamas,44,0.004
+The Bahamas,45,0.004
+The Bahamas,46,0.004
+The Bahamas,47,0.004
+The Bahamas,48,0.004
+The Bahamas,49,0.003
+The Bahamas,50,0.003
+The Bahamas,51,0.003
+The Bahamas,52,0.003
+The Bahamas,53,0.003
+The Bahamas,54,0.003
+The Bahamas,55,0.0025
+The Bahamas,56,0.0025
+The Bahamas,57,0.002
+The Bahamas,58,0.002
+The Bahamas,59,0.002
+The Bahamas,60,0.0015
+The Bahamas,61,0.0015
+The Bahamas,62,0.0015
+The Bahamas,63,0.0015
+The Bahamas,64,0
+The Bahamas,65,0.008
+Belize,18,0.015
+Belize,19,0.015
+Belize,20,0.01
+Belize,21,0.009
+Belize,22,0.009
+Belize,23,0.009
+Belize,24,0.008
+Belize,25,0.015
+Belize,26,0.007
+Belize,27,0.008
+Belize,28,0.008
+Belize,29,0.007
+Belize,30,0.006
+Belize,31,0.008
+Belize,32,0.006
+Belize,33,0.005
+Belize,34,0.0045
+Belize,35,0.0045
+Belize,36,0.0045
+Belize,37,0.0045
+Belize,38,0.004
+Belize,39,0.0035
+Belize,40,0.003
+Belize,41,0.003
+Belize,42,0.003
+Belize,43,0.003
+Belize,44,0.0025
+Belize,45,0.0025
+Belize,46,0.0025
+Belize,47,0.0025
+Belize,48,0.002
+Belize,49,0.002
+Belize,50,0.002
+Belize,51,0.0015
+Belize,52,0.0015
+Belize,53,0.0015
+Belize,54,0.0015
+Belize,55,0.0015
+Belize,56,0.0015
+Belize,57,0.0015
+Belize,58,0
+Belize,59,0
+Belize,60,0
+Belize,61,0
+Belize,62,0
+Belize,63,0
+Belize,64,0
+Belize,65,0.0045
+Guadeloupe,18,0.006
+Guadeloupe,19,0.006
+Guadeloupe,20,0.006
+Guadeloupe,21,0.006
+Guadeloupe,22,0.006
+Guadeloupe,23,0.006
+Guadeloupe,24,0.005
+Guadeloupe,25,0.007
+Guadeloupe,26,0.005
+Guadeloupe,27,0.006
+Guadeloupe,28,0.006
+Guadeloupe,29,0.005
+Guadeloupe,30,0.005
+Guadeloupe,31,0.005
+Guadeloupe,32,0.0045
+Guadeloupe,33,0.0045
+Guadeloupe,34,0.004
+Guadeloupe,35,0.0045
+Guadeloupe,36,0.0045
+Guadeloupe,37,0.0045
+Guadeloupe,38,0.0045
+Guadeloupe,39,0.004
+Guadeloupe,40,0.004
+Guadeloupe,41,0.004
+Guadeloupe,42,0.004
+Guadeloupe,43,0.004
+Guadeloupe,44,0.004
+Guadeloupe,45,0.004
+Guadeloupe,46,0.004
+Guadeloupe,47,0.004
+Guadeloupe,48,0.004
+Guadeloupe,49,0.0035
+Guadeloupe,50,0.0035
+Guadeloupe,51,0.003
+Guadeloupe,52,0.0035
+Guadeloupe,53,0.003
+Guadeloupe,54,0.003
+Guadeloupe,55,0.003
+Guadeloupe,56,0.0025
+Guadeloupe,57,0.0025
+Guadeloupe,58,0.0025
+Guadeloupe,59,0.002
+Guadeloupe,60,0.002
+Guadeloupe,61,0.002
+Guadeloupe,62,0.002
+Guadeloupe,63,0.0015
+Guadeloupe,64,0.0015
+Guadeloupe,65,0.015
+Tajikistan,18,0.008
+Tajikistan,19,0.007
+Tajikistan,20,0.007
+Tajikistan,21,0.008
+Tajikistan,22,0.008
+Tajikistan,23,0.008
+Tajikistan,24,0.008
+Tajikistan,25,0.015
+Tajikistan,26,0.008
+Tajikistan,27,0.009
+Tajikistan,28,0.009
+Tajikistan,29,0.008
+Tajikistan,30,0.008
+Tajikistan,31,0.009
+Tajikistan,32,0.007
+Tajikistan,33,0.007
+Tajikistan,34,0.006
+Tajikistan,35,0.006
+Tajikistan,36,0.005
+Tajikistan,37,0.0045
+Tajikistan,38,0.0045
+Tajikistan,39,0.004
+Tajikistan,40,0.0035
+Tajikistan,41,0.0035
+Tajikistan,42,0.003
+Tajikistan,43,0.003
+Tajikistan,44,0.0025
+Tajikistan,45,0.002
+Tajikistan,46,0.002
+Tajikistan,47,0.002
+Tajikistan,48,0.002
+Tajikistan,49,0.0015
+Tajikistan,50,0.0015
+Tajikistan,51,0.0015
+Tajikistan,52,0.0015
+Tajikistan,53,0
+Tajikistan,54,0
+Tajikistan,55,0
+Tajikistan,56,0
+Tajikistan,57,0
+Tajikistan,58,0
+Tajikistan,59,0
+Tajikistan,60,0
+Tajikistan,61,0
+Tajikistan,62,0
+Tajikistan,63,0
+Tajikistan,64,0
+Tajikistan,65,0.003
+Martinique,18,0.0045
+Martinique,19,0.0045
+Martinique,20,0.005
+Martinique,21,0.005
+Martinique,22,0.005
+Martinique,23,0.005
+Martinique,24,0.0045
+Martinique,25,0.006
+Martinique,26,0.0045
+Martinique,27,0.0045
+Martinique,28,0.005
+Martinique,29,0.0045
+Martinique,30,0.0045
+Martinique,31,0.0045
+Martinique,32,0.004
+Martinique,33,0.004
+Martinique,34,0.004
+Martinique,35,0.004
+Martinique,36,0.004
+Martinique,37,0.004
+Martinique,38,0.0045
+Martinique,39,0.0035
+Martinique,40,0.0035
+Martinique,41,0.0035
+Martinique,42,0.0035
+Martinique,43,0.0035
+Martinique,44,0.0035
+Martinique,45,0.0035
+Martinique,46,0.0035
+Martinique,47,0.004
+Martinique,48,0.004
+Martinique,49,0.0035
+Martinique,50,0.0035
+Martinique,51,0.003
+Martinique,52,0.0035
+Martinique,53,0.0035
+Martinique,54,0.003
+Martinique,55,0.003
+Martinique,56,0.003
+Martinique,57,0.003
+Martinique,58,0.003
+Martinique,59,0.0025
+Martinique,60,0.002
+Martinique,61,0.002
+Martinique,62,0.002
+Martinique,63,0.0015
+Martinique,64,0.0015
+Martinique,65,0.015
+Djibouti,18,0.015
+Djibouti,19,0.015
+Djibouti,20,0.015
+Djibouti,21,0.01
+Djibouti,22,0.009
+Djibouti,23,0.01
+Djibouti,24,0.008
+Djibouti,25,0.015
+Djibouti,26,0.007
+Djibouti,27,0.007
+Djibouti,28,0.007
+Djibouti,29,0.006
+Djibouti,30,0.006
+Djibouti,31,0.015
+Djibouti,32,0.0045
+Djibouti,33,0.0045
+Djibouti,34,0.0035
+Djibouti,35,0.0035
+Djibouti,36,0.003
+Djibouti,37,0.003
+Djibouti,38,0.003
+Djibouti,39,0.002
+Djibouti,40,0.002
+Djibouti,41,0.002
+Djibouti,42,0.0015
+Djibouti,43,0.0015
+Djibouti,44,0.0015
+Djibouti,45,0
+Djibouti,46,0
+Djibouti,47,0
+Djibouti,48,0
+Djibouti,49,0
+Djibouti,50,0
+Djibouti,51,0
+Djibouti,52,0
+Djibouti,53,0
+Djibouti,54,0
+Djibouti,55,0
+Djibouti,56,0
+Djibouti,57,0
+Djibouti,58,0
+Djibouti,59,0
+Djibouti,60,0
+Djibouti,61,0
+Djibouti,62,0
+Djibouti,63,0
+Djibouti,64,0
+Djibouti,65,0.0035
+Barbados,18,0.0035
+Barbados,19,0.004
+Barbados,20,0.004
+Barbados,21,0.0045
+Barbados,22,0.0045
+Barbados,23,0.0045
+Barbados,24,0.0045
+Barbados,25,0.006
+Barbados,26,0.0045
+Barbados,27,0.005
+Barbados,28,0.005
+Barbados,29,0.004
+Barbados,30,0.004
+Barbados,31,0.004
+Barbados,32,0.004
+Barbados,33,0.004
+Barbados,34,0.004
+Barbados,35,0.004
+Barbados,36,0.004
+Barbados,37,0.004
+Barbados,38,0.004
+Barbados,39,0.0035
+Barbados,40,0.0035
+Barbados,41,0.0035
+Barbados,42,0.0035
+Barbados,43,0.0035
+Barbados,44,0.003
+Barbados,45,0.0035
+Barbados,46,0.003
+Barbados,47,0.0035
+Barbados,48,0.003
+Barbados,49,0.0025
+Barbados,50,0.0025
+Barbados,51,0.003
+Barbados,52,0.003
+Barbados,53,0.003
+Barbados,54,0.0025
+Barbados,55,0.0025
+Barbados,56,0.0025
+Barbados,57,0.0025
+Barbados,58,0.0025
+Barbados,59,0.002
+Barbados,60,0.002
+Barbados,61,0.002
+Barbados,62,0.0015
+Barbados,63,0.0015
+Barbados,64,0.0015
+Barbados,65,0.009
+Swaziland,18,0.01
+Swaziland,19,0.015
+Swaziland,20,0.01
+Swaziland,21,0.009
+Swaziland,22,0.01
+Swaziland,23,0.009
+Swaziland,24,0.008
+Swaziland,25,0.009
+Swaziland,26,0.007
+Swaziland,27,0.007
+Swaziland,28,0.007
+Swaziland,29,0.005
+Swaziland,30,0.006
+Swaziland,31,0.009
+Swaziland,32,0.004
+Swaziland,33,0.0035
+Swaziland,34,0.003
+Swaziland,35,0.003
+Swaziland,36,0.0025
+Swaziland,37,0.003
+Swaziland,38,0.003
+Swaziland,39,0.002
+Swaziland,40,0.002
+Swaziland,41,0.0015
+Swaziland,42,0.0015
+Swaziland,43,0.0015
+Swaziland,44,0
+Swaziland,45,0
+Swaziland,46,0
+Swaziland,47,0
+Swaziland,48,0.0015
+Swaziland,49,0
+Swaziland,50,0
+Swaziland,51,0
+Swaziland,52,0
+Swaziland,53,0
+Swaziland,54,0
+Swaziland,55,0
+Swaziland,56,0
+Swaziland,57,0
+Swaziland,58,0
+Swaziland,59,0
+Swaziland,60,0
+Swaziland,61,0
+Swaziland,62,0
+Swaziland,63,0
+Swaziland,64,0
+Swaziland,65,0.015
+French Polynesia,18,0.007
+French Polynesia,19,0.007
+French Polynesia,20,0.006
+French Polynesia,21,0.006
+French Polynesia,22,0.006
+French Polynesia,23,0.006
+French Polynesia,24,0.005
+French Polynesia,25,0.007
+French Polynesia,26,0.005
+French Polynesia,27,0.006
+French Polynesia,28,0.006
+French Polynesia,29,0.005
+French Polynesia,30,0.005
+French Polynesia,31,0.005
+French Polynesia,32,0.0045
+French Polynesia,33,0.0045
+French Polynesia,34,0.0045
+French Polynesia,35,0.004
+French Polynesia,36,0.004
+French Polynesia,37,0.004
+French Polynesia,38,0.004
+French Polynesia,39,0.003
+French Polynesia,40,0.003
+French Polynesia,41,0.003
+French Polynesia,42,0.003
+French Polynesia,43,0.003
+French Polynesia,44,0.0025
+French Polynesia,45,0.003
+French Polynesia,46,0.0025
+French Polynesia,47,0.0025
+French Polynesia,48,0.0025
+French Polynesia,49,0.0025
+French Polynesia,50,0.0025
+French Polynesia,51,0.002
+French Polynesia,52,0.002
+French Polynesia,53,0.002
+French Polynesia,54,0.002
+French Polynesia,55,0.0015
+French Polynesia,56,0.0015
+French Polynesia,57,0.0015
+French Polynesia,58,0.0015
+French Polynesia,59,0.0015
+French Polynesia,60,0
+French Polynesia,61,0
+French Polynesia,62,0
+French Polynesia,63,0
+French Polynesia,64,0
+French Polynesia,65,0.006
+New Caledonia,18,0.007
+New Caledonia,19,0.007
+New Caledonia,20,0.006
+New Caledonia,21,0.006
+New Caledonia,22,0.006
+New Caledonia,23,0.005
+New Caledonia,24,0.005
+New Caledonia,25,0.007
+New Caledonia,26,0.005
+New Caledonia,27,0.005
+New Caledonia,28,0.006
+New Caledonia,29,0.0045
+New Caledonia,30,0.0045
+New Caledonia,31,0.0045
+New Caledonia,32,0.004
+New Caledonia,33,0.004
+New Caledonia,34,0.004
+New Caledonia,35,0.0035
+New Caledonia,36,0.0035
+New Caledonia,37,0.0035
+New Caledonia,38,0.0035
+New Caledonia,39,0.003
+New Caledonia,40,0.003
+New Caledonia,41,0.003
+New Caledonia,42,0.003
+New Caledonia,43,0.003
+New Caledonia,44,0.003
+New Caledonia,45,0.003
+New Caledonia,46,0.0025
+New Caledonia,47,0.0025
+New Caledonia,48,0.0025
+New Caledonia,49,0.0025
+New Caledonia,50,0.002
+New Caledonia,51,0.002
+New Caledonia,52,0.002
+New Caledonia,53,0.002
+New Caledonia,54,0.002
+New Caledonia,55,0.002
+New Caledonia,56,0.0015
+New Caledonia,57,0.0015
+New Caledonia,58,0.0015
+New Caledonia,59,0.0015
+New Caledonia,60,0.0015
+New Caledonia,61,0
+New Caledonia,62,0
+New Caledonia,63,0
+New Caledonia,64,0
+New Caledonia,65,0.008
+Comoros,18,0.015
+Comoros,19,0.01
+Comoros,20,0.008
+Comoros,21,0.007
+Comoros,22,0.007
+Comoros,23,0.006
+Comoros,24,0.005
+Comoros,25,0.007
+Comoros,26,0.0045
+Comoros,27,0.0045
+Comoros,28,0.005
+Comoros,29,0.004
+Comoros,30,0.0045
+Comoros,31,0.02
+Comoros,32,0.003
+Comoros,33,0.003
+Comoros,34,0.0025
+Comoros,35,0.0025
+Comoros,36,0.002
+Comoros,37,0.002
+Comoros,38,0.0025
+Comoros,39,0.0015
+Comoros,40,0.0015
+Comoros,41,0
+Comoros,42,0.0015
+Comoros,43,0.0015
+Comoros,44,0
+Comoros,45,0
+Comoros,46,0
+Comoros,47,0
+Comoros,48,0
+Comoros,49,0
+Comoros,50,0
+Comoros,51,0
+Comoros,52,0
+Comoros,53,0
+Comoros,54,0
+Comoros,55,0
+Comoros,56,0
+Comoros,57,0
+Comoros,58,0
+Comoros,59,0
+Comoros,60,0
+Comoros,61,0
+Comoros,62,0
+Comoros,63,0
+Comoros,64,0
+Comoros,65,0.0035
+Chad,18,0.008
+Chad,19,0.009
+Chad,20,0.008
+Chad,21,0.007
+Chad,22,0.007
+Chad,23,0.007
+Chad,24,0.006
+Chad,25,0.007
+Chad,26,0.0045
+Chad,27,0.0045
+Chad,28,0.007
+Chad,29,0.0045
+Chad,30,0.005
+Chad,31,0.007
+Chad,32,0.004
+Chad,33,0.004
+Chad,34,0.003
+Chad,35,0.0025
+Chad,36,0.0025
+Chad,37,0.002
+Chad,38,0.0025
+Chad,39,0.002
+Chad,40,0.0015
+Chad,41,0.0015
+Chad,42,0.0015
+Chad,43,0.0015
+Chad,44,0
+Chad,45,0
+Chad,46,0
+Chad,47,0
+Chad,48,0
+Chad,49,0
+Chad,50,0
+Chad,51,0
+Chad,52,0
+Chad,53,0
+Chad,54,0
+Chad,55,0
+Chad,56,0
+Chad,57,0
+Chad,58,0
+Chad,59,0
+Chad,60,0
+Chad,61,0
+Chad,62,0
+Chad,63,0
+Chad,64,0
+Chad,65,0.0025
+Guam,18,0.003
+Guam,19,0.003
+Guam,20,0.0035
+Guam,21,0.004
+Guam,22,0.004
+Guam,23,0.0045
+Guam,24,0.004
+Guam,25,0.005
+Guam,26,0.004
+Guam,27,0.0045
+Guam,28,0.0045
+Guam,29,0.0035
+Guam,30,0.0035
+Guam,31,0.003
+Guam,32,0.003
+Guam,33,0.003
+Guam,34,0.0025
+Guam,35,0.0025
+Guam,36,0.0025
+Guam,37,0.0025
+Guam,38,0.0025
+Guam,39,0.0025
+Guam,40,0.002
+Guam,41,0.002
+Guam,42,0.002
+Guam,43,0.002
+Guam,44,0.002
+Guam,45,0.002
+Guam,46,0.002
+Guam,47,0.002
+Guam,48,0.002
+Guam,49,0.002
+Guam,50,0.002
+Guam,51,0.0015
+Guam,52,0.002
+Guam,53,0.0015
+Guam,54,0.0015
+Guam,55,0.0015
+Guam,56,0.0015
+Guam,57,0.0015
+Guam,58,0.0015
+Guam,59,0.0015
+Guam,60,0
+Guam,61,0
+Guam,62,0
+Guam,63,0
+Guam,64,0
+Guam,65,0.007
+French Guiana,18,0.005
+French Guiana,19,0.0045
+French Guiana,20,0.0045
+French Guiana,21,0.004
+French Guiana,22,0.004
+French Guiana,23,0.004
+French Guiana,24,0.0035
+French Guiana,25,0.005
+French Guiana,26,0.0035
+French Guiana,27,0.0035
+French Guiana,28,0.004
+French Guiana,29,0.0035
+French Guiana,30,0.0035
+French Guiana,31,0.0035
+French Guiana,32,0.003
+French Guiana,33,0.003
+French Guiana,34,0.003
+French Guiana,35,0.003
+French Guiana,36,0.0025
+French Guiana,37,0.003
+French Guiana,38,0.003
+French Guiana,39,0.0025
+French Guiana,40,0.002
+French Guiana,41,0.002
+French Guiana,42,0.002
+French Guiana,43,0.002
+French Guiana,44,0.002
+French Guiana,45,0.002
+French Guiana,46,0.0015
+French Guiana,47,0.002
+French Guiana,48,0.0015
+French Guiana,49,0.0015
+French Guiana,50,0.0015
+French Guiana,51,0.0015
+French Guiana,52,0.0015
+French Guiana,53,0
+French Guiana,54,0
+French Guiana,55,0
+French Guiana,56,0
+French Guiana,57,0
+French Guiana,58,0
+French Guiana,59,0
+French Guiana,60,0
+French Guiana,61,0
+French Guiana,62,0
+French Guiana,63,0
+French Guiana,64,0
+French Guiana,65,0.0035
+Central African Republic,18,0.005
+Central African Republic,19,0.005
+Central African Republic,20,0.005
+Central African Republic,21,0.005
+Central African Republic,22,0.005
+Central African Republic,23,0.0045
+Central African Republic,24,0.0045
+Central African Republic,25,0.005
+Central African Republic,26,0.004
+Central African Republic,27,0.004
+Central African Republic,28,0.0045
+Central African Republic,29,0.0035
+Central African Republic,30,0.004
+Central African Republic,31,0.005
+Central African Republic,32,0.0035
+Central African Republic,33,0.0035
+Central African Republic,34,0.003
+Central African Republic,35,0.0025
+Central African Republic,36,0.0025
+Central African Republic,37,0.0025
+Central African Republic,38,0.0025
+Central African Republic,39,0.002
+Central African Republic,40,0.002
+Central African Republic,41,0.0015
+Central African Republic,42,0.0015
+Central African Republic,43,0.0015
+Central African Republic,44,0.0015
+Central African Republic,45,0.0015
+Central African Republic,46,0.0015
+Central African Republic,47,0
+Central African Republic,48,0
+Central African Republic,49,0
+Central African Republic,50,0
+Central African Republic,51,0
+Central African Republic,52,0
+Central African Republic,53,0
+Central African Republic,54,0
+Central African Republic,55,0
+Central African Republic,56,0
+Central African Republic,57,0
+Central African Republic,58,0
+Central African Republic,59,0
+Central African Republic,60,0
+Central African Republic,61,0
+Central African Republic,62,0
+Central African Republic,63,0
+Central African Republic,64,0
+Central African Republic,65,0.003
+St. Lucia,18,0.003
+St. Lucia,19,0.003
+St. Lucia,20,0.0035
+St. Lucia,21,0.0035
+St. Lucia,22,0.004
+St. Lucia,23,0.004
+St. Lucia,24,0.0035
+St. Lucia,25,0.0045
+St. Lucia,26,0.0035
+St. Lucia,27,0.0035
+St. Lucia,28,0.0035
+St. Lucia,29,0.003
+St. Lucia,30,0.003
+St. Lucia,31,0.003
+St. Lucia,32,0.003
+St. Lucia,33,0.003
+St. Lucia,34,0.0025
+St. Lucia,35,0.0025
+St. Lucia,36,0.0025
+St. Lucia,37,0.0025
+St. Lucia,38,0.0025
+St. Lucia,39,0.002
+St. Lucia,40,0.002
+St. Lucia,41,0.002
+St. Lucia,42,0.002
+St. Lucia,43,0.0015
+St. Lucia,44,0.0015
+St. Lucia,45,0.0015
+St. Lucia,46,0.0015
+St. Lucia,47,0.0015
+St. Lucia,48,0.0015
+St. Lucia,49,0.0015
+St. Lucia,50,0
+St. Lucia,51,0
+St. Lucia,52,0
+St. Lucia,53,0
+St. Lucia,54,0
+St. Lucia,55,0
+St. Lucia,56,0
+St. Lucia,57,0
+St. Lucia,58,0
+St. Lucia,59,0
+St. Lucia,60,0
+St. Lucia,61,0
+St. Lucia,62,0
+St. Lucia,63,0
+St. Lucia,64,0
+St. Lucia,65,0.0025
+Solomon Islands,18,0.006
+Solomon Islands,19,0.006
+Solomon Islands,20,0.005
+Solomon Islands,21,0.0045
+Solomon Islands,22,0.0045
+Solomon Islands,23,0.004
+Solomon Islands,24,0.0035
+Solomon Islands,25,0.004
+Solomon Islands,26,0.0025
+Solomon Islands,27,0.0025
+Solomon Islands,28,0.003
+Solomon Islands,29,0.0025
+Solomon Islands,30,0.0025
+Solomon Islands,31,0.006
+Solomon Islands,32,0.002
+Solomon Islands,33,0.0015
+Solomon Islands,34,0.0015
+Solomon Islands,35,0.0015
+Solomon Islands,36,0.0015
+Solomon Islands,37,0.0015
+Solomon Islands,38,0.0015
+Solomon Islands,39,0.0015
+Solomon Islands,40,0
+Solomon Islands,41,0
+Solomon Islands,42,0
+Solomon Islands,43,0
+Solomon Islands,44,0
+Solomon Islands,45,0
+Solomon Islands,46,0
+Solomon Islands,47,0
+Solomon Islands,48,0
+Solomon Islands,49,0
+Solomon Islands,50,0
+Solomon Islands,51,0
+Solomon Islands,52,0
+Solomon Islands,53,0
+Solomon Islands,54,0
+Solomon Islands,55,0
+Solomon Islands,56,0
+Solomon Islands,57,0
+Solomon Islands,58,0
+Solomon Islands,59,0
+Solomon Islands,60,0
+Solomon Islands,61,0
+Solomon Islands,62,0
+Solomon Islands,63,0
+Solomon Islands,64,0
+Solomon Islands,65,0.002
+Jersey,18,0.0015
+Jersey,19,0.0015
+Jersey,20,0.0015
+Jersey,21,0.0015
+Jersey,22,0.0015
+Jersey,23,0.0015
+Jersey,24,0.0015
+Jersey,25,0.0015
+Jersey,26,0.0015
+Jersey,27,0.002
+Jersey,28,0.002
+Jersey,29,0.0015
+Jersey,30,0.0015
+Jersey,31,0.0015
+Jersey,32,0.0015
+Jersey,33,0.0015
+Jersey,34,0.002
+Jersey,35,0.0015
+Jersey,36,0.0015
+Jersey,37,0.002
+Jersey,38,0.002
+Jersey,39,0.0015
+Jersey,40,0.0015
+Jersey,41,0.0015
+Jersey,42,0.0015
+Jersey,43,0.0015
+Jersey,44,0.0015
+Jersey,45,0.0015
+Jersey,46,0.0015
+Jersey,47,0.0015
+Jersey,48,0.0015
+Jersey,49,0.0015
+Jersey,50,0.0015
+Jersey,51,0.0015
+Jersey,52,0.0015
+Jersey,53,0.0015
+Jersey,54,0.0015
+Jersey,55,0.0015
+Jersey,56,0.0015
+Jersey,57,0
+Jersey,58,0
+Jersey,59,0
+Jersey,60,0
+Jersey,61,0
+Jersey,62,0
+Jersey,63,0
+Jersey,64,0
+Jersey,65,0.006
+Mayotte,18,0.008
+Mayotte,19,0.006
+Mayotte,20,0.004
+Mayotte,21,0.0035
+Mayotte,22,0.003
+Mayotte,23,0.003
+Mayotte,24,0.003
+Mayotte,25,0.005
+Mayotte,26,0.0025
+Mayotte,27,0.0025
+Mayotte,28,0.003
+Mayotte,29,0.0025
+Mayotte,30,0.0025
+Mayotte,31,0.003
+Mayotte,32,0.002
+Mayotte,33,0.002
+Mayotte,34,0.0015
+Mayotte,35,0.0015
+Mayotte,36,0.0015
+Mayotte,37,0.0015
+Mayotte,38,0.002
+Mayotte,39,0.0015
+Mayotte,40,0
+Mayotte,41,0
+Mayotte,42,0
+Mayotte,43,0
+Mayotte,44,0
+Mayotte,45,0
+Mayotte,46,0
+Mayotte,47,0
+Mayotte,48,0
+Mayotte,49,0
+Mayotte,50,0
+Mayotte,51,0
+Mayotte,52,0
+Mayotte,53,0
+Mayotte,54,0
+Mayotte,55,0
+Mayotte,56,0
+Mayotte,57,0
+Mayotte,58,0
+Mayotte,59,0
+Mayotte,60,0
+Mayotte,61,0
+Mayotte,62,0
+Mayotte,63,0
+Mayotte,64,0
+Mayotte,65,0.002
+Samoa,18,0.005
+Samoa,19,0.005
+Samoa,20,0.0045
+Samoa,21,0.004
+Samoa,22,0.004
+Samoa,23,0.0035
+Samoa,24,0.003
+Samoa,25,0.0035
+Samoa,26,0.003
+Samoa,27,0.0025
+Samoa,28,0.0025
+Samoa,29,0.002
+Samoa,30,0.0025
+Samoa,31,0.007
+Samoa,32,0.002
+Samoa,33,0.0015
+Samoa,34,0.0015
+Samoa,35,0.0015
+Samoa,36,0.0015
+Samoa,37,0.0015
+Samoa,38,0.0015
+Samoa,39,0
+Samoa,40,0
+Samoa,41,0
+Samoa,42,0
+Samoa,43,0
+Samoa,44,0
+Samoa,45,0
+Samoa,46,0
+Samoa,47,0
+Samoa,48,0
+Samoa,49,0
+Samoa,50,0
+Samoa,51,0
+Samoa,52,0
+Samoa,53,0
+Samoa,54,0
+Samoa,55,0
+Samoa,56,0
+Samoa,57,0
+Samoa,58,0
+Samoa,59,0
+Samoa,60,0
+Samoa,61,0
+Samoa,62,0
+Samoa,63,0
+Samoa,64,0
+Samoa,65,0.002
+Vanuatu,18,0.006
+Vanuatu,19,0.005
+Vanuatu,20,0.004
+Vanuatu,21,0.004
+Vanuatu,22,0.0035
+Vanuatu,23,0.0035
+Vanuatu,24,0.003
+Vanuatu,25,0.0045
+Vanuatu,26,0.0025
+Vanuatu,27,0.0025
+Vanuatu,28,0.0025
+Vanuatu,29,0.002
+Vanuatu,30,0.0025
+Vanuatu,31,0.007
+Vanuatu,32,0.002
+Vanuatu,33,0.0015
+Vanuatu,34,0.0015
+Vanuatu,35,0.0015
+Vanuatu,36,0
+Vanuatu,37,0.0015
+Vanuatu,38,0.0015
+Vanuatu,39,0
+Vanuatu,40,0
+Vanuatu,41,0
+Vanuatu,42,0
+Vanuatu,43,0
+Vanuatu,44,0
+Vanuatu,45,0
+Vanuatu,46,0
+Vanuatu,47,0
+Vanuatu,48,0
+Vanuatu,49,0
+Vanuatu,50,0
+Vanuatu,51,0
+Vanuatu,52,0
+Vanuatu,53,0
+Vanuatu,54,0
+Vanuatu,55,0
+Vanuatu,56,0
+Vanuatu,57,0
+Vanuatu,58,0
+Vanuatu,59,0
+Vanuatu,60,0
+Vanuatu,61,0
+Vanuatu,62,0
+Vanuatu,63,0
+Vanuatu,64,0
+Vanuatu,65,0.0015
+Aruba,18,0.0015
+Aruba,19,0.0015
+Aruba,20,0.0015
+Aruba,21,0.0015
+Aruba,22,0.002
+Aruba,23,0.002
+Aruba,24,0.0015
+Aruba,25,0.002
+Aruba,26,0.0015
+Aruba,27,0.0015
+Aruba,28,0.002
+Aruba,29,0.0015
+Aruba,30,0.0015
+Aruba,31,0.0015
+Aruba,32,0.0015
+Aruba,33,0.0015
+Aruba,34,0.0015
+Aruba,35,0.0015
+Aruba,36,0.0015
+Aruba,37,0.0015
+Aruba,38,0.0015
+Aruba,39,0.0015
+Aruba,40,0.0015
+Aruba,41,0.0015
+Aruba,42,0.0015
+Aruba,43,0.0015
+Aruba,44,0.0015
+Aruba,45,0.0015
+Aruba,46,0.0015
+Aruba,47,0.0015
+Aruba,48,0.0015
+Aruba,49,0.0015
+Aruba,50,0.0015
+Aruba,51,0.0015
+Aruba,52,0
+Aruba,53,0.0015
+Aruba,54,0.0015
+Aruba,55,0
+Aruba,56,0
+Aruba,57,0
+Aruba,58,0
+Aruba,59,0
+Aruba,60,0
+Aruba,61,0
+Aruba,62,0
+Aruba,63,0
+Aruba,64,0
+Aruba,65,0.004
+Seychelles,18,0.0025
+Seychelles,19,0.002
+Seychelles,20,0.002
+Seychelles,21,0.002
+Seychelles,22,0.002
+Seychelles,23,0.002
+Seychelles,24,0.0025
+Seychelles,25,0.003
+Seychelles,26,0.0025
+Seychelles,27,0.0025
+Seychelles,28,0.0025
+Seychelles,29,0.0025
+Seychelles,30,0.0025
+Seychelles,31,0.0035
+Seychelles,32,0.002
+Seychelles,33,0.0025
+Seychelles,34,0.002
+Seychelles,35,0.002
+Seychelles,36,0.002
+Seychelles,37,0.002
+Seychelles,38,0.002
+Seychelles,39,0.0015
+Seychelles,40,0.0015
+Seychelles,41,0.0015
+Seychelles,42,0.0015
+Seychelles,43,0.0015
+Seychelles,44,0
+Seychelles,45,0
+Seychelles,46,0
+Seychelles,47,0
+Seychelles,48,0
+Seychelles,49,0
+Seychelles,50,0
+Seychelles,51,0
+Seychelles,52,0
+Seychelles,53,0
+Seychelles,54,0
+Seychelles,55,0
+Seychelles,56,0
+Seychelles,57,0
+Seychelles,58,0
+Seychelles,59,0
+Seychelles,60,0
+Seychelles,61,0
+Seychelles,62,0
+Seychelles,63,0
+Seychelles,64,0
+Seychelles,65,0.0015
+Antigua,18,0.0015
+Antigua,19,0.002
+Antigua,20,0.002
+Antigua,21,0.002
+Antigua,22,0.002
+Antigua,23,0.002
+Antigua,24,0.002
+Antigua,25,0.0025
+Antigua,26,0.002
+Antigua,27,0.002
+Antigua,28,0.002
+Antigua,29,0.002
+Antigua,30,0.002
+Antigua,31,0.002
+Antigua,32,0.0015
+Antigua,33,0.002
+Antigua,34,0.0015
+Antigua,35,0.0015
+Antigua,36,0.0015
+Antigua,37,0.0015
+Antigua,38,0.002
+Antigua,39,0.0015
+Antigua,40,0.0015
+Antigua,41,0.0015
+Antigua,42,0.0015
+Antigua,43,0.0015
+Antigua,44,0
+Antigua,45,0.0015
+Antigua,46,0
+Antigua,47,0.0015
+Antigua,48,0
+Antigua,49,0
+Antigua,50,0
+Antigua,51,0
+Antigua,52,0
+Antigua,53,0
+Antigua,54,0
+Antigua,55,0
+Antigua,56,0
+Antigua,57,0
+Antigua,58,0
+Antigua,59,0
+Antigua,60,0
+Antigua,61,0
+Antigua,62,0
+Antigua,63,0
+Antigua,64,0
+Antigua,65,0.002
+Saint Vincent and the Grenadines,18,0.0025
+Saint Vincent and the Grenadines,19,0.0025
+Saint Vincent and the Grenadines,20,0.0025
+Saint Vincent and the Grenadines,21,0.003
+Saint Vincent and the Grenadines,22,0.003
+Saint Vincent and the Grenadines,23,0.003
+Saint Vincent and the Grenadines,24,0.0025
+Saint Vincent and the Grenadines,25,0.0035
+Saint Vincent and the Grenadines,26,0.0025
+Saint Vincent and the Grenadines,27,0.0025
+Saint Vincent and the Grenadines,28,0.0025
+Saint Vincent and the Grenadines,29,0.002
+Saint Vincent and the Grenadines,30,0.002
+Saint Vincent and the Grenadines,31,0.002
+Saint Vincent and the Grenadines,32,0.002
+Saint Vincent and the Grenadines,33,0.002
+Saint Vincent and the Grenadines,34,0.0015
+Saint Vincent and the Grenadines,35,0.0015
+Saint Vincent and the Grenadines,36,0.0015
+Saint Vincent and the Grenadines,37,0.0015
+Saint Vincent and the Grenadines,38,0.002
+Saint Vincent and the Grenadines,39,0.0015
+Saint Vincent and the Grenadines,40,0
+Saint Vincent and the Grenadines,41,0
+Saint Vincent and the Grenadines,42,0
+Saint Vincent and the Grenadines,43,0
+Saint Vincent and the Grenadines,44,0
+Saint Vincent and the Grenadines,45,0
+Saint Vincent and the Grenadines,46,0
+Saint Vincent and the Grenadines,47,0
+Saint Vincent and the Grenadines,48,0
+Saint Vincent and the Grenadines,49,0
+Saint Vincent and the Grenadines,50,0
+Saint Vincent and the Grenadines,51,0
+Saint Vincent and the Grenadines,52,0
+Saint Vincent and the Grenadines,53,0
+Saint Vincent and the Grenadines,54,0
+Saint Vincent and the Grenadines,55,0
+Saint Vincent and the Grenadines,56,0
+Saint Vincent and the Grenadines,57,0
+Saint Vincent and the Grenadines,58,0
+Saint Vincent and the Grenadines,59,0
+Saint Vincent and the Grenadines,60,0
+Saint Vincent and the Grenadines,61,0
+Saint Vincent and the Grenadines,62,0
+Saint Vincent and the Grenadines,63,0
+Saint Vincent and the Grenadines,64,0
+Saint Vincent and the Grenadines,65,0.002
+Grenada,18,0.0025
+Grenada,19,0.0025
+Grenada,20,0.0025
+Grenada,21,0.0025
+Grenada,22,0.0025
+Grenada,23,0.0025
+Grenada,24,0.0025
+Grenada,25,0.0035
+Grenada,26,0.0025
+Grenada,27,0.0025
+Grenada,28,0.0025
+Grenada,29,0.002
+Grenada,30,0.002
+Grenada,31,0.0025
+Grenada,32,0.002
+Grenada,33,0.002
+Grenada,34,0.002
+Grenada,35,0.002
+Grenada,36,0.0015
+Grenada,37,0.0015
+Grenada,38,0.0015
+Grenada,39,0.0015
+Grenada,40,0
+Grenada,41,0
+Grenada,42,0
+Grenada,43,0
+Grenada,44,0
+Grenada,45,0
+Grenada,46,0
+Grenada,47,0
+Grenada,48,0
+Grenada,49,0
+Grenada,50,0
+Grenada,51,0
+Grenada,52,0
+Grenada,53,0
+Grenada,54,0
+Grenada,55,0
+Grenada,56,0
+Grenada,57,0
+Grenada,58,0
+Grenada,59,0
+Grenada,60,0
+Grenada,61,0
+Grenada,62,0
+Grenada,63,0
+Grenada,64,0
+Grenada,65,0.002
+Sao Tome and Principe,18,0.004
+Sao Tome and Principe,19,0.0035
+Sao Tome and Principe,20,0.003
+Sao Tome and Principe,21,0.003
+Sao Tome and Principe,22,0.0025
+Sao Tome and Principe,23,0.0025
+Sao Tome and Principe,24,0.002
+Sao Tome and Principe,25,0.0025
+Sao Tome and Principe,26,0.002
+Sao Tome and Principe,27,0.002
+Sao Tome and Principe,28,0.002
+Sao Tome and Principe,29,0.0015
+Sao Tome and Principe,30,0.002
+Sao Tome and Principe,31,0.0035
+Sao Tome and Principe,32,0.0015
+Sao Tome and Principe,33,0.0015
+Sao Tome and Principe,34,0.0015
+Sao Tome and Principe,35,0.0015
+Sao Tome and Principe,36,0
+Sao Tome and Principe,37,0
+Sao Tome and Principe,38,0.0015
+Sao Tome and Principe,39,0
+Sao Tome and Principe,40,0
+Sao Tome and Principe,41,0
+Sao Tome and Principe,42,0
+Sao Tome and Principe,43,0
+Sao Tome and Principe,44,0
+Sao Tome and Principe,45,0
+Sao Tome and Principe,46,0
+Sao Tome and Principe,47,0
+Sao Tome and Principe,48,0
+Sao Tome and Principe,49,0
+Sao Tome and Principe,50,0
+Sao Tome and Principe,51,0
+Sao Tome and Principe,52,0
+Sao Tome and Principe,53,0
+Sao Tome and Principe,54,0
+Sao Tome and Principe,55,0
+Sao Tome and Principe,56,0
+Sao Tome and Principe,57,0
+Sao Tome and Principe,58,0
+Sao Tome and Principe,59,0
+Sao Tome and Principe,60,0
+Sao Tome and Principe,61,0
+Sao Tome and Principe,62,0
+Sao Tome and Principe,63,0
+Sao Tome and Principe,64,0
+Sao Tome and Principe,65,0.0015
+Tonga,18,0.004
+Tonga,19,0.0035
+Tonga,20,0.003
+Tonga,21,0.0025
+Tonga,22,0.0025
+Tonga,23,0.0025
+Tonga,24,0.002
+Tonga,25,0.0025
+Tonga,26,0.002
+Tonga,27,0.002
+Tonga,28,0.002
+Tonga,29,0.0015
+Tonga,30,0.0015
+Tonga,31,0.004
+Tonga,32,0.0015
+Tonga,33,0.0015
+Tonga,34,0.0015
+Tonga,35,0.0015
+Tonga,36,0
+Tonga,37,0
+Tonga,38,0
+Tonga,39,0
+Tonga,40,0
+Tonga,41,0
+Tonga,42,0
+Tonga,43,0
+Tonga,44,0
+Tonga,45,0
+Tonga,46,0
+Tonga,47,0
+Tonga,48,0
+Tonga,49,0
+Tonga,50,0
+Tonga,51,0
+Tonga,52,0
+Tonga,53,0
+Tonga,54,0
+Tonga,55,0
+Tonga,56,0
+Tonga,57,0
+Tonga,58,0
+Tonga,59,0
+Tonga,60,0
+Tonga,61,0
+Tonga,62,0
+Tonga,63,0
+Tonga,64,0
+Tonga,65,0.0015
+Cayman Islands,18,0
+Cayman Islands,19,0
+Cayman Islands,20,0
+Cayman Islands,21,0
+Cayman Islands,22,0
+Cayman Islands,23,0
+Cayman Islands,24,0.0015
+Cayman Islands,25,0.002
+Cayman Islands,26,0.0015
+Cayman Islands,27,0.0015
+Cayman Islands,28,0.002
+Cayman Islands,29,0.0015
+Cayman Islands,30,0.0015
+Cayman Islands,31,0.0015
+Cayman Islands,32,0.0015
+Cayman Islands,33,0.0015
+Cayman Islands,34,0.0015
+Cayman Islands,35,0.0015
+Cayman Islands,36,0.0015
+Cayman Islands,37,0.0015
+Cayman Islands,38,0.002
+Cayman Islands,39,0.0015
+Cayman Islands,40,0.0015
+Cayman Islands,41,0.0015
+Cayman Islands,42,0.0015
+Cayman Islands,43,0.0015
+Cayman Islands,44,0.0015
+Cayman Islands,45,0.0015
+Cayman Islands,46,0.0015
+Cayman Islands,47,0
+Cayman Islands,48,0.0015
+Cayman Islands,49,0
+Cayman Islands,50,0
+Cayman Islands,51,0
+Cayman Islands,52,0
+Cayman Islands,53,0
+Cayman Islands,54,0
+Cayman Islands,55,0
+Cayman Islands,56,0
+Cayman Islands,57,0
+Cayman Islands,58,0
+Cayman Islands,59,0
+Cayman Islands,60,0
+Cayman Islands,61,0
+Cayman Islands,62,0
+Cayman Islands,63,0
+Cayman Islands,64,0
+Cayman Islands,65,0.002
+Eritrea,18,0.0015
+Eritrea,19,0.002
+Eritrea,20,0.0025
+Eritrea,21,0.0025
+Eritrea,22,0.003
+Eritrea,23,0.0035
+Eritrea,24,0.003
+Eritrea,25,0.0035
+Eritrea,26,0.0025
+Eritrea,27,0.003
+Eritrea,28,0.0035
+Eritrea,29,0.002
+Eritrea,30,0.002
+Eritrea,31,0.0015
+Eritrea,32,0.0015
+Eritrea,33,0.0015
+Eritrea,34,0
+Eritrea,35,0
+Eritrea,36,0
+Eritrea,37,0
+Eritrea,38,0
+Eritrea,39,0
+Eritrea,40,0
+Eritrea,41,0
+Eritrea,42,0
+Eritrea,43,0
+Eritrea,44,0
+Eritrea,45,0
+Eritrea,46,0
+Eritrea,47,0
+Eritrea,48,0
+Eritrea,49,0
+Eritrea,50,0
+Eritrea,51,0
+Eritrea,52,0
+Eritrea,53,0
+Eritrea,54,0
+Eritrea,55,0
+Eritrea,56,0
+Eritrea,57,0
+Eritrea,58,0
+Eritrea,59,0
+Eritrea,60,0
+Eritrea,61,0
+Eritrea,62,0
+Eritrea,63,0
+Eritrea,64,0
+Eritrea,65,0
+Isle Of Man,18,0
+Isle Of Man,19,0.0015
+Isle Of Man,20,0
+Isle Of Man,21,0.0015
+Isle Of Man,22,0.0015
+Isle Of Man,23,0.0015
+Isle Of Man,24,0.0015
+Isle Of Man,25,0.0015
+Isle Of Man,26,0.0015
+Isle Of Man,27,0.0015
+Isle Of Man,28,0.0015
+Isle Of Man,29,0
+Isle Of Man,30,0
+Isle Of Man,31,0
+Isle Of Man,32,0
+Isle Of Man,33,0.0015
+Isle Of Man,34,0
+Isle Of Man,35,0
+Isle Of Man,36,0.0015
+Isle Of Man,37,0.0015
+Isle Of Man,38,0.0015
+Isle Of Man,39,0.0015
+Isle Of Man,40,0
+Isle Of Man,41,0
+Isle Of Man,42,0.0015
+Isle Of Man,43,0
+Isle Of Man,44,0
+Isle Of Man,45,0.0015
+Isle Of Man,46,0.0015
+Isle Of Man,47,0.0015
+Isle Of Man,48,0.0015
+Isle Of Man,49,0.0015
+Isle Of Man,50,0
+Isle Of Man,51,0.0015
+Isle Of Man,52,0
+Isle Of Man,53,0
+Isle Of Man,54,0
+Isle Of Man,55,0
+Isle Of Man,56,0
+Isle Of Man,57,0
+Isle Of Man,58,0
+Isle Of Man,59,0
+Isle Of Man,60,0
+Isle Of Man,61,0
+Isle Of Man,62,0
+Isle Of Man,63,0
+Isle Of Man,64,0
+Isle Of Man,65,0.007
+Equatorial Guinea,18,0
+Equatorial Guinea,19,0
+Equatorial Guinea,20,0
+Equatorial Guinea,21,0
+Equatorial Guinea,22,0
+Equatorial Guinea,23,0.0015
+Equatorial Guinea,24,0.0015
+Equatorial Guinea,25,0.002
+Equatorial Guinea,26,0.002
+Equatorial Guinea,27,0.002
+Equatorial Guinea,28,0.0025
+Equatorial Guinea,29,0.002
+Equatorial Guinea,30,0.002
+Equatorial Guinea,31,0.004
+Equatorial Guinea,32,0.002
+Equatorial Guinea,33,0.002
+Equatorial Guinea,34,0.0015
+Equatorial Guinea,35,0.0015
+Equatorial Guinea,36,0.0015
+Equatorial Guinea,37,0
+Equatorial Guinea,38,0.0015
+Equatorial Guinea,39,0
+Equatorial Guinea,40,0
+Equatorial Guinea,41,0
+Equatorial Guinea,42,0
+Equatorial Guinea,43,0
+Equatorial Guinea,44,0
+Equatorial Guinea,45,0
+Equatorial Guinea,46,0
+Equatorial Guinea,47,0
+Equatorial Guinea,48,0
+Equatorial Guinea,49,0
+Equatorial Guinea,50,0
+Equatorial Guinea,51,0
+Equatorial Guinea,52,0
+Equatorial Guinea,53,0
+Equatorial Guinea,54,0
+Equatorial Guinea,55,0
+Equatorial Guinea,56,0
+Equatorial Guinea,57,0
+Equatorial Guinea,58,0
+Equatorial Guinea,59,0
+Equatorial Guinea,60,0
+Equatorial Guinea,61,0
+Equatorial Guinea,62,0
+Equatorial Guinea,63,0
+Equatorial Guinea,64,0
+Equatorial Guinea,65,0.0015
+Saint Kitts and Nevis,18,0
+Saint Kitts and Nevis,19,0.0015
+Saint Kitts and Nevis,20,0.0015
+Saint Kitts and Nevis,21,0.0015
+Saint Kitts and Nevis,22,0.0015
+Saint Kitts and Nevis,23,0.002
+Saint Kitts and Nevis,24,0.002
+Saint Kitts and Nevis,25,0.002
+Saint Kitts and Nevis,26,0.0015
+Saint Kitts and Nevis,27,0.0015
+Saint Kitts and Nevis,28,0.0015
+Saint Kitts and Nevis,29,0.0015
+Saint Kitts and Nevis,30,0.0015
+Saint Kitts and Nevis,31,0.0015
+Saint Kitts and Nevis,32,0
+Saint Kitts and Nevis,33,0
+Saint Kitts and Nevis,34,0
+Saint Kitts and Nevis,35,0
+Saint Kitts and Nevis,36,0
+Saint Kitts and Nevis,37,0
+Saint Kitts and Nevis,38,0
+Saint Kitts and Nevis,39,0
+Saint Kitts and Nevis,40,0
+Saint Kitts and Nevis,41,0
+Saint Kitts and Nevis,42,0
+Saint Kitts and Nevis,43,0
+Saint Kitts and Nevis,44,0
+Saint Kitts and Nevis,45,0
+Saint Kitts and Nevis,46,0
+Saint Kitts and Nevis,47,0
+Saint Kitts and Nevis,48,0
+Saint Kitts and Nevis,49,0
+Saint Kitts and Nevis,50,0
+Saint Kitts and Nevis,51,0
+Saint Kitts and Nevis,52,0
+Saint Kitts and Nevis,53,0
+Saint Kitts and Nevis,54,0
+Saint Kitts and Nevis,55,0
+Saint Kitts and Nevis,56,0
+Saint Kitts and Nevis,57,0
+Saint Kitts and Nevis,58,0
+Saint Kitts and Nevis,59,0
+Saint Kitts and Nevis,60,0
+Saint Kitts and Nevis,61,0
+Saint Kitts and Nevis,62,0
+Saint Kitts and Nevis,63,0
+Saint Kitts and Nevis,64,0
+Saint Kitts and Nevis,65,0.0015
+Andorra,18,0
+Andorra,19,0
+Andorra,20,0
+Andorra,21,0
+Andorra,22,0
+Andorra,23,0
+Andorra,24,0
+Andorra,25,0
+Andorra,26,0
+Andorra,27,0
+Andorra,28,0.0015
+Andorra,29,0
+Andorra,30,0
+Andorra,31,0
+Andorra,32,0
+Andorra,33,0
+Andorra,34,0
+Andorra,35,0.0015
+Andorra,36,0.0015
+Andorra,37,0.0015
+Andorra,38,0.0015
+Andorra,39,0.0015
+Andorra,40,0.0015
+Andorra,41,0.0015
+Andorra,42,0.0015
+Andorra,43,0.0015
+Andorra,44,0.0015
+Andorra,45,0.0015
+Andorra,46,0.0015
+Andorra,47,0
+Andorra,48,0
+Andorra,49,0
+Andorra,50,0
+Andorra,51,0
+Andorra,52,0
+Andorra,53,0
+Andorra,54,0
+Andorra,55,0
+Andorra,56,0
+Andorra,57,0
+Andorra,58,0
+Andorra,59,0
+Andorra,60,0
+Andorra,61,0
+Andorra,62,0
+Andorra,63,0
+Andorra,64,0
+Andorra,65,0.0025
+Northern Mariana Islands,18,0.0015
+Northern Mariana Islands,19,0.0015
+Northern Mariana Islands,20,0
+Northern Mariana Islands,21,0.0015
+Northern Mariana Islands,22,0.0015
+Northern Mariana Islands,23,0.0015
+Northern Mariana Islands,24,0.0015
+Northern Mariana Islands,25,0.0015
+Northern Mariana Islands,26,0.0015
+Northern Mariana Islands,27,0.0015
+Northern Mariana Islands,28,0.0015
+Northern Mariana Islands,29,0
+Northern Mariana Islands,30,0
+Northern Mariana Islands,31,0
+Northern Mariana Islands,32,0
+Northern Mariana Islands,33,0
+Northern Mariana Islands,34,0
+Northern Mariana Islands,35,0
+Northern Mariana Islands,36,0
+Northern Mariana Islands,37,0
+Northern Mariana Islands,38,0
+Northern Mariana Islands,39,0
+Northern Mariana Islands,40,0
+Northern Mariana Islands,41,0
+Northern Mariana Islands,42,0
+Northern Mariana Islands,43,0
+Northern Mariana Islands,44,0
+Northern Mariana Islands,45,0
+Northern Mariana Islands,46,0
+Northern Mariana Islands,47,0
+Northern Mariana Islands,48,0
+Northern Mariana Islands,49,0
+Northern Mariana Islands,50,0
+Northern Mariana Islands,51,0
+Northern Mariana Islands,52,0
+Northern Mariana Islands,53,0
+Northern Mariana Islands,54,0
+Northern Mariana Islands,55,0
+Northern Mariana Islands,56,0
+Northern Mariana Islands,57,0
+Northern Mariana Islands,58,0
+Northern Mariana Islands,59,0
+Northern Mariana Islands,60,0
+Northern Mariana Islands,61,0
+Northern Mariana Islands,62,0
+Northern Mariana Islands,63,0
+Northern Mariana Islands,64,0
+Northern Mariana Islands,65,0.0015
+Greenland,18,0.0015
+Greenland,19,0.0015
+Greenland,20,0.0015
+Greenland,21,0
+Greenland,22,0.0015
+Greenland,23,0
+Greenland,24,0.0015
+Greenland,25,0.0015
+Greenland,26,0
+Greenland,27,0
+Greenland,28,0.0015
+Greenland,29,0.0015
+Greenland,30,0
+Greenland,31,0
+Greenland,32,0
+Greenland,33,0
+Greenland,34,0
+Greenland,35,0
+Greenland,36,0
+Greenland,37,0
+Greenland,38,0
+Greenland,39,0
+Greenland,40,0
+Greenland,41,0
+Greenland,42,0
+Greenland,43,0
+Greenland,44,0
+Greenland,45,0
+Greenland,46,0
+Greenland,47,0
+Greenland,48,0
+Greenland,49,0
+Greenland,50,0
+Greenland,51,0
+Greenland,52,0
+Greenland,53,0
+Greenland,54,0
+Greenland,55,0
+Greenland,56,0
+Greenland,57,0
+Greenland,58,0
+Greenland,59,0
+Greenland,60,0
+Greenland,61,0
+Greenland,62,0
+Greenland,63,0
+Greenland,64,0
+Greenland,65,0.0015
+Dominica,18,0
+Dominica,19,0
+Dominica,20,0
+Dominica,21,0.0015
+Dominica,22,0.0015
+Dominica,23,0.0015
+Dominica,24,0
+Dominica,25,0.0015
+Dominica,26,0.0015
+Dominica,27,0.0015
+Dominica,28,0.0015
+Dominica,29,0
+Dominica,30,0
+Dominica,31,0
+Dominica,32,0
+Dominica,33,0
+Dominica,34,0
+Dominica,35,0
+Dominica,36,0
+Dominica,37,0
+Dominica,38,0
+Dominica,39,0
+Dominica,40,0
+Dominica,41,0
+Dominica,42,0
+Dominica,43,0
+Dominica,44,0
+Dominica,45,0
+Dominica,46,0
+Dominica,47,0
+Dominica,48,0
+Dominica,49,0
+Dominica,50,0
+Dominica,51,0
+Dominica,52,0
+Dominica,53,0
+Dominica,54,0
+Dominica,55,0
+Dominica,56,0
+Dominica,57,0
+Dominica,58,0
+Dominica,59,0
+Dominica,60,0
+Dominica,61,0
+Dominica,62,0
+Dominica,63,0
+Dominica,64,0
+Dominica,65,0
+Bermuda,18,0
+Bermuda,19,0
+Bermuda,20,0
+Bermuda,21,0
+Bermuda,22,0
+Bermuda,23,0
+Bermuda,24,0
+Bermuda,25,0
+Bermuda,26,0
+Bermuda,27,0
+Bermuda,28,0
+Bermuda,29,0
+Bermuda,30,0
+Bermuda,31,0
+Bermuda,32,0
+Bermuda,33,0
+Bermuda,34,0.0015
+Bermuda,35,0.0015
+Bermuda,36,0.0015
+Bermuda,37,0
+Bermuda,38,0.0015
+Bermuda,39,0
+Bermuda,40,0
+Bermuda,41,0
+Bermuda,42,0
+Bermuda,43,0
+Bermuda,44,0
+Bermuda,45,0
+Bermuda,46,0
+Bermuda,47,0
+Bermuda,48,0
+Bermuda,49,0
+Bermuda,50,0
+Bermuda,51,0
+Bermuda,52,0
+Bermuda,53,0
+Bermuda,54,0
+Bermuda,55,0
+Bermuda,56,0
+Bermuda,57,0
+Bermuda,58,0
+Bermuda,59,0
+Bermuda,60,0
+Bermuda,61,0
+Bermuda,62,0
+Bermuda,63,0
+Bermuda,64,0
+Bermuda,65,0.004
+Faroe Islands,18,0
+Faroe Islands,19,0
+Faroe Islands,20,0.0015
+Faroe Islands,21,0.0015
+Faroe Islands,22,0.0015
+Faroe Islands,23,0
+Faroe Islands,24,0
+Faroe Islands,25,0
+Faroe Islands,26,0
+Faroe Islands,27,0
+Faroe Islands,28,0
+Faroe Islands,29,0
+Faroe Islands,30,0
+Faroe Islands,31,0
+Faroe Islands,32,0
+Faroe Islands,33,0
+Faroe Islands,34,0
+Faroe Islands,35,0
+Faroe Islands,36,0
+Faroe Islands,37,0
+Faroe Islands,38,0
+Faroe Islands,39,0
+Faroe Islands,40,0
+Faroe Islands,41,0
+Faroe Islands,42,0
+Faroe Islands,43,0
+Faroe Islands,44,0
+Faroe Islands,45,0
+Faroe Islands,46,0
+Faroe Islands,47,0
+Faroe Islands,48,0
+Faroe Islands,49,0
+Faroe Islands,50,0
+Faroe Islands,51,0
+Faroe Islands,52,0
+Faroe Islands,53,0
+Faroe Islands,54,0
+Faroe Islands,55,0
+Faroe Islands,56,0
+Faroe Islands,57,0
+Faroe Islands,58,0
+Faroe Islands,59,0
+Faroe Islands,60,0
+Faroe Islands,61,0
+Faroe Islands,62,0
+Faroe Islands,63,0
+Faroe Islands,64,0
+Faroe Islands,65,0.005
+Federated States of Micronesia,18,0.002
+Federated States of Micronesia,19,0.0015
+Federated States of Micronesia,20,0.0015
+Federated States of Micronesia,21,0.0015
+Federated States of Micronesia,22,0
+Federated States of Micronesia,23,0
+Federated States of Micronesia,24,0
+Federated States of Micronesia,25,0.0015
+Federated States of Micronesia,26,0
+Federated States of Micronesia,27,0
+Federated States of Micronesia,28,0
+Federated States of Micronesia,29,0
+Federated States of Micronesia,30,0
+Federated States of Micronesia,31,0
+Federated States of Micronesia,32,0
+Federated States of Micronesia,33,0
+Federated States of Micronesia,34,0
+Federated States of Micronesia,35,0
+Federated States of Micronesia,36,0
+Federated States of Micronesia,37,0
+Federated States of Micronesia,38,0
+Federated States of Micronesia,39,0
+Federated States of Micronesia,40,0
+Federated States of Micronesia,41,0
+Federated States of Micronesia,42,0
+Federated States of Micronesia,43,0
+Federated States of Micronesia,44,0
+Federated States of Micronesia,45,0
+Federated States of Micronesia,46,0
+Federated States of Micronesia,47,0
+Federated States of Micronesia,48,0
+Federated States of Micronesia,49,0
+Federated States of Micronesia,50,0
+Federated States of Micronesia,51,0
+Federated States of Micronesia,52,0
+Federated States of Micronesia,53,0
+Federated States of Micronesia,54,0
+Federated States of Micronesia,55,0
+Federated States of Micronesia,56,0
+Federated States of Micronesia,57,0
+Federated States of Micronesia,58,0
+Federated States of Micronesia,59,0
+Federated States of Micronesia,60,0
+Federated States of Micronesia,61,0
+Federated States of Micronesia,62,0
+Federated States of Micronesia,63,0
+Federated States of Micronesia,64,0
+Federated States of Micronesia,65,0
+Kiribati,18,0.0015
+Kiribati,19,0.0015
+Kiribati,20,0.0015
+Kiribati,21,0.0015
+Kiribati,22,0.0015
+Kiribati,23,0
+Kiribati,24,0
+Kiribati,25,0
+Kiribati,26,0
+Kiribati,27,0
+Kiribati,28,0
+Kiribati,29,0
+Kiribati,30,0
+Kiribati,31,0
+Kiribati,32,0
+Kiribati,33,0
+Kiribati,34,0
+Kiribati,35,0
+Kiribati,36,0
+Kiribati,37,0
+Kiribati,38,0
+Kiribati,39,0
+Kiribati,40,0
+Kiribati,41,0
+Kiribati,42,0
+Kiribati,43,0
+Kiribati,44,0
+Kiribati,45,0
+Kiribati,46,0
+Kiribati,47,0
+Kiribati,48,0
+Kiribati,49,0
+Kiribati,50,0
+Kiribati,51,0
+Kiribati,52,0
+Kiribati,53,0
+Kiribati,54,0
+Kiribati,55,0
+Kiribati,56,0
+Kiribati,57,0
+Kiribati,58,0
+Kiribati,59,0
+Kiribati,60,0
+Kiribati,61,0
+Kiribati,62,0
+Kiribati,63,0
+Kiribati,64,0
+Kiribati,65,0
+American Samoa,18,0.0015
+American Samoa,19,0.0015
+American Samoa,20,0
+American Samoa,21,0
+American Samoa,22,0
+American Samoa,23,0
+American Samoa,24,0
+American Samoa,25,0.0015
+American Samoa,26,0
+American Samoa,27,0
+American Samoa,28,0
+American Samoa,29,0
+American Samoa,30,0
+American Samoa,31,0
+American Samoa,32,0
+American Samoa,33,0
+American Samoa,34,0
+American Samoa,35,0
+American Samoa,36,0
+American Samoa,37,0
+American Samoa,38,0
+American Samoa,39,0
+American Samoa,40,0
+American Samoa,41,0
+American Samoa,42,0
+American Samoa,43,0
+American Samoa,44,0
+American Samoa,45,0
+American Samoa,46,0
+American Samoa,47,0
+American Samoa,48,0
+American Samoa,49,0
+American Samoa,50,0
+American Samoa,51,0
+American Samoa,52,0
+American Samoa,53,0
+American Samoa,54,0
+American Samoa,55,0
+American Samoa,56,0
+American Samoa,57,0
+American Samoa,58,0
+American Samoa,59,0
+American Samoa,60,0
+American Samoa,61,0
+American Samoa,62,0
+American Samoa,63,0
+American Samoa,64,0
+American Samoa,65,0
+US Virgin Islands,18,0
+US Virgin Islands,19,0
+US Virgin Islands,20,0
+US Virgin Islands,21,0
+US Virgin Islands,22,0
+US Virgin Islands,23,0
+US Virgin Islands,24,0
+US Virgin Islands,25,0.0015
+US Virgin Islands,26,0
+US Virgin Islands,27,0
+US Virgin Islands,28,0
+US Virgin Islands,29,0
+US Virgin Islands,30,0
+US Virgin Islands,31,0
+US Virgin Islands,32,0
+US Virgin Islands,33,0
+US Virgin Islands,34,0
+US Virgin Islands,35,0
+US Virgin Islands,36,0
+US Virgin Islands,37,0
+US Virgin Islands,38,0
+US Virgin Islands,39,0
+US Virgin Islands,40,0
+US Virgin Islands,41,0
+US Virgin Islands,42,0
+US Virgin Islands,43,0
+US Virgin Islands,44,0
+US Virgin Islands,45,0
+US Virgin Islands,46,0
+US Virgin Islands,47,0
+US Virgin Islands,48,0
+US Virgin Islands,49,0
+US Virgin Islands,50,0
+US Virgin Islands,51,0
+US Virgin Islands,52,0
+US Virgin Islands,53,0
+US Virgin Islands,54,0
+US Virgin Islands,55,0
+US Virgin Islands,56,0
+US Virgin Islands,57,0
+US Virgin Islands,58,0
+US Virgin Islands,59,0
+US Virgin Islands,60,0
+US Virgin Islands,61,0
+US Virgin Islands,62,0
+US Virgin Islands,63,0
+US Virgin Islands,64,0
+US Virgin Islands,65,0.0025
+Guernsey,18,0
+Guernsey,19,0
+Guernsey,20,0
+Guernsey,21,0
+Guernsey,22,0
+Guernsey,23,0
+Guernsey,24,0
+Guernsey,25,0
+Guernsey,26,0
+Guernsey,27,0
+Guernsey,28,0
+Guernsey,29,0
+Guernsey,30,0
+Guernsey,31,0
+Guernsey,32,0
+Guernsey,33,0
+Guernsey,34,0
+Guernsey,35,0
+Guernsey,36,0
+Guernsey,37,0
+Guernsey,38,0
+Guernsey,39,0
+Guernsey,40,0
+Guernsey,41,0
+Guernsey,42,0
+Guernsey,43,0
+Guernsey,44,0
+Guernsey,45,0
+Guernsey,46,0
+Guernsey,47,0
+Guernsey,48,0
+Guernsey,49,0
+Guernsey,50,0
+Guernsey,51,0
+Guernsey,52,0
+Guernsey,53,0
+Guernsey,54,0
+Guernsey,55,0
+Guernsey,56,0
+Guernsey,57,0
+Guernsey,58,0
+Guernsey,59,0
+Guernsey,60,0
+Guernsey,61,0
+Guernsey,62,0
+Guernsey,63,0
+Guernsey,64,0
+Guernsey,65,0.004
+Turkmenistan,18,0
+Turkmenistan,19,0
+Turkmenistan,20,0
+Turkmenistan,21,0
+Turkmenistan,22,0
+Turkmenistan,23,0
+Turkmenistan,24,0
+Turkmenistan,25,0.0015
+Turkmenistan,26,0
+Turkmenistan,27,0
+Turkmenistan,28,0
+Turkmenistan,29,0
+Turkmenistan,30,0
+Turkmenistan,31,0.0015
+Turkmenistan,32,0
+Turkmenistan,33,0
+Turkmenistan,34,0
+Turkmenistan,35,0
+Turkmenistan,36,0
+Turkmenistan,37,0
+Turkmenistan,38,0
+Turkmenistan,39,0
+Turkmenistan,40,0
+Turkmenistan,41,0
+Turkmenistan,42,0
+Turkmenistan,43,0
+Turkmenistan,44,0
+Turkmenistan,45,0
+Turkmenistan,46,0
+Turkmenistan,47,0
+Turkmenistan,48,0
+Turkmenistan,49,0
+Turkmenistan,50,0
+Turkmenistan,51,0
+Turkmenistan,52,0
+Turkmenistan,53,0
+Turkmenistan,54,0
+Turkmenistan,55,0
+Turkmenistan,56,0
+Turkmenistan,57,0
+Turkmenistan,58,0
+Turkmenistan,59,0
+Turkmenistan,60,0
+Turkmenistan,61,0
+Turkmenistan,62,0
+Turkmenistan,63,0
+Turkmenistan,64,0
+Turkmenistan,65,0
+Turks and Caicos Islands,18,0
+Turks and Caicos Islands,19,0
+Turks and Caicos Islands,20,0
+Turks and Caicos Islands,21,0
+Turks and Caicos Islands,22,0
+Turks and Caicos Islands,23,0
+Turks and Caicos Islands,24,0
+Turks and Caicos Islands,25,0.0015
+Turks and Caicos Islands,26,0
+Turks and Caicos Islands,27,0
+Turks and Caicos Islands,28,0
+Turks and Caicos Islands,29,0
+Turks and Caicos Islands,30,0
+Turks and Caicos Islands,31,0.0015
+Turks and Caicos Islands,32,0
+Turks and Caicos Islands,33,0
+Turks and Caicos Islands,34,0
+Turks and Caicos Islands,35,0
+Turks and Caicos Islands,36,0
+Turks and Caicos Islands,37,0
+Turks and Caicos Islands,38,0
+Turks and Caicos Islands,39,0
+Turks and Caicos Islands,40,0
+Turks and Caicos Islands,41,0
+Turks and Caicos Islands,42,0
+Turks and Caicos Islands,43,0
+Turks and Caicos Islands,44,0
+Turks and Caicos Islands,45,0
+Turks and Caicos Islands,46,0
+Turks and Caicos Islands,47,0
+Turks and Caicos Islands,48,0
+Turks and Caicos Islands,49,0
+Turks and Caicos Islands,50,0
+Turks and Caicos Islands,51,0
+Turks and Caicos Islands,52,0
+Turks and Caicos Islands,53,0
+Turks and Caicos Islands,54,0
+Turks and Caicos Islands,55,0
+Turks and Caicos Islands,56,0
+Turks and Caicos Islands,57,0
+Turks and Caicos Islands,58,0
+Turks and Caicos Islands,59,0
+Turks and Caicos Islands,60,0
+Turks and Caicos Islands,61,0
+Turks and Caicos Islands,62,0
+Turks and Caicos Islands,63,0
+Turks and Caicos Islands,64,0
+Turks and Caicos Islands,65,0
+Marshall Islands,18,0.0015
+Marshall Islands,19,0.0015
+Marshall Islands,20,0
+Marshall Islands,21,0
+Marshall Islands,22,0
+Marshall Islands,23,0
+Marshall Islands,24,0
+Marshall Islands,25,0
+Marshall Islands,26,0
+Marshall Islands,27,0
+Marshall Islands,28,0
+Marshall Islands,29,0
+Marshall Islands,30,0
+Marshall Islands,31,0
+Marshall Islands,32,0
+Marshall Islands,33,0
+Marshall Islands,34,0
+Marshall Islands,35,0
+Marshall Islands,36,0
+Marshall Islands,37,0
+Marshall Islands,38,0
+Marshall Islands,39,0
+Marshall Islands,40,0
+Marshall Islands,41,0
+Marshall Islands,42,0
+Marshall Islands,43,0
+Marshall Islands,44,0
+Marshall Islands,45,0
+Marshall Islands,46,0
+Marshall Islands,47,0
+Marshall Islands,48,0
+Marshall Islands,49,0
+Marshall Islands,50,0
+Marshall Islands,51,0
+Marshall Islands,52,0
+Marshall Islands,53,0
+Marshall Islands,54,0
+Marshall Islands,55,0
+Marshall Islands,56,0
+Marshall Islands,57,0
+Marshall Islands,58,0
+Marshall Islands,59,0
+Marshall Islands,60,0
+Marshall Islands,61,0
+Marshall Islands,62,0
+Marshall Islands,63,0
+Marshall Islands,64,0
+Marshall Islands,65,0
+Gibraltar,18,0
+Gibraltar,19,0
+Gibraltar,20,0
+Gibraltar,21,0
+Gibraltar,22,0
+Gibraltar,23,0
+Gibraltar,24,0
+Gibraltar,25,0
+Gibraltar,26,0
+Gibraltar,27,0
+Gibraltar,28,0
+Gibraltar,29,0
+Gibraltar,30,0
+Gibraltar,31,0
+Gibraltar,32,0
+Gibraltar,33,0
+Gibraltar,34,0
+Gibraltar,35,0
+Gibraltar,36,0
+Gibraltar,37,0
+Gibraltar,38,0
+Gibraltar,39,0
+Gibraltar,40,0
+Gibraltar,41,0
+Gibraltar,42,0
+Gibraltar,43,0
+Gibraltar,44,0
+Gibraltar,45,0
+Gibraltar,46,0
+Gibraltar,47,0
+Gibraltar,48,0
+Gibraltar,49,0
+Gibraltar,50,0
+Gibraltar,51,0
+Gibraltar,52,0
+Gibraltar,53,0
+Gibraltar,54,0
+Gibraltar,55,0
+Gibraltar,56,0
+Gibraltar,57,0
+Gibraltar,58,0
+Gibraltar,59,0
+Gibraltar,60,0
+Gibraltar,61,0
+Gibraltar,62,0
+Gibraltar,63,0
+Gibraltar,64,0
+Gibraltar,65,0.0025
+Monaco,18,0
+Monaco,19,0
+Monaco,20,0
+Monaco,21,0
+Monaco,22,0
+Monaco,23,0
+Monaco,24,0
+Monaco,25,0
+Monaco,26,0
+Monaco,27,0
+Monaco,28,0
+Monaco,29,0
+Monaco,30,0
+Monaco,31,0
+Monaco,32,0
+Monaco,33,0
+Monaco,34,0
+Monaco,35,0
+Monaco,36,0
+Monaco,37,0
+Monaco,38,0
+Monaco,39,0
+Monaco,40,0
+Monaco,41,0
+Monaco,42,0
+Monaco,43,0
+Monaco,44,0
+Monaco,45,0
+Monaco,46,0
+Monaco,47,0
+Monaco,48,0
+Monaco,49,0
+Monaco,50,0
+Monaco,51,0
+Monaco,52,0
+Monaco,53,0
+Monaco,54,0
+Monaco,55,0
+Monaco,56,0
+Monaco,57,0
+Monaco,58,0
+Monaco,59,0
+Monaco,60,0
+Monaco,61,0
+Monaco,62,0
+Monaco,63,0
+Monaco,64,0
+Monaco,65,0.0015
+Falkland Islands,18,0
+Falkland Islands,19,0
+Falkland Islands,20,0
+Falkland Islands,21,0
+Falkland Islands,22,0
+Falkland Islands,23,0
+Falkland Islands,24,0
+Falkland Islands,25,0
+Falkland Islands,26,0
+Falkland Islands,27,0
+Falkland Islands,28,0
+Falkland Islands,29,0
+Falkland Islands,30,0
+Falkland Islands,31,0
+Falkland Islands,32,0
+Falkland Islands,33,0
+Falkland Islands,34,0
+Falkland Islands,35,0
+Falkland Islands,36,0
+Falkland Islands,37,0
+Falkland Islands,38,0
+Falkland Islands,39,0
+Falkland Islands,40,0
+Falkland Islands,41,0
+Falkland Islands,42,0
+Falkland Islands,43,0
+Falkland Islands,44,0
+Falkland Islands,45,0
+Falkland Islands,46,0
+Falkland Islands,47,0
+Falkland Islands,48,0
+Falkland Islands,49,0
+Falkland Islands,50,0
+Falkland Islands,51,0
+Falkland Islands,52,0
+Falkland Islands,53,0
+Falkland Islands,54,0
+Falkland Islands,55,0
+Falkland Islands,56,0
+Falkland Islands,57,0
+Falkland Islands,58,0
+Falkland Islands,59,0
+Falkland Islands,60,0
+Falkland Islands,61,0
+Falkland Islands,62,0
+Falkland Islands,63,0
+Falkland Islands,64,0
+Falkland Islands,65,0
+British Virgin Islands,18,0
+British Virgin Islands,19,0
+British Virgin Islands,20,0
+British Virgin Islands,21,0
+British Virgin Islands,22,0
+British Virgin Islands,23,0
+British Virgin Islands,24,0
+British Virgin Islands,25,0
+British Virgin Islands,26,0
+British Virgin Islands,27,0
+British Virgin Islands,28,0
+British Virgin Islands,29,0
+British Virgin Islands,30,0
+British Virgin Islands,31,0
+British Virgin Islands,32,0
+British Virgin Islands,33,0
+British Virgin Islands,34,0
+British Virgin Islands,35,0
+British Virgin Islands,36,0
+British Virgin Islands,37,0
+British Virgin Islands,38,0
+British Virgin Islands,39,0
+British Virgin Islands,40,0
+British Virgin Islands,41,0
+British Virgin Islands,42,0
+British Virgin Islands,43,0
+British Virgin Islands,44,0
+British Virgin Islands,45,0
+British Virgin Islands,46,0
+British Virgin Islands,47,0
+British Virgin Islands,48,0
+British Virgin Islands,49,0
+British Virgin Islands,50,0
+British Virgin Islands,51,0
+British Virgin Islands,52,0
+British Virgin Islands,53,0
+British Virgin Islands,54,0
+British Virgin Islands,55,0
+British Virgin Islands,56,0
+British Virgin Islands,57,0
+British Virgin Islands,58,0
+British Virgin Islands,59,0
+British Virgin Islands,60,0
+British Virgin Islands,61,0
+British Virgin Islands,62,0
+British Virgin Islands,63,0
+British Virgin Islands,64,0
+British Virgin Islands,65,0
+Liechtenstein,18,0
+Liechtenstein,19,0
+Liechtenstein,20,0
+Liechtenstein,21,0
+Liechtenstein,22,0
+Liechtenstein,23,0
+Liechtenstein,24,0
+Liechtenstein,25,0
+Liechtenstein,26,0
+Liechtenstein,27,0
+Liechtenstein,28,0
+Liechtenstein,29,0
+Liechtenstein,30,0
+Liechtenstein,31,0
+Liechtenstein,32,0
+Liechtenstein,33,0
+Liechtenstein,34,0
+Liechtenstein,35,0
+Liechtenstein,36,0
+Liechtenstein,37,0
+Liechtenstein,38,0
+Liechtenstein,39,0
+Liechtenstein,40,0
+Liechtenstein,41,0
+Liechtenstein,42,0
+Liechtenstein,43,0
+Liechtenstein,44,0
+Liechtenstein,45,0
+Liechtenstein,46,0
+Liechtenstein,47,0
+Liechtenstein,48,0
+Liechtenstein,49,0
+Liechtenstein,50,0
+Liechtenstein,51,0
+Liechtenstein,52,0
+Liechtenstein,53,0
+Liechtenstein,54,0
+Liechtenstein,55,0
+Liechtenstein,56,0
+Liechtenstein,57,0
+Liechtenstein,58,0
+Liechtenstein,59,0
+Liechtenstein,60,0
+Liechtenstein,61,0
+Liechtenstein,62,0
+Liechtenstein,63,0
+Liechtenstein,64,0
+Liechtenstein,65,0
+San Marino,18,0
+San Marino,19,0
+San Marino,20,0
+San Marino,21,0
+San Marino,22,0
+San Marino,23,0
+San Marino,24,0
+San Marino,25,0
+San Marino,26,0
+San Marino,27,0
+San Marino,28,0
+San Marino,29,0
+San Marino,30,0
+San Marino,31,0
+San Marino,32,0
+San Marino,33,0
+San Marino,34,0
+San Marino,35,0
+San Marino,36,0
+San Marino,37,0
+San Marino,38,0
+San Marino,39,0
+San Marino,40,0
+San Marino,41,0
+San Marino,42,0
+San Marino,43,0
+San Marino,44,0
+San Marino,45,0
+San Marino,46,0
+San Marino,47,0
+San Marino,48,0
+San Marino,49,0
+San Marino,50,0
+San Marino,51,0
+San Marino,52,0
+San Marino,53,0
+San Marino,54,0
+San Marino,55,0
+San Marino,56,0
+San Marino,57,0
+San Marino,58,0
+San Marino,59,0
+San Marino,60,0
+San Marino,61,0
+San Marino,62,0
+San Marino,63,0
+San Marino,64,0
+San Marino,65,0
+Nauru,18,0
+Nauru,19,0
+Nauru,20,0
+Nauru,21,0
+Nauru,22,0
+Nauru,23,0
+Nauru,24,0
+Nauru,25,0
+Nauru,26,0
+Nauru,27,0
+Nauru,28,0
+Nauru,29,0
+Nauru,30,0
+Nauru,31,0
+Nauru,32,0
+Nauru,33,0
+Nauru,34,0
+Nauru,35,0
+Nauru,36,0
+Nauru,37,0
+Nauru,38,0
+Nauru,39,0
+Nauru,40,0
+Nauru,41,0
+Nauru,42,0
+Nauru,43,0
+Nauru,44,0
+Nauru,45,0
+Nauru,46,0
+Nauru,47,0
+Nauru,48,0
+Nauru,49,0
+Nauru,50,0
+Nauru,51,0
+Nauru,52,0
+Nauru,53,0
+Nauru,54,0
+Nauru,55,0
+Nauru,56,0
+Nauru,57,0
+Nauru,58,0
+Nauru,59,0
+Nauru,60,0
+Nauru,61,0
+Nauru,62,0
+Nauru,63,0
+Nauru,64,0
+Nauru,65,0
+Palau,18,0
+Palau,19,0
+Palau,20,0
+Palau,21,0
+Palau,22,0
+Palau,23,0
+Palau,24,0
+Palau,25,0
+Palau,26,0
+Palau,27,0
+Palau,28,0
+Palau,29,0
+Palau,30,0
+Palau,31,0
+Palau,32,0
+Palau,33,0
+Palau,34,0
+Palau,35,0
+Palau,36,0
+Palau,37,0
+Palau,38,0
+Palau,39,0
+Palau,40,0
+Palau,41,0
+Palau,42,0
+Palau,43,0
+Palau,44,0
+Palau,45,0
+Palau,46,0
+Palau,47,0
+Palau,48,0
+Palau,49,0
+Palau,50,0
+Palau,51,0
+Palau,52,0
+Palau,53,0
+Palau,54,0
+Palau,55,0
+Palau,56,0
+Palau,57,0
+Palau,58,0
+Palau,59,0
+Palau,60,0
+Palau,61,0
+Palau,62,0
+Palau,63,0
+Palau,64,0
+Palau,65,0
+Anguilla,18,0
+Anguilla,19,0
+Anguilla,20,0
+Anguilla,21,0
+Anguilla,22,0
+Anguilla,23,0
+Anguilla,24,0
+Anguilla,25,0
+Anguilla,26,0
+Anguilla,27,0
+Anguilla,28,0
+Anguilla,29,0
+Anguilla,30,0
+Anguilla,31,0
+Anguilla,32,0
+Anguilla,33,0
+Anguilla,34,0
+Anguilla,35,0
+Anguilla,36,0
+Anguilla,37,0
+Anguilla,38,0
+Anguilla,39,0
+Anguilla,40,0
+Anguilla,41,0
+Anguilla,42,0
+Anguilla,43,0
+Anguilla,44,0
+Anguilla,45,0
+Anguilla,46,0
+Anguilla,47,0
+Anguilla,48,0
+Anguilla,49,0
+Anguilla,50,0
+Anguilla,51,0
+Anguilla,52,0
+Anguilla,53,0
+Anguilla,54,0
+Anguilla,55,0
+Anguilla,56,0
+Anguilla,57,0
+Anguilla,58,0
+Anguilla,59,0
+Anguilla,60,0
+Anguilla,61,0
+Anguilla,62,0
+Anguilla,63,0
+Anguilla,64,0
+Anguilla,65,0
+Tuvalu,18,0
+Tuvalu,19,0
+Tuvalu,20,0
+Tuvalu,21,0
+Tuvalu,22,0
+Tuvalu,23,0
+Tuvalu,24,0
+Tuvalu,25,0
+Tuvalu,26,0
+Tuvalu,27,0
+Tuvalu,28,0
+Tuvalu,29,0
+Tuvalu,30,0
+Tuvalu,31,0
+Tuvalu,32,0
+Tuvalu,33,0
+Tuvalu,34,0
+Tuvalu,35,0
+Tuvalu,36,0
+Tuvalu,37,0
+Tuvalu,38,0
+Tuvalu,39,0
+Tuvalu,40,0
+Tuvalu,41,0
+Tuvalu,42,0
+Tuvalu,43,0
+Tuvalu,44,0
+Tuvalu,45,0
+Tuvalu,46,0
+Tuvalu,47,0
+Tuvalu,48,0
+Tuvalu,49,0
+Tuvalu,50,0
+Tuvalu,51,0
+Tuvalu,52,0
+Tuvalu,53,0
+Tuvalu,54,0
+Tuvalu,55,0
+Tuvalu,56,0
+Tuvalu,57,0
+Tuvalu,58,0
+Tuvalu,59,0
+Tuvalu,60,0
+Tuvalu,61,0
+Tuvalu,62,0
+Tuvalu,63,0
+Tuvalu,64,0
+Tuvalu,65,0
