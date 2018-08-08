@@ -78,7 +78,8 @@ death_cumsum <- function(country, assumption = 'constant') {
       df <- rbind(df, new_df)
     }
     # Now cap user totals at 90% of population
-    pop_mod <- gam(Population ~ s(Age, by = Time), data = un_dat[Age >= 10])
+    pop_mod <- gam(Population ~ s(Age, by = Time), 
+                   data = un_dat[Location == country & Age >= 10])
     df[, pop_hat := predict(pop_mod, df) / 1000
       ][pop_hat < 0, pop_hat := 0
       ][fb_hat > 0.9 * pop_hat, fb_hat := 0.9 * pop_hat]
