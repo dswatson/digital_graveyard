@@ -56,7 +56,7 @@ p <- ggplot() +
                                           Time == 2030,
                                            Age >= 10), 
              aes(Age, Mortality_Rate * 1000)) + 
-  geom_line(data = df %>% filter(Time == 2030, Age <= 95), 
+  geom_line(data = df %>% filter(Time == 2030, Age <= 98), 
             aes(Age, mr_hat * 1000),
             size = 0.75, color = 'blue') + 
   labs(title = 'Projected Mortality: United States, 2030',
@@ -107,8 +107,11 @@ p <- ggplot(df[Time == 2030], aes(Age, Dead_Profiles)) +
 totals <- fb_dat %>%
   group_by(Country) %>%
   summarise(Total = sum(Users)) %>%
-  arrange(desc(Total))
-tops <- totals$Country[seq_len(10)]
+  arrange(desc(Total)) %>%
+  # Just top 10
+  filter(Total > 40) %>% 
+  # Selecting a palette from D3
+  mutate(Color = pal_d3()(10)[c(2, 1, 3:10)])
 
 # Function for counting dead profiles under various assumptions
 death_cumsum <- function(country, assumption = 'constant') {
@@ -205,7 +208,7 @@ df <- data.table(
      Time = NA_integer_,
    CumSum = NA_real_
 )
-for (country in tops) {
+for (country in totals$Country) {
   i <- death_cumsum(country, assumption = 'shrinking')
   df <- rbind(df, i)
 }
@@ -214,6 +217,7 @@ df <- na.omit(df)
 # We want biggest countries first
 most_dead <- df %>%
   filter(Time == 2095) %>%
+  inner_join(totals, by = 'Country') %>%
   arrange(desc(CumSum))
 df[, Country := factor(Country, levels = most_dead$Country)]
 
@@ -225,7 +229,7 @@ p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) +
            y = 'Dead Profiles (Millions)') +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) + 
-  scale_fill_d3() 
+  scale_fill_manual(values = most_dead$Color) 
 
 
 ### Figure 5 ###
@@ -235,7 +239,7 @@ df <- data.table(
      Time = NA_integer_,
    CumSum = NA_real_
 )
-for (country in tops) {
+for (country in totals$Country) {
   i <- death_cumsum(country, assumption = 'constant')
   df <- rbind(df, i)
 }
@@ -244,6 +248,7 @@ df <- na.omit(df)
 # We want biggest countries last
 most_dead <- df %>%
   filter(Time == 2095) %>%
+  inner_join(totals, by = 'Country') %>%
   arrange(desc(CumSum))
 df[, Country := factor(Country, levels = most_dead$Country)]
 
@@ -255,7 +260,7 @@ p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) +
            y = 'Dead Profiles (Millions)') +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) + 
-  scale_fill_d3() 
+  scale_fill_manual(values = most_dead$Color) 
 
 ### Figure 6 ###
 
@@ -264,7 +269,7 @@ df <- data.table(
      Time = NA_integer_,
    CumSum = NA_real_
 )
-for (country in tops) {
+for (country in totals$Country) {
   i <- death_cumsum(country, assumption = 'growing')
   df <- rbind(df, i)
 }
@@ -273,6 +278,7 @@ df <- na.omit(df)
 # We want biggest countries last
 most_dead <- df %>%
   filter(Time == 2095) %>%
+  inner_join(totals, by = 'Country') %>%
   arrange(desc(CumSum))
 df[, Country := factor(Country, levels = most_dead$Country)]
 
@@ -284,7 +290,7 @@ p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) +
        y = 'Dead Profiles (Millions)') +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) + 
-  scale_fill_d3() 
+  scale_fill_manual(values = most_dead$Color) 
 
 
 
@@ -335,8 +341,88 @@ p <- ggplot() +
   scale_color_d3()
 
 
+# By continent
+countries <- fread('./Data/Final/countries.csv')
+colors <- data.table(
+  Continent = c('Asia', 'North America', 'Europe', 
+                'South America', 'Africa', 'Oceania'),
+      Color = pal_d3()(6)
+)
 
+# Scenario 1
+df <- readRDS('./Data/Final/global_shrinking.rds')
+df <- merge(df, countries, by = 'Country') %>%
+  group_by(Time, Continent) %>%
+  summarise(CumSum = sum(CumSum)) %>%
+  ungroup(.) %>%
+  as.data.table(.)
 
+# We want biggest countries first
+most_dead <- df %>%
+  filter(Time == 2095) %>%
+  inner_join(colors, by = 'Continent') %>%
+  arrange(desc(CumSum))
+df[, Continent := factor(Continent, levels = most_dead$Continent)]
+
+# Plot 
+p <- ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
+  geom_area(alpha = 0.9) +
+  labs(title = 'Global Accumulation of Dead Profiles:\nScenario 1',
+           x = 'Year',
+           y = 'Dead Profiles (Millions)') +
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_manual(values = most_dead$Color)
+
+# Scenario 2
+df <- readRDS('./Data/Final/global_constant.rds')
+df <- merge(df, countries, by = 'Country') %>%
+  group_by(Time, Continent) %>%
+  summarise(CumSum = sum(CumSum)) %>%
+  ungroup(.) %>%
+  as.data.table(.)
+
+# We want biggest countries first
+most_dead <- df %>%
+  filter(Time == 2095) %>%
+  inner_join(colors, by = 'Continent') %>%
+  arrange(desc(CumSum))
+df[, Continent := factor(Continent, levels = most_dead$Continent)]
+
+# Plot 
+p <- ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
+  geom_area(alpha = 0.9) +
+  labs(title = 'Global Accumulation of Dead Profiles:\nScenario 2',
+       x = 'Year',
+       y = 'Dead Profiles (Millions)') +
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_manual(values = most_dead$Color)
+
+# Scenario 3
+df <- readRDS('./Data/Final/global_growing.rds')
+df <- merge(df, countries, by = 'Country') %>%
+  group_by(Time, Continent) %>%
+  summarise(CumSum = sum(CumSum)) %>%
+  ungroup(.) %>%
+  as.data.table(.)
+
+# We want biggest countries first
+most_dead <- df %>%
+  filter(Time == 2095) %>%
+  inner_join(colors, by = 'Continent') %>%
+  arrange(desc(CumSum))
+df[, Continent := factor(Continent, levels = most_dead$Continent)]
+
+# Plot 
+p <- ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
+  geom_area(alpha = 0.9) +
+  labs(title = 'Global Accumulation of Dead Profiles:\nScenario 3',
+       x = 'Year',
+       y = 'Dead Profiles (Millions)') +
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_manual(values = most_dead$Color)
 
 
 
