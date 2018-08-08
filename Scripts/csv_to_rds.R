@@ -14,8 +14,8 @@ pop <- read_csv('population.csv')
 
 # For columns 3-23, delete the space and class as numeric
 for (j in 3:23) {
-  mort[[j]] <- gsub(' ', '', mort[[j]]) %>% as.numeric(.)
-  pop[[j]] <- gsub(' ', '', pop[[j]]) %>% as.numeric(.)
+  mort[[j]] <- as.numeric(gsub(' ', '', mort[[j]]))
+  pop[[j]] <- as.numeric(gsub(' ', '', pop[[j]]))
 }
 
 # Make sure both data frames have all and only the same columns 
@@ -25,19 +25,19 @@ pop <- pop %>%
   select(-Age_100)
 
 # Fix Time column in mort
-mort <- mort %>% 
-  mutate(Time = gsub(' -.*', '', Time) %>% as.integer(.))
+mort <- mort %>% mutate(Time = as.integer(gsub(' -.*', '', Time)))
 
 # Tidy data, reclass age as integer
 mort <- mort %>% 
   gather(Age, Deaths, -Time, -Location) %>%
-  mutate(Age = gsub('Age_', '', Age) %>% as.integer(.),
-      Deaths = Deaths / 5,
+  mutate(Age = 2.5 + as.numeric(gsub('Age_', '', Age)),
+      Deaths = Deaths / 25,  # 5-yr buckets for age and time, i.e. /5/5
          Idx = paste(Location, Time, Age, sep = '.')) %>%
   as.data.table(.)
 pop <- pop %>% 
   gather(Age, Population, -Time, -Location) %>%
-  mutate(Age = gsub('Age_', '', Age) %>% as.integer(.),
+  mutate(Age = 2.5 + as.numeric(gsub('Age_', '', Age)),
+  Population = Population / 5,
          Idx = paste(Location, Time, Age, sep = '.')) %>%
   as.data.table(.)
 
@@ -49,7 +49,7 @@ un_dat <- merge(mort, pop[, .(Idx, Population)], by = 'Idx'
 # Winsorize the distribution
   ][Mortality_Rate >= 0.99, Mortality_Rate := 0.99
 # Logit transform for easier modelling
-  ][, logit_mr := qlogis(Mortality_Rate + 1e-6)
+  ][, logit_mr := qlogis(Mortality_Rate + 1e-7)
 # Fix country names 
   ][Location == 'Antigua and Barbuda', Location := 'Antigua'
   ][Location == 'Bolivia (Plurinational State of)', Location := 'Bolivia'
