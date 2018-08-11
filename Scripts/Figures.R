@@ -18,11 +18,11 @@ fb_dat <- readRDS('./Data/Final/fb_dat.rds')
 ### Figure 1 ###
 
 # Build death model
-death_mod <- gam(logit_mr ~ s(Age, by = Time), 
-                 data = un_dat[Age >= 10 & Location == 'United States'])
+mr_mod <- gam(logit_mr ~ s(Age, by = Time, k = 15),
+              data = un_dat[Age >= 10 & Location == 'United States'])
 
 # Build Facebook model
-fb_mod <- gam(Users ~ s(Age), 
+fb_mod <- gam(Users ~ s(Age, k = 40), 
               data = fb_dat[Country == 'United States'])
 
 # Fill in 2018 data, trim distributions
@@ -30,7 +30,7 @@ df <- data.table(
   Time = 2018, 
    Age = 13:100
 )
-df[, mr_hat := predict(death_mod, df) %>% plogis(.)
+df[, mr_hat := predict(mr_mod, df) %>% plogis(.)
   ][, fb_hat := predict(fb_mod, df)
   ][mr_hat > 1, mr_hat := 1
   ][mr_hat < 0, mr_hat := 0
@@ -43,7 +43,7 @@ for (year in 2019:2030) {
     Time = year,
      Age = 13:100
   )
-  new_df[, mr_hat := predict(death_mod, new_df) %>% plogis(.)
+  new_df[, mr_hat := predict(mr_mod, new_df) %>% plogis(.)
     ][mr_hat > 1, mr_hat := 1
     ][mr_hat < 0, mr_hat := 0
     ][, fb_hat := last_df[, fb_hat * (1 - mr_hat)]]
@@ -114,14 +114,14 @@ totals <- fb_dat %>%
   mutate(Color = pal_d3()(10)[c(2, 1, 3:10)])
 
 # Function for counting dead profiles under various assumptions
-death_cumsum <- function(country, assumption = 'constant') {
+death_cumsum <- function(country, assumption = 'shrinking') {
   
   # Build death model
-  death_mod <- gam(logit_mr ~ s(Age, by = Time), 
-                   data = un_dat[Age >= 10 & Location == country])
+  mr_mod <- gam(logit_mr ~ s(Age, by = Time, k = 15), 
+                data = un_dat[Age >= 10 & Location == country])
   
   # Build Facebook model
-  fb_mod <- gam(Users ~ s(Age), 
+  fb_mod <- gam(Users ~ s(Age, k = 40), 
                 data = fb_dat[Country == country])
   
   # Make predictions, trim distributions
@@ -129,7 +129,7 @@ death_cumsum <- function(country, assumption = 'constant') {
     Time = 2018, 
      Age = 13:100
   )
-  df[, mr_hat := predict(death_mod, df) %>% plogis(.)
+  df[, mr_hat := predict(mr_mod, df) %>% plogis(.)
     ][, fb_hat := predict(fb_mod, df)
     ][mr_hat > 1, mr_hat := 1
     ][mr_hat < 0, mr_hat := 0
@@ -144,24 +144,12 @@ death_cumsum <- function(country, assumption = 'constant') {
         Time = year,
          Age = 13:100
       )
-      new_df[, mr_hat := predict(death_mod, new_df) %>% plogis(.)
+      new_df[, mr_hat := predict(mr_mod, new_df) %>% plogis(.)
         ][mr_hat > 1, mr_hat := 1
         ][mr_hat < 0, mr_hat := 0
         ][, fb_hat := last_df[, fb_hat * (1 - mr_hat)]]
       df <- rbind(df, new_df)
     } 
-  } else if (assumption == 'constant') {
-    # Make predictions, trim distributions
-    new_df <- data.table(
-      Time = rep(2019:2095, each = 88), 
-       Age = rep(13:100, times = (2095 - 2019 + 1))
-    )
-    new_df[, mr_hat := predict(death_mod, new_df) %>% plogis(.)
-      ][, fb_hat := predict(fb_mod, new_df)
-      ][mr_hat > 1, mr_hat := 1
-      ][mr_hat < 0, mr_hat := 0
-      ][fb_hat < 0, fb_hat := 0]
-    df <- rbind(df, new_df)
   } else if (assumption == 'growing') {
     # Compound growth
     for (year in 2019:2095) {
@@ -170,7 +158,7 @@ death_cumsum <- function(country, assumption = 'constant') {
         Time = year,
          Age = 13:100
       )
-      new_df[, mr_hat := predict(death_mod, new_df) %>% plogis(.)
+      new_df[, mr_hat := predict(mr_mod, new_df) %>% plogis(.)
         ][, fb_hat := predict(fb_mod, new_df)
         ][mr_hat > 1, mr_hat := 1
         ][mr_hat < 0, mr_hat := 0
@@ -179,7 +167,7 @@ death_cumsum <- function(country, assumption = 'constant') {
       df <- rbind(df, new_df)
     }
     # Now cap user totals at 90% of population
-    pop_mod <- gam(Population ~ s(Age, by = Time), 
+    pop_mod <- gam(Population ~ s(Age, by = Time, k = 15), 
                    data = un_dat[Age >= 10 & Location == country])
     df[, pop_hat := predict(pop_mod, df) / 1000
       ][pop_hat < 0, pop_hat := 0
@@ -240,7 +228,7 @@ df <- data.table(
    CumSum = NA_real_
 )
 for (country in totals$Country) {
-  i <- death_cumsum(country, assumption = 'constant')
+  i <- death_cumsum(country, assumption = 'growing')
   df <- rbind(df, i)
 }
 df <- na.omit(df) 
@@ -262,37 +250,6 @@ p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) +
   theme(plot.title = element_text(hjust = 0.5)) + 
   scale_fill_manual(values = most_dead$Color) 
 
-### Figure 6 ###
-
-df <- data.table(
-  Country = NA_character_,
-     Time = NA_integer_,
-   CumSum = NA_real_
-)
-for (country in totals$Country) {
-  i <- death_cumsum(country, assumption = 'growing')
-  df <- rbind(df, i)
-}
-df <- na.omit(df) 
-
-# We want biggest countries last
-most_dead <- df %>%
-  filter(Time == 2095) %>%
-  inner_join(totals, by = 'Country') %>%
-  arrange(desc(CumSum))
-df[, Country := factor(Country, levels = most_dead$Country)]
-
-# Build plot
-p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) + 
-  geom_area(alpha = 0.9) + 
-  labs(title = 'Accumulation of Dead Profiles',
-       x = 'Year',
-       y = 'Dead Profiles (Millions)') +
-  theme_bw() +
-  theme(plot.title = element_text(hjust = 0.5)) + 
-  scale_fill_manual(values = most_dead$Color) 
-
-
 
 
 
@@ -300,11 +257,11 @@ p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) +
 
 fn <- function(country) {
   # Build death model
-  death_mod <- gam(logit_mr ~ s(Age, by = Time), 
-                   data = un_dat[Age >= 10 & Location == country])
+  mr_mod <- gam(logit_mr ~ s(Age, by = Time, k = 15), 
+                data = un_dat[Age >= 10 & Location == country])
   
   # Build Facebook model
-  fb_mod <- gam(Users ~ s(Age), 
+  fb_mod <- gam(Users ~ s(Age, k = 40), 
                 data = fb_dat[Country == country])
   
   # Fill in 2018 data, trim distributions
@@ -312,7 +269,7 @@ fn <- function(country) {
     Time = 2018, 
      Age = 13:100
   )
-  df[, mr_hat := predict(death_mod, df) %>% plogis(.)
+  df[, mr_hat := predict(mr_mod, df) %>% plogis(.)
     ][, fb_hat := predict(fb_mod, df)
     ][mr_hat > 1, mr_hat := 1
     ][mr_hat < 0, mr_hat := 0
@@ -349,7 +306,7 @@ colors <- data.table(
       Color = pal_d3()(6)
 )
 
-# Scenario 1
+# Scenario I
 df <- readRDS('./Data/Final/global_shrinking.rds')
 df <- merge(df, countries, by = 'Country') %>%
   group_by(Time, Continent) %>%
@@ -367,39 +324,14 @@ df[, Continent := factor(Continent, levels = most_dead$Continent)]
 # Plot 
 p <- ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
   geom_area(alpha = 0.9) +
-  labs(title = 'Global Accumulation of Dead Profiles:\nScenario 1',
+  labs(title = 'Global Accumulation of Dead Profiles:\nScenario I',
            x = 'Year',
            y = 'Dead Profiles (Millions)') +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_fill_manual(values = most_dead$Color)
 
-# Scenario 2
-df <- readRDS('./Data/Final/global_constant.rds')
-df <- merge(df, countries, by = 'Country') %>%
-  group_by(Time, Continent) %>%
-  summarise(CumSum = sum(CumSum)) %>%
-  ungroup(.) %>%
-  as.data.table(.)
-
-# We want biggest countries first
-most_dead <- df %>%
-  filter(Time == 2095) %>%
-  inner_join(colors, by = 'Continent') %>%
-  arrange(desc(CumSum))
-df[, Continent := factor(Continent, levels = most_dead$Continent)]
-
-# Plot 
-p <- ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
-  geom_area(alpha = 0.9) +
-  labs(title = 'Global Accumulation of Dead Profiles:\nScenario 2',
-       x = 'Year',
-       y = 'Dead Profiles (Millions)') +
-  theme_bw() +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  scale_fill_manual(values = most_dead$Color)
-
-# Scenario 3
+# Scenario II
 df <- readRDS('./Data/Final/global_growing.rds')
 df <- merge(df, countries, by = 'Country') %>%
   group_by(Time, Continent) %>%
@@ -417,7 +349,7 @@ df[, Continent := factor(Continent, levels = most_dead$Continent)]
 # Plot 
 p <- ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
   geom_area(alpha = 0.9) +
-  labs(title = 'Global Accumulation of Dead Profiles:\nScenario 3',
+  labs(title = 'Global Accumulation of Dead Profiles:\nScenario II',
        x = 'Year',
        y = 'Dead Profiles (Millions)') +
   theme_bw() +
