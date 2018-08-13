@@ -3,11 +3,13 @@
 # Set working directory
 setwd('./Documents/DPhil/Deaths_on_FB')
 
-# Load libraries
+# Load libraries, register cores
 library(data.table)
 library(tidyverse)
 library(mgcv)
 library(ggsci)
+library(doMC)
+registerDoMC(4)
 
 # Import data
 un_dat <- readRDS('./Data/Final/un_dat.rds')
@@ -85,21 +87,14 @@ death_cumsum <- function(country, assumption = 'shrinking') {
     mutate(Country = country,
             CumSum = cumsum(Dead_Profiles)) %>%
     select(Country, Time, CumSum) %>%
+    as.data.table(.) %>%
     return(.)
   
 }
 
 # Shrinking
-df <- data.table(
-  Country = NA_character_,
-     Time = NA_integer_,
-   CumSum = NA_real_
-)
-for (country in fb_dat[, unique(Country)]) {
-  i <- death_cumsum(country, assumption = 'shrinking')
-  df <- rbind(df, i)
-}
-df <- na.omit(df)
+df <- foreach(place = fb_dat[, unique(Country)], .combine = rbind) %dopar%
+  death_cumsum(place, assumption = 'shrinking')
 saveRDS(df, './Data/Final/global_shrinking.rds')
 
 # Plot 
@@ -116,16 +111,8 @@ p <- ggplot(df, aes(Time, CumSum)) +
   theme(plot.title = element_text(hjust = 0.5)) 
 
 # Growing
-df <- data.table(
-  Country = NA_character_,
-     Time = NA_integer_,
-   CumSum = NA_real_
-)
-for (country in fb_dat[, unique(Country)]) {
-  i <- death_cumsum(country, assumption = 'growing')
-  df <- rbind(df, i)
-}
-df <- na.omit(df)
+df <- foreach(place = fb_dat[, unique(Country)], .combine = rbind) %dopar%
+  death_cumsum(place, assumption = 'growing')
 saveRDS(df, './Data/Final/global_growing.rds')
 
 # Plot 
@@ -140,12 +127,6 @@ p <- ggplot(df, aes(Time, CumSum)) +
        y = 'Dead Profiles (Millions)') +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) 
-
-
-
-
-
-
 
 
 
