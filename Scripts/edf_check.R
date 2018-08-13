@@ -39,6 +39,9 @@ edf_check <- function(country, k1 = 15, k2 = 40) {
 out <- foreach(place = fb_dat[, unique(Country)], .combine = rbind) %dopar%
   edf_check(place, k1 = 15, k2 = 40)
 
+# Write to disk
+saveRDS(out, 'edf_check.rds')
+
 # Check histo
 out[Model == 'fb', hist(EDF, breaks = 20)]
 out[Model == 'mr', hist(EDF, breaks = 20)]
