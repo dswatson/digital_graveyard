@@ -1,11 +1,13 @@
 # Set working directory
 setwd('./Documents/DPhil/Deaths_on_FB')
 
-# Load libraries
+# Load libraries, register cores
 library(data.table)
 library(tidyverse)
 library(mgcv)
 library(ggsci)
+library(doMC)
+registerDoMC(4)
 
 # Import data
 un_dat <- readRDS('./Data/Final/un_dat.rds')
@@ -185,22 +187,15 @@ death_cumsum <- function(country, assumption = 'shrinking') {
     mutate(Country = country,
             CumSum = cumsum(Dead_Profiles)) %>%
     select(Country, Time, CumSum) %>%
+    as.data.table(.) %>%
     return(.)
   
 }
 
 ### Figure 4 ### 
 
-df <- data.table(
-  Country = NA_character_,
-     Time = NA_integer_,
-   CumSum = NA_real_
-)
-for (country in totals$Country) {
-  i <- death_cumsum(country, assumption = 'shrinking')
-  df <- rbind(df, i)
-}
-df <- na.omit(df) 
+df <- foreach(place = totals$Country, .combine = rbind) %dopar%
+  death_cumsum(place, assumption = 'shrinking')
 
 # We want biggest countries first
 most_dead <- df %>%
@@ -222,16 +217,8 @@ p <- ggplot(df, aes(Time, CumSum, group = Country, fill = Country)) +
 
 ### Figure 5 ###
 
-df <- data.table(
-  Country = NA_character_,
-     Time = NA_integer_,
-   CumSum = NA_real_
-)
-for (country in totals$Country) {
-  i <- death_cumsum(country, assumption = 'growing')
-  df <- rbind(df, i)
-}
-df <- na.omit(df) 
+df <- foreach(place = totals$Country, .combine = rbind) %dopar%
+  death_cumsum(place, assumption = 'growing') 
 
 # We want biggest countries last
 most_dead <- df %>%
