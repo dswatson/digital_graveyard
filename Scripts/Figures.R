@@ -343,7 +343,39 @@ p <- ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_fill_manual(values = most_dead$Color)
 
+# Per year: Scenario I
+df <- readRDS('./Data/Final/global_shrinking.rds') %>%
+  group_by(Time) %>%
+  summarise(annual_cumsum = sum(CumSum)) %>%
+  mutate(annual_lag = lag(annual_cumsum, default = 0),
+          per_annum = annual_cumsum - annual_lag) %>%
+  select(Time, per_annum)
 
+# Plot
+ggplot(df, aes(Time, per_annum)) + 
+  geom_point() + 
+  labs(title = 'Global Facebook Mortality:\nScenario I',
+       x = 'Year',
+       y = 'New Dead Profiles (Millions)') + 
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+# Per year: Scenario II
+df <- readRDS('./Data/Final/global_growing.rds') %>%
+  group_by(Time) %>%
+  summarise(annual_cumsum = sum(CumSum)) %>%
+  mutate(annual_lag = lag(annual_cumsum, default = 0),
+          per_annum = annual_cumsum - annual_lag) %>%
+  select(Time, per_annum)
+
+# Plot
+ggplot(df, aes(Time, per_annum)) + 
+  geom_point() + 
+  labs(title = 'Global Facebook Mortality:\nScenario II',
+       x = 'Year',
+       y = 'New Dead Profiles (Millions)') + 
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5))
 
 
 
