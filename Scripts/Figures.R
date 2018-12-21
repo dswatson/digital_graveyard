@@ -20,20 +20,22 @@ fb_dat <- readRDS('./Data/Final/fb_dat.rds')
 ### Figure 1 ###
 
 # Build death model
-mr_mod <- gam(logit_mr ~ s(Age, by = Time, k = 15),
-              data = un_dat[Age >= 10 & Location == 'United States'])
+mr_mod <- gam(Mortality_Rate ~ ti(Age, bs = bs) + ti(Time) + ti(Age, Time),
+              data = un_dat[Age >= 10 & Location == 'United States'],
+              family = betar())
 
 # Build Facebook model
 fb_mod <- gam(Users ~ s(Age, k = 40), 
-              data = fb_dat[Country == 'United States'])
+              data = fb_dat[Country == 'United States'],
+              family = nb(link = 'sqrt'))
 
 # Fill in 2018 data, trim distributions
 df <- data.table(
   Time = 2018, 
    Age = 13:100
 )
-df[, mr_hat := predict(mr_mod, df) %>% plogis(.)
-  ][, fb_hat := predict(fb_mod, df)
+df[, mr_hat := predict(mr_mod, df, type = 'response')
+  ][, fb_hat := predict(fb_mod, df, type = 'response')
   ][mr_hat > 1, mr_hat := 1
   ][mr_hat < 0, mr_hat := 0
   ][fb_hat < 0, fb_hat := 0]
@@ -377,7 +379,7 @@ ggplot(df, aes(Time, per_annum)) +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5))
 
-
+# Take country and plot 
 
 
 
