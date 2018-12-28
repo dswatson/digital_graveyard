@@ -4,7 +4,6 @@ setwd('./Documents/DPhil/Deaths_on_FB/Data/Final')
 # Load libraries
 library(data.table)
 library(tidyverse)
-library(mgcv)
 
 ### Death Data ###
 
@@ -30,8 +29,8 @@ mort <- mort %>% mutate(Time = as.integer(gsub(' -.*', '', Time)))
 # Tidy data, reclass age as integer
 mort <- mort %>% 
   gather(Age, Deaths, -Time, -Location) %>%
-  mutate(Age = 2.5 + as.numeric(gsub('Age_', '', Age)),
-      Deaths = Deaths / 25,  # 5-yr buckets for age and time, i.e. /5/5
+  mutate(Age = 2.5 + as.numeric(gsub('Age_', '', Age)), # Shift to midpoint
+      Deaths = Deaths / 25,  # Five-year totals, five-year buckets
          Idx = paste(Location, Time, Age, sep = '.')) %>%
   as.data.table(.)
 pop <- pop %>% 
@@ -44,12 +43,10 @@ pop <- pop %>%
 # Merge data, calculate mortality rate, Winsorize distribution
 un_dat <- merge(mort, pop[, .(Idx, Population)], by = 'Idx'
   )[, Idx := NULL
+# Some observations have impossible death totals
+  ][Deaths > Population, Deaths := Population
 # Calculate mortality rate
   ][, Mortality_Rate := Deaths / Population
-# Winsorize the distribution
-  ][Mortality_Rate >= 0.99, Mortality_Rate := 0.99
-# Logit transform for easier modelling
-  ][, logit_mr := qlogis(Mortality_Rate + 1e-7)
 # Fix country names 
   ][Location == 'Antigua and Barbuda', Location := 'Antigua'
   ][Location == 'Bolivia (Plurinational State of)', Location := 'Bolivia'
@@ -75,32 +72,26 @@ un_dat <- merge(mort, pop[, .(Idx, Population)], by = 'Idx'
 ### Facebook Data ###
 
 # Import Facebook data
-fb_dat <- read_csv('fb_dat.csv') %>%
-# Remove the 65+ bucket
-  filter(Age != 65) %>%
-  as.data.table(.)
-# Remove countries with 0 users
-zeros <- fb_dat %>%
-  group_by(Country) %>%
-  summarise(Total = sum(Users)) %>%
-  filter(Total == 0)
-fb_dat <- fb_dat[!Country %in% zeros$Country]
-# Anchor Facebook numbers with a guaranteed 0 users at age 100
+fb_dat <- fread('fb_dat.csv')
+# Rescale to thousands
+fb_dat[, Users := Users * 1000]
+# Remove countries with fewer than 10k users
+fb_dat <- fb_dat[Users >= 10]
+# Fix country names
+fb_dat[Country == 'The Gambia', Country := 'Gambia'
+  ][Country == 'Czech Republic', Country := 'Czechia'
+  ][Country == 'The Bahamas', Country := 'Bahamas']
+# Harmonize countries
+overlap <- intersect(un_dat$Location, fb_dat$Country)
+un_dat <- un_dat[Location %in% overlap]
+fb_dat <- fb_dat[Country %in% overlap]
+# Anchor all countries with 0 users of age 100
 anchor <- data.table(
   Country = fb_dat[, unique(Country)],
       Age = 100,
     Users = 0
 )
 fb_dat <- rbind(fb_dat, anchor)
-# Fix country names
-fb_dat[Country == 'The Gambia', Country := 'Gambia'
-  ][Country == 'Czech Republic', Country := 'Czechia'
-  ][Country == 'The Bahamas', Country := 'Bahamas']
-
-# Harmonize countries
-overlap <- intersect(un_dat$Location, fb_dat$Country)
-un_dat <- un_dat[Location %in% overlap]
-fb_dat <- fb_dat[Country %in% overlap]
 
 # Export
 saveRDS(un_dat, 'un_dat.rds')
