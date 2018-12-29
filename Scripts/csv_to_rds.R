@@ -76,7 +76,9 @@ fb_dat <- fread('fb_dat.csv')
 # Rescale to thousands
 fb_dat[, Users := Users * 1000]
 # Remove countries with fewer than 10k users
-fb_dat <- fb_dat[Users >= 10]
+total <- fb_dat[, sum(Users), by = Country]
+keep <- total[V1 >= 10, Country]
+fb_dat <- fb_dat[Country %in% keep]
 # Fix country names
 fb_dat[Country == 'The Gambia', Country := 'Gambia'
   ][Country == 'Czech Republic', Country := 'Czechia'
