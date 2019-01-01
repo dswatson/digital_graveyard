@@ -101,23 +101,3 @@ saveRDS(fb_dat, 'fb_dat.rds')
 
 
 
-
-f <- function(country, k) {
-  df <- fb_dat[Country == country, .(Age, Users)]
-  m <- gam(Users ~ s(Age, bs = 'cr', k = k),
-           data = df, family = nb())
-  df <- rbind(df, data.frame(Age = 65:100, Users = NA_real_))
-  df[, fb_hat := predict(m, df, type = 'response')]
-  suppressWarnings(
-    ggplot(df) + 
-      geom_point(aes(Age, Users)) + 
-      geom_line(aes(Age, fb_hat), color = 'blue', size = 0.75) + 
-      theme_bw()
-  )
-}
-
-
-
-
-
-
