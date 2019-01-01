@@ -75,9 +75,9 @@ un_dat <- merge(mort, pop[, .(Idx, Population)], by = 'Idx'
 fb_dat <- fread('fb_dat.csv')
 # Rescale to thousands
 fb_dat[, Users := Users * 1000]
-# Remove countries with fewer than 10k users
+# Remove zeros
 total <- fb_dat[, sum(Users), by = Country]
-keep <- total[V1 >= 10, Country]
+keep <- total[V1 >= 0, Country]
 fb_dat <- fb_dat[Country %in% keep]
 # Fix country names
 fb_dat[Country == 'The Gambia', Country := 'Gambia'
@@ -98,5 +98,26 @@ fb_dat <- rbind(fb_dat, anchor)
 # Export
 saveRDS(un_dat, 'un_dat.rds')
 saveRDS(fb_dat, 'fb_dat.rds')
+
+
+
+
+f <- function(country, k) {
+  df <- fb_dat[Country == country, .(Age, Users)]
+  m <- gam(Users ~ s(Age, bs = 'cr', k = k),
+           data = df, family = nb())
+  df <- rbind(df, data.frame(Age = 65:100, Users = NA_real_))
+  df[, fb_hat := predict(m, df, type = 'response')]
+  suppressWarnings(
+    ggplot(df) + 
+      geom_point(aes(Age, Users)) + 
+      geom_line(aes(Age, fb_hat), color = 'blue', size = 0.75) + 
+      theme_bw()
+  )
+}
+
+
+
+
 
 
