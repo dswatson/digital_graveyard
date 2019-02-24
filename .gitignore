@@ -3,7 +3,6 @@
 .RData
 .Ruserdata
 Deaths_on_FB.RProj
-MS/
-Data/junk
-NumberDeaths-(clean).xlsx
-fb_data.xlsx
+.DS_Store
+Data/.DS_Store
+Scripts/.DS_Store
