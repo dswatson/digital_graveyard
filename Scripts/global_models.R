@@ -74,7 +74,7 @@ proj <- function(country) {
 # Execute in parallel
 df <- foreach(country = fb_dat[, unique(Country)], .combine = rbind) %dopar%
   proj(country)
-saveRDS(df, './Results/global_models.rds')
+saveRDS(df, './Results/Models/global_models.rds')
 
 
 

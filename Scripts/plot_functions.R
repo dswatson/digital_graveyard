@@ -7,8 +7,8 @@ library(tidyverse)
 
 ### Cumulative Deaths, Standard Errors ###
 # Import data
-df <- rbind(readRDS('./Results/global_shrinking_boot.rds'),
-            readRDS('./Results/global_growing_boot.rds'))
+df <- rbind(readRDS('./Results/Models/global_shrinking_boot.rds'),
+            readRDS('./Results/Models/global_growing_boot.rds'))
 
 # Plotting function
 plot_cumsum <- function(country, scenario) {

@@ -87,8 +87,10 @@ boot <- function(country, b) {
 df <- foreach(country = fb_dat[, unique(Country)], .combine = rbind) %:% 
   foreach(b = seq_len(500), .combine = rbind) %dopar%
   boot(country, b)
-saveRDS(df[Assumption == 'Shrinking'], './Results/global_shrinking_boot.rds')
-saveRDS(df[Assumption == 'Growing'], './Results/global_growing_boot.rds')
+saveRDS(df[Assumption == 'Shrinking'], 
+        './Results/Models/global_shrinking_boot.rds')
+saveRDS(df[Assumption == 'Growing'], 
+        './Results/Models/global_growing_boot.rds')
 
 
 

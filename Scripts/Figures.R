@@ -135,7 +135,7 @@ ggsave('./Results/Figures/Fig_2.pdf')
 
 ### Figure 3: Ribbon plot, Scenario B ###
 # Load data
-df <- readRDS('./Results/global_growing.rds') %>%
+df <- readRDS('./Results/Models/global_growing.rds') %>%
   merge(countries, by = 'Country') %>%
   group_by(Time, Continent) %>%
   summarise(CumSum = sum(CumSum)) %>%
@@ -163,8 +163,8 @@ ggsave('./Results/Figures/Fig_3.pdf')
 
 ### Figure 4: World Maps ###
 # Cumulative global numbers under shrinking scenario
-df <- rbind(readRDS('./Results/global_shrinking.rds'),
-            readRDS('./Results/global_growing.rds'))
+df <- rbind(readRDS('./Results/Models/global_shrinking.rds'),
+            readRDS('./Results/Models/global_growing.rds'))
 df <- df[Time %in% c(2050, 2100)]
 df[, CumSum := CumSum * 1000] # Put on real scale for log10 transform
 
