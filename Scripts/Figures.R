@@ -60,7 +60,7 @@ df[Assumption == 'Growing' & Time > 2018,
 df[, FB_Deaths := mr_hat * fb_hat]
 
 # Figure 1A: Observed vs. predicted mortality rates
-p <- ggplot() + 
+ggplot() + 
   geom_point(data = un_dat %>% filter(Location == 'India',
                                           Time == 2030,
                                            Age >= 18), 
@@ -72,9 +72,10 @@ p <- ggplot() +
            y = 'Deaths Per Thousand') +
   theme_bw() + 
   theme(plot.title = element_text(hjust = 0.5))
+ggsave('./Results/Figures/Fig_1A.pdf')
 
 # Figure 1B: Observed vs. predict FB users
-p <- ggplot() + 
+ggplot() + 
   geom_point(data = fb_dat %>% filter(Country == 'India', Age < 65),
              aes(Age, Users / 1000)) + 
   geom_line(data = df %>% filter(Assumption == 'Shrinking', Time == 2018, 
@@ -84,15 +85,17 @@ p <- ggplot() +
        y = 'Users (Millions)') + 
   theme_bw() + 
   theme(plot.title = element_text(hjust = 0.5))
+ggsave('./Results/Figures/Fig_1B.pdf')
 
 # Figure 1C: FB mortalities by age
-p <- ggplot(df[Assumption == 'Shrinking' & Time == 2030 & Age >= 30], 
+ggplot(df[Assumption == 'Shrinking' & Time == 2030 & Age >= 30], 
             aes(Age, FB_Deaths)) + 
   geom_line(size = 0.75, color = 'blue') + 
   labs(title = 'Projected Facebook Mortalities: India, 2030',
        y = 'Profiles (Thousands)') + 
   theme_bw() + 
   theme(plot.title = element_text(hjust = 0.5))
+ggsave('./Results/Figures/Fig_1C.pdf')
 
 
 ### Figure 2: Ribbon plot, Scenario A ###
@@ -128,6 +131,7 @@ ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_fill_manual(values = most_dead$Color)
+ggsave('./Results/Figures/Fig_2.pdf')
 
 ### Figure 3: Ribbon plot, Scenario B ###
 # Load data
@@ -146,7 +150,7 @@ most_dead <- df %>%
 df[, Continent := factor(Continent, levels = most_dead$Continent)]
 
 # Plot 
-p <- ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
+ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
   geom_area(alpha = 0.9) +
   labs(title = 'Global Accumulation of Dead Profiles:\nScenario B',
        x = 'Year',
@@ -154,6 +158,7 @@ p <- ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) +
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_fill_manual(values = most_dead$Color)
+ggsave('./Results/Figures/Fig_3.pdf')
 
 
 ### Figure 4: World Maps ###
@@ -224,4 +229,4 @@ ggplot(df, aes(long, lat, fill = CumSum, group = group)) +
   theme(plot.title = element_text(hjust = 0.5)) + 
   ditch_axes + 
   facet_grid(Assumption ~ Time)
-  
+ggsave('./Results/Figures/Fig_4.pdf')
