@@ -14,7 +14,7 @@ set.seed(123, kind = "L'Ecuyer-CMRG")
 un_dat <- readRDS('./Data/un_dat.rds')
 fb_dat <- readRDS('./Data/fb_dat.rds')
 
-# Bootstrap death_cumsum loop 
+# Bootstrap loop 
 boot <- function(country, b) {
   # Reduce data
   un_dat <- un_dat[Location == country & Age >= 13]
@@ -63,20 +63,24 @@ boot <- function(country, b) {
   df[Assumption == 'Growing', fb_hat := baseline * 1.13^(Time - 2018), by = Time
   # But no penetration rates > 1
     ][fb_hat > pop_hat, fb_hat := pop_hat]
-  # Compute cumulative annual deaths
-  shrink_fb <- df[Assumption == 'Shrinking', sum(fb_hat), by = Time]$V1
-  grow_fb <- df[Assumption == 'Growing' & Time != 2100, 
-                sum(mr_hat * fb_hat), by = Time]$V1
+  # Compute annual live and dead profiles
+  shrink_alive <- df[Assumption == 'Shrinking', sum(fb_hat), by = Time]$V1
+  shrink_dead <- diff(shrink_alive) * -1
+  grow_alive <- df[Assumption == 'Growing', sum(fb_hat), by = Time]$V1
+  grow_dead <- df[Assumption == 'Growing' & Time != 2100, 
+                  sum(mr_hat * fb_hat), by = Time]$V1
   out <- crossing(
     Assumption = c('Shrinking', 'Growing'),
-          Time = 2019:2100
+        Status = c('Alive', 'Dead'),
+          Year = 2019:2100
   ) %>% as.data.table(.)
-  out[Assumption == 'Shrinking', FB_Deaths := diff(shrink_fb) * -1
-    ][Assumption == 'Growing', FB_Deaths := grow_fb
-    ][, CumSum := cumsum(FB_Deaths), by = Assumption
+  out[Assumption == 'Shrinking' & Status == 'Alive', Profiles := shrink_alive
+    ][Assumption == 'Shrinking' & Status == 'Dead', Profiles := shrink_dead
+    ][Assumption == 'Growing' & Status == 'Alive', Profiles := grow_alive
+    ][Assumption == 'Growing' & Status == 'Dead', Profiles := grow_dead
     ][, Country := country
     ][, Run := b]
-  return(out[, .(Assumption, Country, Time, FB_Deaths, Run)])
+  return(out[, .(Country, Year, Assumption, Status, Profiles, Run)])
 }
 
 # Execute in parallel
