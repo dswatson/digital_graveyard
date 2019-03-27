@@ -12,7 +12,7 @@ un_dat <- readRDS('./Data/un_dat.rds')
 fb_dat <- readRDS('./Data/fb_dat.rds')
 
 # Analysis loop per country 
-death_cumsum <- function(country) {
+proj <- function(country) {
   # Reduce data
   un_dat <- un_dat[Location == country & Age >= 13]
   fb_dat <- fb_dat[Country == country]
@@ -73,7 +73,7 @@ death_cumsum <- function(country) {
 
 # Execute in parallel
 df <- foreach(country = fb_dat[, unique(Country)], .combine = rbind) %dopar%
-  death_cumsum(country)
+  proj(country)
 saveRDS(df, './Results/global_models.rds')
 
 
