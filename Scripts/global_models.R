@@ -70,8 +70,8 @@ death_cumsum <- function(country) {
 # Execute in parallel
 df <- foreach(country = fb_dat[, unique(Country)], .combine = rbind) %dopar%
   death_cumsum(country)
-saveRDS(df[Assumption == 'Shrinking'], 'global_shrinking.rds')
-saveRDS(df[Assumption == 'Growing'], 'global_growing.rds')
+saveRDS(df[Assumption == 'Shrinking'], './Results/global_shrinking.rds')
+saveRDS(df[Assumption == 'Growing'], './Results/global_growing.rds')
 
 
 
