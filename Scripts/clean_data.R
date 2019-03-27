@@ -8,8 +8,8 @@ library(tidyverse)
 ### UN Data ###
 
 # Import UN data
-mort <- read_csv('mortality.csv') 
-pop <- read_csv('population.csv') 
+mort <- read_csv('./Data/mortality.csv') 
+pop <- read_csv('./Data/population.csv') 
 
 # For columns 3-23, delete the space and class as numeric
 for (j in 3:23) {
@@ -97,5 +97,5 @@ anchor <- data.table(
 fb_dat <- rbind(fb_dat, anchor)
 
 # Export
-saveRDS(un_dat, 'un_dat.rds')
-saveRDS(fb_dat, 'fb_dat.rds')
+saveRDS(un_dat, './Data/un_dat.rds')
+saveRDS(fb_dat, './Data/fb_dat.rds')

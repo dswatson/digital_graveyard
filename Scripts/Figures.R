@@ -11,8 +11,8 @@ library(doMC)
 registerDoMC(8)
 
 # Import data
-un_dat <- readRDS('un_dat.rds')
-fb_dat <- readRDS('fb_dat.rds')
+un_dat <- readRDS('./Data/un_dat.rds')
+fb_dat <- readRDS('./Data/fb_dat.rds')
 
 ### Figure 1: Modelling Pipeline ###
 # Build death model
@@ -163,8 +163,8 @@ ggsave('./Results/Figures/Fig_3.pdf')
 
 ### Figure 4: World Maps ###
 # Cumulative global numbers under shrinking scenario
-df <- rbind(readRDS('global_shrinking.rds'),
-            readRDS('global_growing.rds'))
+df <- rbind(readRDS('./Results/global_shrinking.rds'),
+            readRDS('./Results/global_growing.rds'))
 df <- df[Time %in% c(2050, 2100)]
 df[, CumSum := CumSum * 1000] # Put on real scale for log10 transform
 

@@ -8,8 +8,8 @@ library(doMC)
 registerDoMC(8)
 
 # Import data
-un_dat <- readRDS('un_dat.rds')
-fb_dat <- readRDS('fb_dat.rds')
+un_dat <- readRDS('./Data/un_dat.rds')
+fb_dat <- readRDS('./Data/fb_dat.rds')
 
 # Analysis loop per country 
 death_cumsum <- function(country) {

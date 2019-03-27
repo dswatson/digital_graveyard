@@ -1,8 +1,5 @@
 ### BAYESIAN BOOTSTRAP ###
 
-# Set working directory
-setwd('~/Documents/Deaths_on_FB/Data')
-
 # Load libraries, register cores
 library(data.table)
 library(tidyverse)
@@ -14,8 +11,8 @@ registerDoMC(8)
 set.seed(123, kind = "L'Ecuyer-CMRG")
 
 # Import data
-un_dat <- readRDS('un_dat.rds')
-fb_dat <- readRDS('fb_dat.rds')
+un_dat <- readRDS('./Data/un_dat.rds')
+fb_dat <- readRDS('./Data/fb_dat.rds')
 
 # Bootstrap death_cumsum loop 
 boot <- function(country, b) {
@@ -86,8 +83,8 @@ boot <- function(country, b) {
 df <- foreach(country = fb_dat[, unique(Country)], .combine = rbind) %:% 
   foreach(b = seq_len(500), .combine = rbind) %dopar%
   boot(country, b)
-saveRDS(df[Assumption == 'Shrinking'], 'global_shrinking_boot.rds')
-saveRDS(df[Assumption == 'Growing'], 'global_growing_boot.rds')
+saveRDS(df[Assumption == 'Shrinking'], './Results/global_shrinking_boot.rds')
+saveRDS(df[Assumption == 'Growing'], './Results/global_growing_boot.rds')
 
 
 
