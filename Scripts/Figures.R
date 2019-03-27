@@ -1,5 +1,4 @@
-# Set working directory
-setwd('~/Documents/Deaths_on_FB/Data')
+### FIGURES ###
 
 # Load libraries, register cores
 library(data.table)
@@ -16,7 +15,6 @@ un_dat <- readRDS('un_dat.rds')
 fb_dat <- readRDS('fb_dat.rds')
 
 ### Figure 1: Modelling Pipeline ###
-
 # Build death model
 mr_mod <- gam(Mortality_Rate ~ ti(Age) + ti(Time) + 
                 ti(Age, Time), family = betar(),
@@ -43,7 +41,7 @@ df[, mr_hat := predict(mr_mod, df, type = 'response')
   # Predict baseline FB data
   ][Time == 2018, fb_hat := 
   predict(fb_mod, df[Time == 2018], type = 'response')
-  # Call bullshit on markets with penetration rates > 1
+  # No such thing as markets with penetration rate > 1
   ][fb_hat > pop_hat, fb_hat := pop_hat]
 # Extend predictions under the shrinking assumption
 for (year in 2019:2100) {
@@ -56,7 +54,7 @@ for (year in 2019:2100) {
 baseline <- df[Assumption == 'Growing' & Time == 2018, fb_hat]
 df[Assumption == 'Growing' & Time > 2018, 
   fb_hat := baseline * 1.13^(Time - 2018), by = Time
-  # But no penetration rates > 1
+# But no penetration rates > 1
   ][fb_hat > pop_hat, fb_hat := pop_hat]
 # Calculate Facebook mortalities
 df[, FB_Deaths := mr_hat * fb_hat]
@@ -98,9 +96,8 @@ p <- ggplot(df[Assumption == 'Shrinking' & Time == 2030 & Age >= 30],
 
 
 ### Figure 2: Ribbon plot, Scenario A ###
-
 # By continent
-countries <- fread('./Data/Final/countries.csv')
+countries <- fread('./Data/countries.csv')
 colors <- data.table(
   Continent = c('Asia', 'North America', 'Europe', 
                 'South America', 'Africa', 'Oceania'),
@@ -108,7 +105,7 @@ colors <- data.table(
 )
 
 # Load data
-df <- readRDS('./Data/Final/global_shrinking.rds') %>%
+df <- readRDS('./Results/global_shrinking.rds') %>%
   merge(countries, by = 'Country') %>%
   group_by(Time, Continent) %>%
   summarise(CumSum = sum(CumSum)) %>%
@@ -133,9 +130,8 @@ ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) +
   scale_fill_manual(values = most_dead$Color)
 
 ### Figure 3: Ribbon plot, Scenario B ###
-
 # Load data
-df <- readRDS('./Data/Final/global_growing.rds') %>%
+df <- readRDS('./Results/global_growing.rds') %>%
   merge(countries, by = 'Country') %>%
   group_by(Time, Continent) %>%
   summarise(CumSum = sum(CumSum)) %>%
@@ -209,7 +205,7 @@ df[, Assumption := as.factor(ifelse(Assumption == 'Shrinking',
                                     'Scenario A', 'Scenario B'))] 
 
 # Plot
-ditch_the_axes <- theme(
+ditch_axes <- theme(
   axis.text = element_blank(),
   axis.line = element_blank(),
   axis.ticks = element_blank(),
@@ -226,6 +222,6 @@ ggplot(df, aes(long, lat, fill = CumSum, group = group)) +
   labs(title = 'Global Distribution of Dead Facebook Profiles') + 
   theme_bw() + 
   theme(plot.title = element_text(hjust = 0.5)) + 
-  ditch_the_axes + 
+  ditch_axes + 
   facet_grid(Assumption ~ Time)
   

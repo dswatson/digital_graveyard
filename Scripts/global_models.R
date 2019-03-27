@@ -1,5 +1,4 @@
-# Set working directory
-setwd('~/Documents/Deaths_on_FB/Data')
+### GLOBAL MODELS ###
 
 # Load libraries, register cores
 library(data.table)
@@ -38,7 +37,7 @@ death_cumsum <- function(country) {
   # Predict baseline FB data
     ][Time == 2018, fb_hat := 
       predict(fb_mod, df[Time == 2018], type = 'response')
-  # Call bullshit on markets with penetration rates > 1
+  # No such thing as markets with penetration rate > 1
     ][fb_hat > pop_hat, fb_hat := pop_hat]
   # Extend predictions under the shrinking assumption
   for (year in 2019:2100) {
