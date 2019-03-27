@@ -52,26 +52,29 @@ death_cumsum <- function(country) {
      fb_hat := baseline * 1.13^(Time - 2018), by = Time
   # But no penetration rates > 1
     ][fb_hat > pop_hat, fb_hat := pop_hat]
-  # Compute annual deaths
-  shrink_fb <- df[Assumption == 'Shrinking', sum(fb_hat), by = Time]$V1
-  grow_fb <- df[Assumption == 'Growing' & Time != 2100, 
+  # Compute annual live and dead profiles
+  shrink_alive <- df[Assumption == 'Shrinking', sum(fb_hat), by = Time]$V1
+  shrink_dead <- diff(shrink_alive) * -1
+  grow_alive <- df[Assumption == 'Growing', sum(fb_hat), by = Time]$V1
+  grow_dead <- df[Assumption == 'Growing' & Time != 2100, 
                 sum(mr_hat * fb_hat), by = Time]$V1
   out <- crossing(
     Assumption = c('Shrinking', 'Growing'),
-          Time = 2019:2100
+        Status = c('Alive', 'Dead'),
+          Year = 2019:2100
   ) %>% as.data.table(.)
-  out[Assumption == 'Shrinking', FB_Deaths := diff(shrink_fb) * -1
-    ][Assumption == 'Growing', FB_Deaths := grow_fb
-    ][, CumSum := cumsum(FB_Deaths), by = Assumption
+  out[Assumption == 'Shrinking' & Status == 'Alive', Profiles := shrink_alive
+    ][Assumption == 'Shrinking' & Status == 'Dead', Profiles := shrink_dead
+    ][Assumption == 'Growing' & Status == 'Alive', Profiles := grow_alive
+    ][Assumption == 'Growing' & Status == 'Dead', Profiles := grow_dead
     ][, Country := country]
-  return(out[, .(Assumption, Country, Time, FB_Deaths, CumSum)])
+  return(out[, .(Country, Year, Assumption, Status, Profiles)])
 }
 
 # Execute in parallel
 df <- foreach(country = fb_dat[, unique(Country)], .combine = rbind) %dopar%
   death_cumsum(country)
-saveRDS(df[Assumption == 'Shrinking'], './Results/global_shrinking.rds')
-saveRDS(df[Assumption == 'Growing'], './Results/global_growing.rds')
+saveRDS(df, './Results/global_models.rds')
 
 
 
