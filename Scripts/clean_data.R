@@ -1,5 +1,4 @@
-# Set working directory
-setwd('~/Documents/Deaths_on_FB/Data')
+### CLEAN UP UN AND FB DATA ###
 
 # Load libraries
 library(data.table)
