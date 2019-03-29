@@ -32,8 +32,8 @@ pop_mod <- gam(Population ~ ti(Age, k = 10) + ti(Time, k = 10) +
 # Build grid
 df <- crossing(
   Assumption = c('Shrinking', 'Growing'),
-  Time = 2018:2100,
-  Age = 18:100
+        Time = 2018:2100,
+         Age = 18:100
 ) %>% as.data.table(.)
 # Predict mortality rate and population data
 df[, mr_hat := predict(mr_mod, df, type = 'response')
@@ -108,12 +108,12 @@ colors <- data.table(
 )
 
 # Load data
-df <- readRDS('./Results/global_shrinking.rds') %>%
-  merge(countries, by = 'Country') %>%
-  group_by(Time, Continent) %>%
-  summarise(CumSum = sum(CumSum)) %>%
-  ungroup(.) %>%
-  as.data.table(.)
+df <- readRDS('./Results/Models/global_models.rds')
+df <- df[Status == 'Dead' & Assumption == 'Shrinking', ]
+df[, CumSum := cumsum(Profiles / 1000), by = .(Year, Country)]
+df <- merge(df, countries, by = 'Country')
+df[, CumSum := sum(CumSum), by = Continent]
+df <- df[, .(Continent, Year, CumSum)]
 
 # We want biggest continents first
 most_dead <- df %>%
@@ -135,12 +135,12 @@ ggsave('./Results/Figures/Fig_2.pdf')
 
 ### Figure 3: Ribbon plot, Scenario B ###
 # Load data
-df <- readRDS('./Results/Models/global_growing.rds') %>%
-  merge(countries, by = 'Country') %>%
-  group_by(Time, Continent) %>%
-  summarise(CumSum = sum(CumSum)) %>%
-  ungroup(.) %>%
-  as.data.table(.)
+df <- readRDS('./Results/Models/global_models.rds')
+df <- df[Status == 'Dead' & Assumption == 'Growing', ]
+df[, CumSum := cumsum(Profiles / 1000), by = .(Year, Country)]
+df <- merge(df, countries, by = 'Country')
+df[, CumSum := sum(CumSum), by = Continent]
+df <- df[, .(Continent, Year, CumSum)]
 
 # We want biggest countries first
 most_dead <- df %>%
@@ -163,10 +163,9 @@ ggsave('./Results/Figures/Fig_3.pdf')
 
 ### Figure 4: World Maps ###
 # Cumulative global numbers under shrinking scenario
-df <- rbind(readRDS('./Results/Models/global_shrinking.rds'),
-            readRDS('./Results/Models/global_growing.rds'))
-df <- df[Time %in% c(2050, 2100)]
-df[, CumSum := CumSum * 1000] # Put on real scale for log10 transform
+df <- readRDS('./Results/Models/global_models.rds')
+df <- df[Status == 'Dead' & Year %in% c(2050, 2100), ]
+df[, CumSum := cumsum(Profiles * 1000)]
 
 # Harmonize country names
 world <- as.data.table(map_data('world'))
