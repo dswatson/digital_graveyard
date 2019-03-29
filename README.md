@@ -62,6 +62,6 @@ plot_curves(country = 'Brazil', scenario = 'A')
 <img src="README_files/figure-markdown_github/curves-1.png" style="display: block; margin: auto;" />
 </p>
 
-According to our projections, the dead will outnumber the living on Facebook in Brazil sometime around 2069.
+Under the assumptions of Scenario A, we project that the dead will outnumber the living on Facebook in Brazil sometime around 2069.
 
 See ([Öhman & Watson, 2019](https://arxiv.org/abs/1811.03416)) for more details.
