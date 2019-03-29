@@ -11,9 +11,9 @@ Our models compute the expected number of Facebook profiles belonging to living 
 
 We note that our projections begin in 2018 and therefore exclude all profiles belonging to users who died prior to this year. To the best of our knowledge, data on current totals of dead Facebook profiles are not publicly available.
 
-All analysis was conducted in R version 3.5.2. Computations were performed on a MacBook Pro with 16GB of RAM and an i7 8-core processor. Note that it takes a little over 4 minutes to execute the global\_models.R script on said laptop and a little over 34 hours to run bootstrap.R. We've saved output the outputs of both scripts in the [Results](https://github.com/dswatson/Deaths_on_FB/tree/master/Results/Models) directory.
+All analysis was conducted in R version 3.5.2. Computations were performed on a MacBook Pro with 16GB of RAM and an i7 8-core processor. It takes a little over 4 minutes to execute the [global\_models.R](https://github.com/dswatson/Deaths_on_FB/blob/master/Scripts/global_models.R) script on said laptop and a little over 34 hours to run [bootstrap.R](https://github.com/dswatson/Deaths_on_FB/blob/master/Scripts/bootstrap.R). Outputs from the latter are unfortunately too large to store on GitHub, but the complete Results/Models directory can be downloaded [here](https://drive.google.com/open?id=17mDhIJbiOX8pgaj2Dy7cXABBLkgeAPzB).
 
-Using these data, we can plot the projected accumulation of dead profiles for any given combination of country and scenario.
+Using these data, we can recreate all figures from the paper (see [figures.R](https://github.com/dswatson/Deaths_on_FB/blob/master/Scripts/figures.R)). We can also make fancy new ones. For instance, this function plots the projected growth curves for living and dead users in any given country-scenario.
 
 ``` r
 # Load libraries
@@ -25,48 +25,7 @@ df <- rbind(readRDS('./Results/Models/global_shrinking_boot.rds'),
             readRDS('./Results/Models/global_growing_boot.rds'))
 
 # Plotting function
-plot_cumsum <- function(country, scenario) {
-  # Filter out the living
-  df <- df[Status == 'Dead']
-  # Filter by country
-  df <- df[Country == country]
-  # Filter by scenario
-  if (scenario == 'A') {
-    df <- df[Assumption == 'Shrinking']
-  } else if (scenario == 'B') {
-    df <- df[Assumption == 'Growing']
-  }
-  # Compute cumulative sum
-  df[, CumSum := cumsum(Profiles) / 1000, by = Run]
-  # Compute mean and standard error
-  df[, Mean := mean(CumSum), by = Year]
-  df[, SE := sd(CumSum), by = Year]
-  # Filter
-  df <- distinct(df[, .(Year, Mean, SE)])
-  # Plot
-  ggplot(df, aes(Year, Mean)) + 
-    geom_line(size = 0.75, color = 'blue') + 
-    geom_ribbon(aes(ymin = Mean - SE, ymax = Mean + SE), alpha = 0.25) +
-    labs(title = paste0('Accumulation of Dead Profiles:\n',
-                        country, ', Scenario ', scenario),
-         y = 'Profiles (Millions)') + 
-    theme_bw() + 
-    theme(plot.title = element_text(hjust = 0.5))
-}
-
-# How about India under Scenario A?
-plot_cumsum(country = 'India', scenario = 'B')
-```
-
-<p align='center'>
-<img src="README_files/figure-markdown_github/cumsum-1.png" style="display: block; margin: auto;" />
-</p>
-
-We can also plot growth curves for living and dead users for any country-scenario.
-
-``` r
-# Plotting function
-plot_status <- function(country, scenario) {
+plot_curves <- function(country, scenario) {
   # Filter by country
   df <- df[Country == country]
   # Filter by scenario
@@ -96,11 +55,11 @@ plot_status <- function(country, scenario) {
 }
 
 # How about Brazil under scenario A?
-plot_status(country = 'Brazil', scenario = 'A')
+plot_curves(country = 'Brazil', scenario = 'A')
 ```
 
 <p align='center'>
-<img src="README_files/figure-markdown_github/live_dead-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/curves-1.png" style="display: block; margin: auto;" />
 </p>
 
 According to our projections, the dead will outnumber the living on Facebook in Brazil sometime around 2069.
