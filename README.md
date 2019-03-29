@@ -58,7 +58,9 @@ plot_cumsum <- function(country, scenario) {
 plot_cumsum(country = 'India', scenario = 'B')
 ```
 
+<p align='center'>
 <img src="README_files/figure-markdown_github/cumsum-1.png" style="display: block; margin: auto;" />
+</p>
 
 We can also plot growth curves for living and dead users for any country-scenario.
 
@@ -97,7 +99,9 @@ plot_status <- function(country, scenario) {
 plot_status(country = 'Brazil', scenario = 'A')
 ```
 
+<p align='center'>
 <img src="README_files/figure-markdown_github/live_dead-1.png" style="display: block; margin: auto;" />
+</p>
 
 According to our projections, the dead will outnumber the living on Facebook in Brazil sometime around 2069.
 
