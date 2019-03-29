@@ -2,8 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
-Deaths_on_FB.RProj
+.Rapp.history
 .DS_Store
 Data/.DS_Store
 Scripts/.DS_Store
+Deaths_on_FB.Rproj
+README.Rmd
 plot_functions.R
