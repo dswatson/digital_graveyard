@@ -9,5 +9,5 @@ Scripts/.DS_Store
 Deaths_on_FB.Rproj
 README.Rmd
 plot_functions.R
-./Results/Models/global_shrinking_boot.rds
-./Results/Models/global_growing_boot.rds
+/Results/Models/global_shrinking_boot.rds
+/Results/Models/global_growing_boot.rds
