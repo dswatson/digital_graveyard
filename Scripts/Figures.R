@@ -1,14 +1,12 @@
 ### FIGURES ###
 
-# Load libraries, register cores
+# Load libraries
 library(data.table)
 library(tidyverse)
 library(mgcv)
 library(maps)
 library(ggsci)
 library(RColorBrewer)
-library(doMC)
-registerDoMC(8)
 
 # Import data
 un_dat <- readRDS('./Data/un_dat.rds')
@@ -110,20 +108,20 @@ colors <- data.table(
 # Load data
 df <- readRDS('./Results/Models/global_models.rds')
 df <- df[Status == 'Dead' & Assumption == 'Shrinking', ]
-df[, CumSum := cumsum(Profiles / 1000), by = .(Year, Country)]
+df[, CumSum := cumsum(Profiles / 1000), by = Country]
 df <- merge(df, countries, by = 'Country')
-df[, CumSum := sum(CumSum), by = Continent]
-df <- df[, .(Continent, Year, CumSum)]
+df[, CumSum := sum(CumSum), by = .(Continent, Year)]
+df <- distinct(df[, .(Continent, Year, CumSum)])
 
 # We want biggest continents first
 most_dead <- df %>%
-  filter(Time == 2100) %>%
+  filter(Year == 2100) %>%
   inner_join(colors, by = 'Continent') %>%
   arrange(desc(CumSum))
 df[, Continent := factor(Continent, levels = most_dead$Continent)]
 
 # Plot 
-ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
+ggplot(df, aes(Year, CumSum, group = Continent, fill = Continent)) + 
   geom_area(alpha = 0.9) +
   labs(title = 'Global Accumulation of Dead Profiles:\nScenario A',
        x = 'Year',
@@ -137,20 +135,20 @@ ggsave('./Results/Figures/Fig_2.pdf')
 # Load data
 df <- readRDS('./Results/Models/global_models.rds')
 df <- df[Status == 'Dead' & Assumption == 'Growing', ]
-df[, CumSum := cumsum(Profiles / 1000), by = .(Year, Country)]
+df[, CumSum := cumsum(Profiles / 1000), by = Country]
 df <- merge(df, countries, by = 'Country')
-df[, CumSum := sum(CumSum), by = Continent]
-df <- df[, .(Continent, Year, CumSum)]
+df[, CumSum := sum(CumSum), by = .(Continent, Year)]
+df <- distinct(df[, .(Continent, Year, CumSum)])
 
 # We want biggest countries first
 most_dead <- df %>%
-  filter(Time == 2100) %>%
+  filter(Year == 2100) %>%
   inner_join(colors, by = 'Continent') %>%
   arrange(desc(CumSum))
 df[, Continent := factor(Continent, levels = most_dead$Continent)]
 
 # Plot 
-ggplot(df, aes(Time, CumSum, group = Continent, fill = Continent)) + 
+ggplot(df, aes(Year, CumSum, group = Continent, fill = Continent)) + 
   geom_area(alpha = 0.9) +
   labs(title = 'Global Accumulation of Dead Profiles:\nScenario B',
        x = 'Year',
@@ -165,7 +163,7 @@ ggsave('./Results/Figures/Fig_3.pdf')
 # Cumulative global numbers under shrinking scenario
 df <- readRDS('./Results/Models/global_models.rds')
 df <- df[Status == 'Dead' & Year %in% c(2050, 2100), ]
-df[, CumSum := cumsum(Profiles * 1000)]
+df[, CumSum := cumsum(Profiles * 1000), by = Country]
 
 # Harmonize country names
 world <- as.data.table(map_data('world'))
@@ -187,22 +185,22 @@ world[region == 'Trinidad', region := 'Trinidad and Tobago'
 
 # Merge datasets
 world <- world %>% rename(Country = region)
-one <- merge(df[Assumption == 'Shrinking' & Time == 2050], world, 
+one <- merge(df[Assumption == 'Shrinking' & Year == 2050], world, 
              by = 'Country', all.y = TRUE
   )[, Assumption := 'Shrinking'
-  ][, Time := 2050]
-two <- merge(df[Assumption == 'Shrinking' & Time == 2100], world, 
+  ][, Year := 2050]
+two <- merge(df[Assumption == 'Shrinking' & Year == 2100], world, 
              by = 'Country', all.y = TRUE
   )[, Assumption := 'Shrinking'
-  ][, Time := 2100]
-three <- merge(df[Assumption == 'Growing' & Time == 2050], world, 
+  ][, Year := 2100]
+three <- merge(df[Assumption == 'Growing' & Year == 2050], world, 
                by = 'Country', all.y = TRUE
   )[, Assumption := 'Growing'
-  ][, Time := 2050]
-four <- merge(df[Assumption == 'Growing' & Time == 2100], world, 
+  ][, Year := 2050]
+four <- merge(df[Assumption == 'Growing' & Year == 2100], world, 
               by = 'Country', all.y = TRUE
   )[, Assumption := 'Growing'
-  ][, Time := 2100]
+  ][, Year := 2100]
 df <- rbind(one, two, three, four)
 df <- df[Country != 'Antarctica']
 df[, Assumption := as.factor(ifelse(Assumption == 'Shrinking', 
@@ -227,5 +225,5 @@ ggplot(df, aes(long, lat, fill = CumSum, group = group)) +
   theme_bw() + 
   theme(plot.title = element_text(hjust = 0.5)) + 
   ditch_axes + 
-  facet_grid(Assumption ~ Time)
+  facet_grid(Assumption ~ Year)
 ggsave('./Results/Figures/Fig_4.pdf')
