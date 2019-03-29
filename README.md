@@ -46,7 +46,7 @@ plot_cumsum <- function(country, scenario) {
   # Plot
   ggplot(df, aes(Year, Mean)) + 
     geom_line(size = 0.75, color = 'blue') + 
-    geom_ribbon(aes(ymin = Mean - SE, ymax = Mean + SE), alpha = 0.5) +
+    geom_ribbon(aes(ymin = Mean - SE, ymax = Mean + SE), alpha = 0.25) +
     labs(title = paste0('Accumulation of Dead Profiles:\n',
                         country, ', Scenario ', scenario),
          y = 'Profiles (Millions)') + 
@@ -58,9 +58,7 @@ plot_cumsum <- function(country, scenario) {
 plot_cumsum(country = 'India', scenario = 'B')
 ```
 
-<p align='center'>
-<img src="readme_files/figure-markdown_github/cumsum-1.png" style="display: block; margin: auto;" />
-</p>
+<img src="README_files/figure-markdown_github/cumsum-1.png" style="display: block; margin: auto;" />
 
 We can also plot growth curves for living and dead users for any country-scenario.
 
@@ -87,7 +85,7 @@ plot_status <- function(country, scenario) {
   # Plot
   ggplot(df, aes(Year, Mean, group = Status)) + 
     geom_line(aes(color = Status), size = 0.75) + 
-    geom_ribbon(aes(ymin = Mean - SE, ymax = Mean + SE), alpha = 0.5) + 
+    geom_ribbon(aes(ymin = Mean - SE, ymax = Mean + SE), alpha = 0.25) + 
     labs(title = paste0('Facebook Profiles:\n', 
                         country, ', Scenario ', scenario),
          y = 'Profiles (Millions)') + 
@@ -99,9 +97,7 @@ plot_status <- function(country, scenario) {
 plot_status(country = 'Brazil', scenario = 'A')
 ```
 
-<p align='center'>
-<img src="readme_files/figure-markdown_github/live_dead-1.png" style="display: block; margin: auto;" />
-</p>
+<img src="README_files/figure-markdown_github/live_dead-1.png" style="display: block; margin: auto;" />
 
 According to our projections, the dead will outnumber the living on Facebook in Brazil sometime around 2069.
 
