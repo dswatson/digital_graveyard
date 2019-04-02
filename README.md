@@ -41,7 +41,7 @@ plot_curves <- function(country, scenario) {
   # Compute mean and standard error
   df[, Mean := mean(Profiles), by = .(Status, Year)]
   df[, SE := sd(Profiles), by = .(Status, Year)]
-  # Filter
+  # Remove unnecessary rows and columns
   df <- distinct(df[, .(Status, Year, Mean, SE)])
   # Plot
   ggplot(df, aes(Year, Mean, group = Status)) + 
