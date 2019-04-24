@@ -1,7 +1,7 @@
 Are the Dead Taking Over Facebook?
 ================
 
-This GitHub repository contains data, scripts, and results for the paper "Are the dead taking over Facebook? A big data approach to the future of death online" ([Öhman & Watson, 2019](https://arxiv.org/abs/1811.03416)).
+This GitHub repository contains data, scripts, and results for the paper "Are the dead taking over Facebook? A big data approach to the future of death online" ([Öhman & Watson, 2019](https://journals.sagepub.com/doi/10.1177/2053951719842540)).
 
 From the abstract:
 
@@ -64,4 +64,4 @@ plot_curves(country = 'Brazil', scenario = 'A')
 
 Under the assumptions of Scenario A, we project that the dead will outnumber the living on Facebook in Brazil sometime around 2069.
 
-See ([Öhman & Watson, 2019](https://arxiv.org/abs/1811.03416)) for more details.
+See ([Öhman & Watson, 2019](https://journals.sagepub.com/doi/10.1177/2053951719842540)) for more details.
