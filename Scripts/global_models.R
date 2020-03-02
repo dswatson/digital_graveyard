@@ -63,9 +63,9 @@ proj <- function(country) {
         Status = c('Alive', 'Dead'),
           Year = 2019:2100
   ) %>% as.data.table(.)
-  out[Assumption == 'Shrinking' & Status == 'Alive', Profiles := shrink_alive
+  out[Assumption == 'Shrinking' & Status == 'Alive', Profiles := shrink_alive[-1]
     ][Assumption == 'Shrinking' & Status == 'Dead', Profiles := shrink_dead
-    ][Assumption == 'Growing' & Status == 'Alive', Profiles := grow_alive
+    ][Assumption == 'Growing' & Status == 'Alive', Profiles := grow_alive[-1]
     ][Assumption == 'Growing' & Status == 'Dead', Profiles := grow_dead
     ][, Country := country]
   return(out[, .(Country, Year, Assumption, Status, Profiles)])
